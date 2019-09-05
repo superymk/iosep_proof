@@ -1,0 +1,17 @@
+[TRACE] Using prover: D:\utils\dafny\z3\bin\z3.exe
+Dafny 2.1.1.10209
+Parsing Syntax.dfy
+Coalescing blocks...
+Inlining...
+
+Running abstract interpretation...
+  [0.0189953 s]
+
+Dafny program verifier finished with 0 verified, 0 errors
+
+Statistics
+----------
+Call graph width (max)     24
+Datatypes                  23
+Module height (max)         0
+Modules                     1

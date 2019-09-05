@@ -1,0 +1,170 @@
+[TRACE] Using prover: D:\utils\dafny\z3\bin\z3.exe
+Dafny 2.1.1.10209
+Parsing ./BuildCAS/ReachableTDsStates_Utils.dfy
+./BuildCAS/ReachableTDsStates_Utils.dfy(239,4): Warning: /!\ No trigger covering all quantified variables found.
+./BuildCAS/ReachableTDsStates_Utils.dfy(333,24): Warning: /!\ No terms found to trigger on.
+./BuildCAS/ReachableTDsStates_Utils.dfy(950,20): Warning: /!\ No trigger covering all quantified variables found.
+.\BuildCAS\../Utils.dfy(12,4): Warning: /!\ No trigger covering all quantified variables found.
+.\BuildCAS\../Utils.dfy(21,4): Warning: /!\ No trigger covering all quantified variables found.
+.\BuildCAS\../Utils.dfy(30,4): Warning: /!\ No trigger covering all quantified variables found.
+.\BuildCAS\../Utils.dfy(39,4): Warning: /!\ No trigger covering all quantified variables found.
+.\BuildCAS\../Utils.dfy(48,4): Warning: /!\ No trigger covering all quantified variables found.
+.\BuildCAS\Utils_BuildCAS.dfy(265,12): Warning: /!\ No trigger covering all quantified variables found.
+.\BuildCAS\..\./utils/Collections.dfy(298,12): Warning: Selected triggers: {s[_t#0], s[i]} (may loop with "s[i + 1]")
+ Rejected triggers:
+   {s[_t#0] in super_set, s[i] in small_set} (more specific than {s[_t#0] in super_set, s[i]} (may loop with "s[i + 1]"), {s[_t#0], s[i] in small_set} (may loop with "s[i + 1]", "s[i + 1] !in small_set"), {s[_t#0], s[i]} (may loop with "s[i + 1]"))
+   {s[_t#0] in super_set, s[i]} (more specific than {s[_t#0], s[i]} (may loop with "s[i + 1]"))
+   {s[_t#0], s[i] in small_set} (more specific than {s[_t#0], s[i]} (may loop with "s[i + 1]"))
+ /!\ Suppressing loops would leave this expression without triggers.
+.\BuildCAS\..\./utils/Collections.dfy(301,12): Warning: /!\ No terms found to trigger on.
+.\BuildCAS\..\Utils_SlimState.dfy(11,5): Warning: /!\ No trigger covering all quantified variables found.
+.\BuildCAS\..\Utils_SlimState.dfy(21,5): Warning: /!\ No trigger covering all quantified variables found.
+.\BuildCAS\..\Utils_SlimState.dfy(41,5): Warning: /!\ No trigger covering all quantified variables found.
+.\BuildCAS\..\Utils_SlimState.dfy(51,5): Warning: /!\ No trigger covering all quantified variables found.
+.\BuildCAS\..\Utils_SlimState.dfy(61,5): Warning: /!\ No trigger covering all quantified variables found.
+.\BuildCAS\..\HCodedTD_Ops.dfy(260,5): Warning: /!\ No trigger covering all quantified variables found.
+.\BuildCAS\..\HCodedTD_Ops.dfy(261,5): Warning: /!\ No trigger covering all quantified variables found.
+.\BuildCAS\..\HCodedTD_Ops.dfy(262,5): Warning: /!\ No trigger covering all quantified variables found.
+.\BuildCAS\../Lemmas.dfy(6,12): Warning: /!\ No terms found to trigger on.
+.\BuildCAS\../Lemmas.dfy(20,12): Warning: /!\ No terms found to trigger on.
+.\BuildCAS\../Lemmas.dfy(21,12): Warning: /!\ No terms found to trigger on.
+Coalescing blocks...
+Inlining...
+
+Running abstract interpretation...
+  [0.453114 s]
+[TRACE] Using prover: D:\utils\dafny\z3\bin\z3.exe
+
+Verifying CheckWellformed$$_module.__default.FindAllActiveTDsStatesByDev__KParams__PreConditions ...
+  [9.901 s, 11 proof obligations]  verified
+
+Verifying CheckWellformed$$_module.__default.FindAllActiveTDsStatesByDev ...
+  [3.703 s, 93 proof obligations]  verified
+
+Verifying Impl$$_module.__default.FindAllActiveTDsStatesByDev ...
+  [18.516 s, 248 proof obligations]  verified
+
+Verifying CheckWellformed$$_module.__default.FindAllActiveTDsStatesByDev2__Property4 ...
+  [5.016 s, 27 proof obligations]  verified
+
+Verifying CheckWellformed$$_module.__default.FindAllActiveTDsStatesByDev2__Property5 ...
+  [3.452 s, 30 proof obligations]  verified
+
+Verifying CheckWellformed$$_module.__default.FindAllActiveTDsStatesByDev2__Property6 ...
+  [3.578 s, 35 proof obligations]  verified
+
+Verifying CheckWellformed$$_module.__default.IsTDsDiffReqInActiveTDsStateAndIssuedByDev ...
+  [3.709 s, 32 proof obligations]  verified
+
+Verifying CheckWellformed$$_module.__default.IsTDsDiffReqInActiveTDsStateAndIssuedByDevAndCauseNewActiveTDsState ...
+  [3.422 s, 28 proof obligations]  verified
+
+Verifying CheckWellformed$$_module.__default.TDsState__ActiveHCodedTDsAlwaysHaveTheirInitialValues ...
+  [3.453 s, 7 proof obligations]  verified
+
+Verifying CheckWellformed$$_module.__default.FindAllActiveTDsStatesByDev__FromOneTDsState ...
+  [3.328 s, 54 proof obligations]  verified
+
+Verifying Impl$$_module.__default.FindAllActiveTDsStatesByDev__FromOneTDsState ...
+  [20.010 s, 167 proof obligations]  verified
+
+Verifying CheckWellformed$$_module.__default.FindAllTDWritesByDev ...
+  [3.328 s, 61 proof obligations]  verified
+
+Verifying Impl$$_module.__default.FindAllTDWritesByDev ...
+  [16.594 s, 108 proof obligations]  verified
+
+Verifying CheckWellformed$$_module.__default.FindAllTDsReadByDev__KParams__PreConditions ...
+  [4.797 s, 26 proof obligations]  verified
+
+Verifying CheckWellformed$$_module.__default.FindAllTDsReadByDev ...
+  [2.391 s, 38 proof obligations]  verified
+
+Verifying Impl$$_module.__default.FindAllTDsReadByDev ...
+  [2.156 s, 43 proof obligations]  verified
+
+Verifying CheckWellformed$$_module.__default.Lemma__FindAllTDWritesByDev__LoopInvariant5 ...
+  [2.359 s, 21 proof obligations]  verified
+
+Verifying Impl$$_module.__default.Lemma__FindAllTDWritesByDev__LoopInvariant5 ...
+  [2.406 s, 10 proof obligations]  verified
+
+Verifying CheckWellformed$$_module.__default.Lemma__FindAllActiveTDsStatesByDev__FromOneTDsStateReturnsCorrectResult ...
+  [2.312 s, 56 proof obligations]  verified
+
+Verifying Impl$$_module.__default.Lemma__FindAllActiveTDsStatesByDev__FromOneTDsStateReturnsCorrectResult ...
+  [2.386 s, 50 proof obligations]  verified
+
+Verifying CheckWellformed$$_module.__default.Lemma__FindAllActiveTDsStatesByDev__Property3 ...
+  [2.031 s, 2 proof obligations]  verified
+
+Verifying Impl$$_module.__default.Lemma__FindAllActiveTDsStatesByDev__Property3 ...
+  [2.250 s, 2 proof obligations]  verified
+
+Verifying CheckWellformed$$_module.__default.Lemma__FindAllActiveTDsStatesByDev__Property4 ...
+  [2.391 s, 93 proof obligations]  verified
+
+Verifying Impl$$_module.__default.Lemma__FindAllActiveTDsStatesByDev__Property4 ...
+  [2.359 s, 1 proof obligation]  verified
+
+Verifying CheckWellformed$$_module.__default.Lemma__FindAllActiveTDsStatesByDev__Property5 ...
+  [2.234 s, 77 proof obligations]  verified
+
+Verifying Impl$$_module.__default.Lemma__FindAllActiveTDsStatesByDev__Property5 ...
+  [2.125 s, 1 proof obligation]  verified
+
+Verifying CheckWellformed$$_module.__default.Lemma__FindAllActiveTDsStatesByDev__Property6 ...
+  [2.266 s, 85 proof obligations]  verified
+
+Verifying Impl$$_module.__default.Lemma__FindAllActiveTDsStatesByDev__Property6 ...
+  [2.031 s, 1 proof obligation]  verified
+
+Verifying CheckWellformed$$_module.__default.Lemma__IsTDsDiffReqInActiveTDsStateAndIssuedByDev__DefApply ...
+  [2.391 s, 32 proof obligations]  verified
+
+Verifying Impl$$_module.__default.Lemma__IsTDsDiffReqInActiveTDsStateAndIssuedByDev__DefApply ...
+  [2.156 s, 1 proof obligation]  verified
+
+Verifying CheckWellformed$$_module.__default.Lemma__IsTDsDiffReqInActiveTDsStateAndIssuedByDev__Apply ...
+  [2.279 s, 31 proof obligations]  verified
+
+Verifying Impl$$_module.__default.Lemma__IsTDsDiffReqInActiveTDsStateAndIssuedByDev__Apply ...
+  [2.024 s, 1 proof obligation]  verified
+
+Verifying CheckWellformed$$_module.__default.Lemma__FindAllActiveTDsStatesByDev__FromOneTDsState__Property4 ...
+  [2.391 s, 43 proof obligations]  verified
+
+Verifying Impl$$_module.__default.Lemma__FindAllActiveTDsStatesByDev__FromOneTDsState__Property4 ...
+  [4.904 s, 1 proof obligation]  verified
+
+Verifying CheckWellformed$$_module.__default.Lemma__FindAllActiveTDsStatesByDev__FromOneTDsState__Property5 ...
+  [2.641 s, 43 proof obligations]  verified
+
+Verifying Impl$$_module.__default.Lemma__FindAllActiveTDsStatesByDev__FromOneTDsState__Property5 ...
+  [12.828 s, 14 proof obligations]  verified
+
+Verifying CheckWellformed$$_module.__default.Lemma__SecureActiveTDsState__TDsReadByActiveDevAreInSamePartitionWithDev__ForSubsetOfActiveDevs ...
+  [19.532 s, 39 proof obligations]  verified
+
+Verifying Impl$$_module.__default.Lemma__SecureActiveTDsState__TDsReadByActiveDevAreInSamePartitionWithDev__ForSubsetOfActiveDevs ...
+  [20.933 s, 106 proof obligations]  verified
+
+Verifying CheckWellformed$$_module.__default.Lemma__SecureActiveTDsState__TransfersInTDsRefsObjsInSamePartitionOnly ...
+  [6.422 s, 39 proof obligations]  verified
+
+Verifying Impl$$_module.__default.Lemma__SecureActiveTDsState__TransfersInTDsRefsObjsInSamePartitionOnly ...
+  [8.047 s, 2 proof obligations]  verified
+
+Dafny program verifier finished with 40 verified, 0 errors
+
+Statistics
+----------
+Call graph width (max)    298
+Datatypes                  24
+Functions (total)         166
+Functions recursive         2
+Methods (total)           105
+Methods ghost              93
+Methods recursive           5
+Module height (max)         0
+Modules                     1

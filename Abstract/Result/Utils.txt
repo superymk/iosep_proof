@@ -1,0 +1,193 @@
+[TRACE] Using prover: D:\utils\dafny\z3\bin\z3.exe
+Dafny 2.1.1.10209
+Parsing Utils.dfy
+Utils.dfy(12,4): Warning: /!\ No trigger covering all quantified variables found.
+Utils.dfy(21,4): Warning: /!\ No trigger covering all quantified variables found.
+Utils.dfy(30,4): Warning: /!\ No trigger covering all quantified variables found.
+Utils.dfy(39,4): Warning: /!\ No trigger covering all quantified variables found.
+Utils.dfy(48,4): Warning: /!\ No trigger covering all quantified variables found.
+./utils/Collections.dfy(298,12): Warning: Selected triggers: {s[_t#0], s[i]} (may loop with "s[i + 1]")
+ Rejected triggers:
+   {s[_t#0] in super_set, s[i] in small_set} (more specific than {s[_t#0] in super_set, s[i]} (may loop with "s[i + 1]"), {s[_t#0], s[i] in small_set} (may loop with "s[i + 1]", "s[i + 1] !in small_set"), {s[_t#0], s[i]} (may loop with "s[i + 1]"))
+   {s[_t#0] in super_set, s[i]} (more specific than {s[_t#0], s[i]} (may loop with "s[i + 1]"))
+   {s[_t#0], s[i] in small_set} (more specific than {s[_t#0], s[i]} (may loop with "s[i + 1]"))
+ /!\ Suppressing loops would leave this expression without triggers.
+./utils/Collections.dfy(301,12): Warning: /!\ No terms found to trigger on.
+Utils_SlimState.dfy(11,5): Warning: /!\ No trigger covering all quantified variables found.
+Utils_SlimState.dfy(21,5): Warning: /!\ No trigger covering all quantified variables found.
+Utils_SlimState.dfy(41,5): Warning: /!\ No trigger covering all quantified variables found.
+Utils_SlimState.dfy(51,5): Warning: /!\ No trigger covering all quantified variables found.
+Utils_SlimState.dfy(61,5): Warning: /!\ No trigger covering all quantified variables found.
+Coalescing blocks...
+Inlining...
+
+Running abstract interpretation...
+  [0.2343704 s]
+[TRACE] Using prover: D:\utils\dafny\z3\bin\z3.exe
+
+Verifying CheckWellformed$$_module.__default.DrvIDsToSubjIDs ...
+  [3.859 s, 2 proof obligations]  verified
+
+Verifying CheckWellformed$$_module.__default.DevIDsToSubjIDs ...
+  [0.937 s, 2 proof obligations]  verified
+
+Verifying CheckWellformed$$_module.__default.TDIDsToObjIDs ...
+  [1.016 s, 2 proof obligations]  verified
+
+Verifying CheckWellformed$$_module.__default.FDIDsToObjIDs ...
+  [0.984 s, 2 proof obligations]  verified
+
+Verifying CheckWellformed$$_module.__default.DOIDsToObjIDs ...
+  [0.734 s, 2 proof obligations]  verified
+
+Verifying CheckWellformed$$_module.__default.IsDevID ...
+  [1.187 s, 3 proof obligations]  verified
+
+Verifying CheckWellformed$$_module.__default.IDToTD ...
+  [1.281 s, 1 proof obligation]  verified
+
+Verifying CheckWellformed$$_module.__default.IDToFD ...
+  [1.344 s, 1 proof obligation]  verified
+
+Verifying CheckWellformed$$_module.__default.IDToDO ...
+  [1.187 s, 1 proof obligation]  verified
+
+Verifying CheckWellformed$$_module.__default.IDToDrv ...
+  [1.234 s, 1 proof obligation]  verified
+
+Verifying CheckWellformed$$_module.__default.IDToDev ...
+  [1.016 s, 6 proof obligations]  verified
+
+Verifying CheckWellformed$$_module.__default.DoRefTD ...
+  [1.031 s, 2 proof obligations]  verified
+
+Verifying CheckWellformed$$_module.__default.DoOwnObj ...
+  [1.391 s, 7 proof obligations]  verified
+
+Verifying CheckWellformed$$_module.__default.P__ObjsInSubjsAreAlsoInState ...
+  [1.073 s, 12 proof obligations]  verified
+
+Verifying CheckWellformed$$_module.__default.OwnObjIDs ...
+  [1.531 s, 20 proof obligations]  verified
+
+Verifying CheckWellformed$$_module.__default.OwnedTDs ...
+  [1.156 s, 10 proof obligations]  verified
+
+Verifying CheckWellformed$$_module.__default.OwnedFDs ...
+  [1.234 s, 10 proof obligations]  verified
+
+Verifying CheckWellformed$$_module.__default.OwnedDOs ...
+  [1.141 s, 10 proof obligations]  verified
+
+Verifying CheckWellformed$$_module.__default.SubjPID ...
+  [1.328 s, 7 proof obligations]  verified
+
+Verifying CheckWellformed$$_module.__default.ObjPID ...
+  [16.531 s, 35 proof obligations]  verified
+
+Verifying CheckWellformed$$_module.__default.ObjPID__KObjects ...
+  [2.969 s, 25 proof obligations]  verified
+
+Verifying CheckWellformed$$_module.__default.SubjPID__DevID ...
+  [1.578 s, 7 proof obligations]  verified
+
+Verifying CheckWellformed$$_module.__default.AllActiveSubjs ...
+  [1.264 s, 3 proof obligations]  verified
+
+Verifying CheckWellformed$$_module.__default.AllActiveObjs ...
+  [1.125 s, 12 proof obligations]  verified
+
+Verifying CheckWellformed$$_module.__default.AllActiveTDs ...
+  [1.187 s, 3 proof obligations]  verified
+
+Verifying CheckWellformed$$_module.__default.AllActiveFDs ...
+  [0.844 s, 3 proof obligations]  verified
+
+Verifying CheckWellformed$$_module.__default.AllActiveDOs ...
+  [1.500 s, 3 proof obligations]  verified
+
+Verifying CheckWellformed$$_module.__default.TDsToTDsVals ...
+  [1.163 s, 3 proof obligations]  verified
+
+Verifying CheckWellformed$$_module.__default.ActiveTDsState ...
+  [1.156 s, 5 proof obligations]  verified
+
+Verifying CheckWellformed$$_module.__default.AllActiveDrvs ...
+  [1.375 s, 3 proof obligations]  verified
+
+Verifying CheckWellformed$$_module.__default.AllActiveDevs ...
+  [1.312 s, 3 proof obligations]  verified
+
+Verifying CheckWellformed$$_module.__default.ActiveSubjsInPartition ...
+  [1.766 s, 6 proof obligations]  verified
+
+Verifying CheckWellformed$$_module.__default.ActiveObjsInPartition ...
+  [52.400 s, 15 proof obligations]  verified
+
+Verifying CheckWellformed$$_module.__default.ActiveDevsInPartition ...
+  [1.625 s, 5 proof obligations]  verified
+
+Verifying CheckWellformed$$_module.__default.TDRefedObjs ...
+  [1.562 s, 6 proof obligations]  verified
+
+Verifying CheckWellformed$$_module.__default.IsTDClearVal ...
+  [1.406 s, 1 proof obligation]  verified
+
+Verifying CheckWellformed$$_module.__default.IsFDClearVal ...
+  [1.641 s, 1 proof obligation]  verified
+
+Verifying CheckWellformed$$_module.__default.IsDOClearVal ...
+  [1.437 s, 1 proof obligation]  verified
+
+Verifying CheckWellformed$$_module.__default.WriteTDsVals ...
+  [1.516 s, 23 proof obligations]  verified
+
+Verifying CheckWellformed$$_module.__default.WriteFDsVals ...
+  [1.375 s, 23 proof obligations]  verified
+
+Verifying CheckWellformed$$_module.__default.WriteDOsVals ...
+  [1.609 s, 23 proof obligations]  verified
+
+Verifying CheckWellformed$$_module.__default.SetTDsPIDs ...
+  [1.516 s, 20 proof obligations]  verified
+
+Verifying CheckWellformed$$_module.__default.SetFDsPIDs ...
+  [1.609 s, 20 proof obligations]  verified
+
+Verifying CheckWellformed$$_module.__default.SetDOsPIDs ...
+  [1.453 s, 20 proof obligations]  verified
+
+Verifying CheckWellformed$$_module.__default.ClearTDs ...
+  [1.547 s, 26 proof obligations]  verified
+
+Verifying CheckWellformed$$_module.__default.ClearFDs ...
+  [1.250 s, 26 proof obligations]  verified
+
+Verifying CheckWellformed$$_module.__default.ClearDOs ...
+  [1.422 s, 26 proof obligations]  verified
+
+Verifying CheckWellformed$$_module.__default.DrvDevRead__ReplaceSrcTDWithVal ...
+  [1.172 s, 8 proof obligations]  verified
+
+Verifying CheckWellformed$$_module.__default.DrvDevRead__ReplaceSrcFDWithVal ...
+  [1.328 s, 8 proof obligations]  verified
+
+Verifying CheckWellformed$$_module.__default.DrvDevRead__ReplaceSrcDOWithVal ...
+  [1.422 s, 8 proof obligations]  verified
+
+Verifying CheckWellformed$$_module.__default.DrvWrite__ProposedNewState ...
+  [1.359 s, 6 proof obligations]  verified
+
+Dafny program verifier finished with 51 verified, 0 errors
+
+Statistics
+----------
+Call graph width (max)    149
+Datatypes                  23
+Functions (total)          96
+Functions recursive         1
+Methods (total)            29
+Methods ghost              27
+Methods recursive           2
+Module height (max)         0
+Modules                     1

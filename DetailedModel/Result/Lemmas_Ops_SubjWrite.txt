@@ -1,0 +1,192 @@
+[TRACE] Using prover: D:\utils\dafny\z3\bin\z3.exe
+Dafny 2.1.1.10209
+Parsing Lemmas_Ops_SubjWrite.dfy
+../Abstract/Model.dfy(2097,5): Warning: /!\ No trigger covering all quantified variables found.
+../Abstract/Model.dfy(2157,5): Warning: /!\ No trigger covering all quantified variables found.
+..\Abstract\Utils.dfy(12,4): Warning: /!\ No trigger covering all quantified variables found.
+..\Abstract\Utils.dfy(21,4): Warning: /!\ No trigger covering all quantified variables found.
+..\Abstract\Utils.dfy(30,4): Warning: /!\ No trigger covering all quantified variables found.
+..\Abstract\Utils.dfy(39,4): Warning: /!\ No trigger covering all quantified variables found.
+..\Abstract\Utils.dfy(48,4): Warning: /!\ No trigger covering all quantified variables found.
+..\Abstract\Lemmas.dfy(6,12): Warning: /!\ No terms found to trigger on.
+..\Abstract\Lemmas.dfy(20,12): Warning: /!\ No terms found to trigger on.
+..\Abstract\Lemmas.dfy(21,12): Warning: /!\ No terms found to trigger on.
+..\Abstract\Lemmas_SubjActivate_ReachableTDsStates.dfy(1546,13): Warning: /!\ No trigger covering all quantified variables found.
+..\Abstract\Lemmas_SubjActivate_ReachableTDsStates.dfy(1554,13): Warning: /!\ No trigger covering all quantified variables found.
+..\Abstract\Lemmas_SubjActivate_ReachableTDsStates.dfy(2166,13): Warning: /!\ No trigger covering all quantified variables found.
+..\Abstract\Lemmas_SubjActivate_ReachableTDsStates.dfy(2174,13): Warning: /!\ No trigger covering all quantified variables found.
+..\Abstract\Lemmas_SubjActivate_ReachableTDsStates.dfy(2806,13): Warning: /!\ No trigger covering all quantified variables found.
+..\Abstract\Lemmas_SubjActivate_ReachableTDsStates.dfy(2798,13): Warning: /!\ No trigger covering all quantified variables found.
+..\Abstract\Lemmas_SubjActivate_ReachableTDsStates.dfy(2918,13): Warning: /!\ No trigger covering all quantified variables found.
+..\Abstract\Lemmas_SubjActivate_ReachableTDsStates.dfy(2926,13): Warning: /!\ No trigger covering all quantified variables found.
+..\Abstract\Lemmas_SubjDeactivate_Ops.dfy(1838,13): Warning: /!\ No trigger covering all quantified variables found.
+..\Abstract\Lemmas_SubjDeactivate_Ops.dfy(1943,13): Warning: /!\ No trigger covering all quantified variables found.
+..\Abstract\Lemmas_SubjDeactivate_Ops.dfy(1979,13): Warning: /!\ No trigger covering all quantified variables found.
+..\Abstract\Lemmas_SubjDeactivate_Ops.dfy(2051,13): Warning: /!\ No trigger covering all quantified variables found.
+..\Abstract\./BuildCAS/ReachableTDsStates.dfy(102,19): Warning: /!\ No trigger covering all quantified variables found.
+..\Abstract\./BuildCAS/ReachableTDsStates.dfy(210,19): Warning: /!\ No trigger covering all quantified variables found.
+..\Abstract\./BuildCAS/ReachableTDsStates.dfy(295,15): Warning: /!\ No trigger covering all quantified variables found.
+..\Abstract\./BuildCAS/ReachableTDsStates.dfy(300,15): Warning: /!\ No trigger covering all quantified variables found.
+..\Abstract\./BuildCAS/ReachableTDsStates.dfy(403,21): Warning: /!\ No trigger covering all quantified variables found.
+..\Abstract\./BuildCAS/ReachableTDsStates.dfy(1565,13): Warning: /!\ No trigger covering all quantified variables found.
+..\Abstract\./BuildCAS/ReachableTDsStates.dfy(1572,13): Warning: /!\ No trigger covering all quantified variables found.
+..\Abstract\./BuildCAS/ReachableTDsStates.dfy(1923,13): Warning: /!\ No trigger covering all quantified variables found.
+..\Abstract\./BuildCAS/ReachableTDsStates.dfy(2148,5): Warning: /!\ No trigger covering all quantified variables found.
+..\Abstract\./utils/Collections.dfy(298,12): Warning: Selected triggers: {s[_t#0], s[i]} (may loop with "s[i + 1]")
+ Rejected triggers:
+   {s[_t#0] in super_set, s[i] in small_set} (more specific than {s[_t#0] in super_set, s[i]} (may loop with "s[i + 1]"), {s[_t#0], s[i] in small_set} (may loop with "s[i + 1]", "s[i + 1] !in small_set"), {s[_t#0], s[i]} (may loop with "s[i + 1]"))
+   {s[_t#0] in super_set, s[i]} (more specific than {s[_t#0], s[i]} (may loop with "s[i + 1]"))
+   {s[_t#0], s[i] in small_set} (more specific than {s[_t#0], s[i]} (may loop with "s[i + 1]"))
+ /!\ Suppressing loops would leave this expression without triggers.
+..\Abstract\./utils/Collections.dfy(301,12): Warning: /!\ No terms found to trigger on.
+..\Abstract\Utils_SlimState.dfy(11,5): Warning: /!\ No trigger covering all quantified variables found.
+..\Abstract\Utils_SlimState.dfy(21,5): Warning: /!\ No trigger covering all quantified variables found.
+..\Abstract\Utils_SlimState.dfy(41,5): Warning: /!\ No trigger covering all quantified variables found.
+..\Abstract\Utils_SlimState.dfy(51,5): Warning: /!\ No trigger covering all quantified variables found.
+..\Abstract\Utils_SlimState.dfy(61,5): Warning: /!\ No trigger covering all quantified variables found.
+..\Abstract\HCodedTD_Ops.dfy(260,5): Warning: /!\ No trigger covering all quantified variables found.
+..\Abstract\HCodedTD_Ops.dfy(261,5): Warning: /!\ No trigger covering all quantified variables found.
+..\Abstract\HCodedTD_Ops.dfy(262,5): Warning: /!\ No trigger covering all quantified variables found.
+..\Abstract\Lemmas_SubjDeactivate_ReachableTDsStates.dfy(432,12): Warning: /!\ No trigger covering all quantified variables found.
+..\Abstract\Lemmas_SubjDeactivate_ReachableTDsStates.dfy(648,12): Warning: /!\ No trigger covering all quantified variables found.
+..\Abstract\Lemmas_SubjDeactivate_ReachableTDsStates.dfy(789,12): Warning: /!\ No trigger covering all quantified variables found.
+..\Abstract\Lemmas_SubjDeactivate_ReachableTDsStates.dfy(779,13): Warning: /!\ No trigger covering all quantified variables found.
+..\Abstract\Lemmas_SubjDeactivate_ReachableTDsStates.dfy(780,13): Warning: /!\ No terms found to trigger on.
+..\Abstract\Lemmas_SubjDeactivate_ReachableTDsStates.dfy(981,12): Warning: /!\ No trigger covering all quantified variables found.
+..\Abstract\Lemmas_SubjDeactivate_ReachableTDsStates.dfy(968,13): Warning: /!\ No trigger covering all quantified variables found.
+..\Abstract\Lemmas_SubjDeactivate_ReachableTDsStates.dfy(969,13): Warning: /!\ No terms found to trigger on.
+..\Abstract\Lemmas_SubjDeactivate_ReachableTDsStates.dfy(1153,12): Warning: /!\ No trigger covering all quantified variables found.
+..\Abstract\Lemmas_SubjDeactivate_ReachableTDsStates.dfy(1277,12): Warning: /!\ No trigger covering all quantified variables found.
+..\Abstract\Lemmas_SubjDeactivate_ReachableTDsStates.dfy(1871,12): Warning: /!\ No trigger covering all quantified variables found.
+..\Abstract\Lemmas_SubjDeactivate_ReachableTDsStates.dfy(1863,13): Warning: /!\ No trigger covering all quantified variables found.
+..\Abstract\Lemmas_SubjDeactivate_ReachableTDsStates.dfy(2018,13): Warning: /!\ No trigger covering all quantified variables found.
+..\Abstract\Lemmas_SubjDeactivate_ReachableTDsStates.dfy(2026,13): Warning: /!\ No trigger covering all quantified variables found.
+..\Abstract\Lemmas_SubjDeactivate_ReachableTDsStates.dfy(2410,13): Warning: /!\ No trigger covering all quantified variables found.
+..\Abstract\Lemmas_SubjDeactivate_ReachableTDsStates.dfy(2418,13): Warning: /!\ No trigger covering all quantified variables found.
+..\Abstract\Lemmas_SubjDeactivate_ReachableTDsStates.dfy(2512,13): Warning: /!\ No trigger covering all quantified variables found.
+..\Abstract\Lemmas_SubjDeactivate_ReachableTDsStates.dfy(2504,13): Warning: /!\ No trigger covering all quantified variables found.
+../Abstract/BuildCAS/Utils_BuildCAS.dfy(265,12): Warning: /!\ No trigger covering all quantified variables found.
+Lemmas_DevHWProt.dfy(232,13): Warning: /!\ No terms found to trigger on.
+Lemmas_DevHWProt.dfy(473,12): Warning: /!\ No terms found to trigger on.
+..\Abstract\.\BuildCAS\ReachableTDsStates_Utils.dfy(239,4): Warning: /!\ No trigger covering all quantified variables found.
+..\Abstract\.\BuildCAS\ReachableTDsStates_Utils.dfy(333,24): Warning: /!\ No terms found to trigger on.
+..\Abstract\.\BuildCAS\ReachableTDsStates_Utils.dfy(950,20): Warning: /!\ No trigger covering all quantified variables found.
+K_AdditionalPropertiesLemmas.dfy(112,12): Warning: /!\ No terms found to trigger on.
+K_AdditionalPropertiesLemmas.dfy(114,12): Warning: /!\ No terms found to trigger on.
+Coalescing blocks...
+Inlining...
+
+Running abstract interpretation...
+  [0.2968704 s]
+[TRACE] Using prover: D:\utils\dafny\z3\bin\z3.exe
+
+Verifying CheckWellformed$$_module.__default.Lemma__DM__DevWrite__AllWrittenObjsMustBeInSamePartitionWithDev ...
+  [21.454 s, 13 proof obligations]  verified
+
+Verifying Impl$$_module.__default.Lemma__DM__DevWrite__AllWrittenObjsMustBeInSamePartitionWithDev ...
+  [16.156 s, 1 proof obligation]  verified
+
+Verifying CheckWellformed$$_module.__default.Lemma__GreenDevWrite__TDsAreUnmodified ...
+  [10.521 s, 85 proof obligations]  verified
+Linearising   [0.5156125 s]
+
+Verifying Impl$$_module.__default.Lemma__GreenDevWrite__TDsAreUnmodified ...
+  [47.076 s, 227 proof obligations]  verified
+
+Verifying CheckWellformed$$_module.__default.Lemma__GreenDevWrite__TDsInDMObjectsAreSame ...
+  [8.656 s, 3 proof obligations]  verified
+
+Verifying Impl$$_module.__default.Lemma__GreenDevWrite__TDsInDMObjectsAreSame ...
+  [9.047 s, 1 proof obligation]  verified
+
+Verifying CheckWellformed$$_module.__default.Lemma__DrvDevWrite__Func__Prove ...
+  [7.984 s, 6 proof obligations]  verified
+
+Verifying Impl$$_module.__default.Lemma__DrvDevWrite__Func__Prove ...
+  [7.453 s, 1 proof obligation]  verified
+
+Verifying CheckWellformed$$_module.__default.Lemma__NewDM__RedDrvWrite__SameDMAllActiveGreenUSBTDs ...
+  [8.125 s, 25 proof obligations]  verified
+
+Verifying Impl$$_module.__default.Lemma__NewDM__RedDrvWrite__SameDMAllActiveGreenUSBTDs ...
+  [11.405 s, 47 proof obligations]  verified
+
+Verifying CheckWellformed$$_module.__default.Lemma__RedDrvWrite__CommonValidityPropertiesOfNewDM__AndUnchangedPIDsOfGreenFDsDOs ...
+  [8.140 s, 63 proof obligations]  verified
+
+Verifying Impl$$_module.__default.Lemma__RedDrvWrite__CommonValidityPropertiesOfNewDM__AndUnchangedPIDsOfGreenFDsDOs ...
+  [7.297 s, 152 proof obligations]  verified
+
+Verifying CheckWellformed$$_module.__default.Lemma__DrvWrite__NewDM__FulfillSI3 ...
+  [8.053 s, 33 proof obligations]  verified
+
+Verifying Impl$$_module.__default.Lemma__DrvWrite__NewDM__FulfillSI3 ...
+  [6.310 s, 5 proof obligations]  verified
+
+Verifying CheckWellformed$$_module.__default.Lemma__NewDM__RedDrvWrite__SameDMAllObjsIDsAndObjPIDs ...
+  [7.906 s, 22 proof obligations]  verified
+
+Verifying Impl$$_module.__default.Lemma__NewDM__RedDrvWrite__SameDMAllObjsIDsAndObjPIDs ...
+  [7.375 s, 2 proof obligations]  verified
+
+Verifying CheckWellformed$$_module.__default.Lemma__NewDM__RedDrvWrite__MappedStateOfNewDMIsProposedWriteResultOfMappedStateOfDM ...
+  [4.744 s, 18 proof obligations]  verified
+
+Verifying Impl$$_module.__default.Lemma__NewDM__RedDrvWrite__MappedStateOfNewDMIsProposedWriteResultOfMappedStateOfDM ...
+  [4.300 s, 13 proof obligations]  verified
+
+Verifying CheckWellformed$$_module.__default.Lemma__RedDrvWrite__ProveP__DrvWrite__ReturnTrue__Def ...
+  [6.268 s, 78 proof obligations]  verified
+
+Verifying Impl$$_module.__default.Lemma__RedDrvWrite__ProveP__DrvWrite__ReturnTrue__Def ...
+  [5.297 s, 4 proof obligations]  verified
+
+Verifying CheckWellformed$$_module.__default.Lemma__RedDrvWrite__PIDsOfAllTDsInTDDValMap2AreUnmodified ...
+  [6.265 s, 20 proof obligations]  verified
+
+Verifying Impl$$_module.__default.Lemma__RedDrvWrite__PIDsOfAllTDsInTDDValMap2AreUnmodified ...
+  [4.484 s, 38 proof obligations]  verified
+
+Verifying CheckWellformed$$_module.__default.Lemma__NewDM__GreenDrvWrite__SameDMAllObjsIDsAndObjPIDs ...
+  [5.453 s, 19 proof obligations]  verified
+
+Verifying Impl$$_module.__default.Lemma__NewDM__GreenDrvWrite__SameDMAllObjsIDsAndObjPIDs ...
+  [4.209 s, 2 proof obligations]  verified
+
+Verifying CheckWellformed$$_module.__default.Lemma__NewDM__GreenDrvWrite__SameDMRedTDs ...
+  [4.311 s, 20 proof obligations]  verified
+
+Verifying Impl$$_module.__default.Lemma__NewDM__GreenDrvWrite__SameDMRedTDs ...
+  [3.900 s, 1 proof obligation]  verified
+
+Verifying CheckWellformed$$_module.__default.Lemma__NewDM__GreenDrvWrite__SameDMAllActiveGreenTDIDs ...
+  [3.965 s, 17 proof obligations]  verified
+
+Verifying Impl$$_module.__default.Lemma__NewDM__GreenDrvWrite__SameDMAllActiveGreenTDIDs ...
+  [4.704 s, 1 proof obligation]  verified
+
+Verifying CheckWellformed$$_module.__default.Lemma__DM__GreenDrvWrite__FulfillSI2 ...
+  [54.535 s, 96 proof obligations]  verified
+
+Verifying Impl$$_module.__default.Lemma__DM__GreenDrvWrite__FulfillSI2 ...
+  [140.259 s, 58 proof obligations]  verified
+
+Verifying CheckWellformed$$_module.__default.Lemma__NewDM__GreenDrvWrite__SameTDsInRed ...
+  [4.290 s, 29 proof obligations]  verified
+
+Verifying Impl$$_module.__default.Lemma__NewDM__GreenDrvWrite__SameTDsInRed ...
+  [4.067 s, 10 proof obligations]  verified
+
+Dafny program verifier finished with 32 verified, 0 errors
+
+Statistics
+----------
+Call graph width (max)    980
+Datatypes                  29
+Functions (total)         393
+Functions recursive         3
+Methods (total)           555
+Methods ghost             511
+Methods recursive          11
+Module height (max)         0
+Modules                     1

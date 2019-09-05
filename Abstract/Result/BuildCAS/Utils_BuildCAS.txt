@@ -1,0 +1,224 @@
+[TRACE] Using prover: D:\utils\dafny\z3\bin\z3.exe
+Dafny 2.1.1.10209
+Parsing ./BuildCAS/Utils_BuildCAS.dfy
+./BuildCAS/Utils_BuildCAS.dfy(265,12): Warning: /!\ No trigger covering all quantified variables found.
+.\BuildCAS\../Utils.dfy(12,4): Warning: /!\ No trigger covering all quantified variables found.
+.\BuildCAS\../Utils.dfy(21,4): Warning: /!\ No trigger covering all quantified variables found.
+.\BuildCAS\../Utils.dfy(30,4): Warning: /!\ No trigger covering all quantified variables found.
+.\BuildCAS\../Utils.dfy(39,4): Warning: /!\ No trigger covering all quantified variables found.
+.\BuildCAS\../Utils.dfy(48,4): Warning: /!\ No trigger covering all quantified variables found.
+.\BuildCAS\../HCodedTD_Ops.dfy(260,5): Warning: /!\ No trigger covering all quantified variables found.
+.\BuildCAS\../HCodedTD_Ops.dfy(261,5): Warning: /!\ No trigger covering all quantified variables found.
+.\BuildCAS\../HCodedTD_Ops.dfy(262,5): Warning: /!\ No trigger covering all quantified variables found.
+.\BuildCAS\../Lemmas.dfy(6,12): Warning: /!\ No terms found to trigger on.
+.\BuildCAS\../Lemmas.dfy(20,12): Warning: /!\ No terms found to trigger on.
+.\BuildCAS\../Lemmas.dfy(21,12): Warning: /!\ No terms found to trigger on.
+.\BuildCAS\..\./utils/Collections.dfy(298,12): Warning: Selected triggers: {s[_t#0], s[i]} (may loop with "s[i + 1]")
+ Rejected triggers:
+   {s[_t#0] in super_set, s[i] in small_set} (more specific than {s[_t#0] in super_set, s[i]} (may loop with "s[i + 1]"), {s[_t#0], s[i] in small_set} (may loop with "s[i + 1]", "s[i + 1] !in small_set"), {s[_t#0], s[i]} (may loop with "s[i + 1]"))
+   {s[_t#0] in super_set, s[i]} (more specific than {s[_t#0], s[i]} (may loop with "s[i + 1]"))
+   {s[_t#0], s[i] in small_set} (more specific than {s[_t#0], s[i]} (may loop with "s[i + 1]"))
+ /!\ Suppressing loops would leave this expression without triggers.
+.\BuildCAS\..\./utils/Collections.dfy(301,12): Warning: /!\ No terms found to trigger on.
+.\BuildCAS\..\Utils_SlimState.dfy(11,5): Warning: /!\ No trigger covering all quantified variables found.
+.\BuildCAS\..\Utils_SlimState.dfy(21,5): Warning: /!\ No trigger covering all quantified variables found.
+.\BuildCAS\..\Utils_SlimState.dfy(41,5): Warning: /!\ No trigger covering all quantified variables found.
+.\BuildCAS\..\Utils_SlimState.dfy(51,5): Warning: /!\ No trigger covering all quantified variables found.
+.\BuildCAS\..\Utils_SlimState.dfy(61,5): Warning: /!\ No trigger covering all quantified variables found.
+Coalescing blocks...
+Inlining...
+
+Running abstract interpretation...
+  [0.1562483 s]
+[TRACE] Using prover: D:\utils\dafny\z3\bin\z3.exe
+
+Verifying CheckWellformed$$_module.__default.IsValidState__TDsToAllStates ...
+  [4.906 s, 5 proof obligations]  verified
+
+Verifying CheckWellformed$$_module.__default.KToKParams ...
+  [75.077 s, 25 proof obligations]  verified
+
+Verifying CheckWellformed$$_module.__default.TDWriteInfoCauseNewTDsState ...
+  [2.494 s, 7 proof obligations]  verified
+
+Verifying Impl$$_module.__default.TDWriteInfoCauseNewTDsState ...
+  [2.578 s, 27 proof obligations]  verified
+
+Verifying CheckWellformed$$_module.__default.TDWritesInfoMerge ...
+  [2.328 s, 7 proof obligations]  verified
+
+Verifying Impl$$_module.__default.TDWritesInfoMerge ...
+  [2.234 s, 36 proof obligations]  verified
+
+Verifying CheckWellformed$$_module.__default.GetTDWritesInFromHCodedTDTransfers ...
+  [2.750 s, 8 proof obligations]  verified
+
+Verifying CheckWellformed$$_module.__default.TDsStateDiff ...
+  [2.500 s, 27 proof obligations]  verified
+
+Verifying CheckWellformed$$_module.__default.TDsWritesInfoToTDsStates ...
+  [2.172 s, 9 proof obligations]  verified
+
+Verifying Impl$$_module.__default.TDsWritesInfoToTDsStates ...
+  [23.469 s, 89 proof obligations]  verified
+
+Verifying CheckWellformed$$_module.__default.TDsStatesAppendTDsInEach ...
+  [2.000 s, 10 proof obligations]  verified
+
+Verifying Impl$$_module.__default.TDsStatesAppendTDsInEach ...
+  [1.828 s, 24 proof obligations]  verified
+
+Verifying CheckWellformed$$_module.__default.TDsStatesRemoveTDsInEach ...
+  [1.687 s, 9 proof obligations]  verified
+
+Verifying Impl$$_module.__default.TDsStatesRemoveTDsInEach ...
+  [1.719 s, 20 proof obligations]  verified
+
+Verifying CheckWellformed$$_module.__default.Lemma__SameTDsStateIffSameDiffWithATDState ...
+  [1.687 s, 2 proof obligations]  verified
+
+Verifying Impl$$_module.__default.Lemma__SameTDsStateIffSameDiffWithATDState ...
+  [1.437 s, 1 proof obligation]  verified
+
+Verifying CheckWellformed$$_module.__default.Lemma__TDsStateDiffAreUnchangedAfterAppendedWithMoreTDs ...
+  [1.652 s, 5 proof obligations]  verified
+
+Verifying Impl$$_module.__default.Lemma__TDsStateDiffAreUnchangedAfterAppendedWithMoreTDs ...
+  [1.656 s, 8 proof obligations]  verified
+
+Verifying CheckWellformed$$_module.__default.Lemma__AddTDs__Property ...
+  [1.641 s, 1 proof obligation]  verified
+
+Verifying Impl$$_module.__default.Lemma__AddTDs__Property ...
+  [1.734 s, 1 proof obligation]  verified
+
+Verifying CheckWellformed$$_module.__default.GetTDVal ...
+  [1.484 s, 1 proof obligation]  verified
+
+Verifying CheckWellformed$$_module.__default.TDsStateGetTDIDs ...
+  [1.672 s, 1 proof obligation]  verified
+
+Verifying CheckWellformed$$_module.__default.TDsStateGetTDCfg ...
+  [1.719 s, 2 proof obligations]  verified
+
+Verifying CheckWellformed$$_module.__default.DoesTDValContainWriteToTD ...
+  [1.484 s, 1 proof obligation]  verified
+
+Verifying CheckWellformed$$_module.__default.GetTDWritingValsToTD ...
+  [1.562 s, 14 proof obligations]  verified
+
+Verifying CheckWellformed$$_module.__default.GetTDWritingValsToTD__FromTransParams ...
+  [1.547 s, 2 proof obligations]  verified
+
+Verifying CheckWellformed$$_module.__default.IsTDRefTDWithAModes ...
+  [1.578 s, 6 proof obligations]  verified
+
+Verifying CheckWellformed$$_module.__default.IsTDRefTDWithAModes__FromTransParams ...
+  [1.562 s, 1 proof obligation]  verified
+
+Verifying CheckWellformed$$_module.__default.IsTDRefFDWithAModes ...
+  [1.625 s, 5 proof obligations]  verified
+
+Verifying CheckWellformed$$_module.__default.IsTDRefDOWithAModes ...
+  [1.625 s, 5 proof obligations]  verified
+
+Verifying CheckWellformed$$_module.__default.IsTDWriteInTD ...
+  [1.901 s, 6 proof obligations]  verified
+
+Verifying CheckWellformed$$_module.__default.GetObjIDsRefedInTD ...
+  [1.471 s, 3 proof obligations]  verified
+
+Verifying CheckWellformed$$_module.__default.GetObjIDsRefedInTDWithNonEmptyAModes ...
+  [1.500 s, 15 proof obligations]  verified
+
+Verifying CheckWellformed$$_module.__default.GetAModesOfObjRefedInTD ...
+  [1.406 s, 10 proof obligations]  verified
+
+Verifying CheckWellformed$$_module.__default.IsTDRefObjWithAModes ...
+  [1.406 s, 5 proof obligations]  verified
+
+Verifying CheckWellformed$$_module.__default.TDsStateUpdateTD ...
+  [1.550 s, 6 proof obligations]  verified
+
+Verifying CheckWellformed$$_module.__default.TDWritesInTDCfg ...
+  [1.656 s, 16 proof obligations]  verified
+
+Verifying CheckWellformed$$_module.__default.TDIDReadsInTDCfg ...
+  [1.541 s, 3 proof obligations]  verified
+
+Verifying CheckWellformed$$_module.__default.DoActiveTDIncludeTransfersToInvalidObjOrObjOutsidePartition__KParams__PreConditions ...
+  [1.656 s, 4 proof obligations]  verified
+
+Verifying CheckWellformed$$_module.__default.DoActiveTDIncludeTransfersToInvalidObjOrObjOutsidePartition ...
+  [1.547 s, 48 proof obligations]  verified
+
+Verifying CheckWellformed$$_module.__default.DoActiveTDIncludeTransfersToNonExistingObjsOrHCodedTDs ...
+  [1.609 s, 18 proof obligations]  verified
+
+Verifying CheckWellformed$$_module.__default.DoActiveTDIncludeTransfersToObjOutsidePartition ...
+  [1.719 s, 51 proof obligations]  verified
+
+Verifying CheckWellformed$$_module.__default.Lemma__KToKParams__KParamsFulfillPropertiesInKIsValid ...
+  [1.625 s, 9 proof obligations]  verified
+
+Verifying Impl$$_module.__default.Lemma__KToKParams__KParamsFulfillPropertiesInKIsValid ...
+  [1.469 s, 5 proof obligations]  verified
+
+Verifying Impl$$_module.__default.Lemma__SameTDIDsInTDsStateIfTDIDsSetIsSame ...
+  [1.578 s, 1 proof obligation]  verified
+
+Verifying Impl$$_module.__default.Lemma__TDsStateGetTDIDs__SameResultWithMapGetKeys ...
+  [1.516 s, 1 proof obligation]  verified
+
+Verifying CheckWellformed$$_module.__default.Lemma__TDsStatesDiffIsIncludedInTDIDValMapOfWriteTDs ...
+  [1.625 s, 8 proof obligations]  verified
+
+Verifying Impl$$_module.__default.Lemma__TDsStatesDiffIsIncludedInTDIDValMapOfWriteTDs ...
+  [1.485 s, 1 proof obligation]  verified
+
+Verifying CheckWellformed$$_module.__default.Lemma__GetObjIDsRefedInTD__Property ...
+  [1.594 s, 4 proof obligations]  verified
+
+Verifying Impl$$_module.__default.Lemma__GetObjIDsRefedInTD__Property ...
+  [1.625 s, 1 proof obligation]  verified
+
+Verifying Impl$$_module.__default.Lemma__DoesTDsStateContainWriteToTD__EmptyTDMustReturnFalse ...
+  [1.500 s, 1 proof obligation]  verified
+
+Verifying CheckWellformed$$_module.__default.Lemma__DoActiveTDIncludeTransfersToInvalidObjOrObjOutsidePartition__EmptyTDMustReturnFalse ...
+  [1.437 s, 9 proof obligations]  verified
+
+Verifying Impl$$_module.__default.Lemma__DoActiveTDIncludeTransfersToInvalidObjOrObjOutsidePartition__EmptyTDMustReturnFalse ...
+  [1.531 s, 1 proof obligation]  verified
+
+Verifying CheckWellformed$$_module.__default.Lemma__DoActiveTDIncludeTransfersToInvalidObjOrObjOutsidePartition__EquivilantTDReturnsSameResult ...
+  [1.500 s, 18 proof obligations]  verified
+
+Verifying Impl$$_module.__default.Lemma__DoActiveTDIncludeTransfersToInvalidObjOrObjOutsidePartition__EquivilantTDReturnsSameResult ...
+  [1.609 s, 1 proof obligation]  verified
+
+Verifying CheckWellformed$$_module.__default.Lemma__DevsOwnHCodedTDs ...
+  [1.578 s, 4 proof obligations]  verified
+
+Verifying Impl$$_module.__default.Lemma__DevsOwnHCodedTDs ...
+  [1.656 s, 7 proof obligations]  verified
+
+Verifying CheckWellformed$$_module.__default.Lemma__DoActiveTDIncludeTransfersToInvalidObjOrObjOutsidePartition__Prove ...
+  [1.547 s, 23 proof obligations]  verified
+
+Verifying Impl$$_module.__default.Lemma__DoActiveTDIncludeTransfersToInvalidObjOrObjOutsidePartition__Prove ...
+  [1.562 s, 1 proof obligation]  verified
+
+Dafny program verifier finished with 59 verified, 0 errors
+
+Statistics
+----------
+Call graph width (max)    233
+Datatypes                  24
+Functions (total)         139
+Functions recursive         1
+Methods (total)            67
+Methods ghost              62
+Methods recursive           3
+Module height (max)         0
+Modules                     1

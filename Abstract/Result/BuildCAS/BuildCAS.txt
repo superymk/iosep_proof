@@ -1,0 +1,119 @@
+[TRACE] Using prover: D:\utils\dafny\z3\bin\z3.exe
+Dafny 2.1.1.10209
+Parsing ./BuildCAS/BuildCAS.dfy
+.\BuildCAS\../Utils.dfy(12,4): Warning: /!\ No trigger covering all quantified variables found.
+.\BuildCAS\../Utils.dfy(21,4): Warning: /!\ No trigger covering all quantified variables found.
+.\BuildCAS\../Utils.dfy(30,4): Warning: /!\ No trigger covering all quantified variables found.
+.\BuildCAS\../Utils.dfy(39,4): Warning: /!\ No trigger covering all quantified variables found.
+.\BuildCAS\../Utils.dfy(48,4): Warning: /!\ No trigger covering all quantified variables found.
+.\BuildCAS\../HCodedTD_Ops.dfy(260,5): Warning: /!\ No trigger covering all quantified variables found.
+.\BuildCAS\../HCodedTD_Ops.dfy(261,5): Warning: /!\ No trigger covering all quantified variables found.
+.\BuildCAS\../HCodedTD_Ops.dfy(262,5): Warning: /!\ No trigger covering all quantified variables found.
+.\BuildCAS\../Lemmas.dfy(6,12): Warning: /!\ No terms found to trigger on.
+.\BuildCAS\../Lemmas.dfy(20,12): Warning: /!\ No terms found to trigger on.
+.\BuildCAS\../Lemmas.dfy(21,12): Warning: /!\ No terms found to trigger on.
+.\BuildCAS\ReachableTDsStates.dfy(102,19): Warning: /!\ No trigger covering all quantified variables found.
+.\BuildCAS\ReachableTDsStates.dfy(210,19): Warning: /!\ No trigger covering all quantified variables found.
+.\BuildCAS\ReachableTDsStates.dfy(295,15): Warning: /!\ No trigger covering all quantified variables found.
+.\BuildCAS\ReachableTDsStates.dfy(300,15): Warning: /!\ No trigger covering all quantified variables found.
+.\BuildCAS\ReachableTDsStates.dfy(403,21): Warning: /!\ No trigger covering all quantified variables found.
+.\BuildCAS\ReachableTDsStates.dfy(1565,13): Warning: /!\ No trigger covering all quantified variables found.
+.\BuildCAS\ReachableTDsStates.dfy(1572,13): Warning: /!\ No trigger covering all quantified variables found.
+.\BuildCAS\ReachableTDsStates.dfy(1923,13): Warning: /!\ No trigger covering all quantified variables found.
+.\BuildCAS\ReachableTDsStates.dfy(2148,5): Warning: /!\ No trigger covering all quantified variables found.
+.\BuildCAS\..\./utils/Collections.dfy(298,12): Warning: Selected triggers: {s[_t#0], s[i]} (may loop with "s[i + 1]")
+ Rejected triggers:
+   {s[_t#0] in super_set, s[i] in small_set} (more specific than {s[_t#0] in super_set, s[i]} (may loop with "s[i + 1]"), {s[_t#0], s[i] in small_set} (may loop with "s[i + 1]", "s[i + 1] !in small_set"), {s[_t#0], s[i]} (may loop with "s[i + 1]"))
+   {s[_t#0] in super_set, s[i]} (more specific than {s[_t#0], s[i]} (may loop with "s[i + 1]"))
+   {s[_t#0], s[i] in small_set} (more specific than {s[_t#0], s[i]} (may loop with "s[i + 1]"))
+ /!\ Suppressing loops would leave this expression without triggers.
+.\BuildCAS\..\./utils/Collections.dfy(301,12): Warning: /!\ No terms found to trigger on.
+.\BuildCAS\..\Utils_SlimState.dfy(11,5): Warning: /!\ No trigger covering all quantified variables found.
+.\BuildCAS\..\Utils_SlimState.dfy(21,5): Warning: /!\ No trigger covering all quantified variables found.
+.\BuildCAS\..\Utils_SlimState.dfy(41,5): Warning: /!\ No trigger covering all quantified variables found.
+.\BuildCAS\..\Utils_SlimState.dfy(51,5): Warning: /!\ No trigger covering all quantified variables found.
+.\BuildCAS\..\Utils_SlimState.dfy(61,5): Warning: /!\ No trigger covering all quantified variables found.
+.\BuildCAS\Utils_BuildCAS.dfy(265,12): Warning: /!\ No trigger covering all quantified variables found.
+.\BuildCAS\ReachableTDsStates_Utils.dfy(239,4): Warning: /!\ No trigger covering all quantified variables found.
+.\BuildCAS\ReachableTDsStates_Utils.dfy(333,24): Warning: /!\ No terms found to trigger on.
+.\BuildCAS\ReachableTDsStates_Utils.dfy(950,20): Warning: /!\ No trigger covering all quantified variables found.
+Coalescing blocks...
+Inlining...
+
+Running abstract interpretation...
+  [0.2812418 s]
+[TRACE] Using prover: D:\utils\dafny\z3\bin\z3.exe
+
+Verifying CheckWellformed$$_module.__default.ValidSecureState__ReachableStatesOfActiveTDs ...
+  [13.031 s, 34 proof obligations]  verified
+
+Verifying Impl$$_module.__default.ValidSecureState__ReachableStatesOfActiveTDs ...
+  [120.041 s, 73 proof obligations]  verified
+
+Verifying CheckWellformed$$_module.__default.P__BuildCAS__Properties ...
+  [8.412 s, 55 proof obligations]  verified
+
+Verifying CheckWellformed$$_module.__default.BuildCAS ...
+  [2.925 s, 35 proof obligations]  verified
+
+Verifying Impl$$_module.__default.BuildCAS ...
+  [936.276 s, 43 proof obligations]  verified
+
+Verifying CheckWellformed$$_module.__default.BuildCAS__FillReqAModes ...
+  [9.014 s, 64 proof obligations]  verified
+
+Verifying Impl$$_module.__default.BuildCAS__FillReqAModes ...
+  [16.080 s, 72 proof obligations]  verified
+
+Verifying CheckWellformed$$_module.__default.TDsStatesToCASForDev ...
+  [25.742 s, 80 proof obligations]  verified
+
+Verifying Impl$$_module.__default.TDsStatesToCASForDev ...
+  [22.058 s, 118 proof obligations]  verified
+
+Verifying CheckWellformed$$_module.__default.TDsStateToCASForDev__PreConditions ...
+  [7.577 s, 32 proof obligations]  verified
+
+Verifying CheckWellformed$$_module.__default.TDsStateToCASForDev ...
+  [67.833 s, 58 proof obligations]  verified
+
+Verifying Impl$$_module.__default.TDsStateToCASForDev ...
+  [216.031 s, 240 proof obligations]  verified
+
+Verifying CheckWellformed$$_module.__default.TDsStateToCASForDev__ProcessOneReadableTD ...
+  [19.114 s, 73 proof obligations]  verified
+
+Verifying Impl$$_module.__default.TDsStateToCASForDev__ProcessOneReadableTD ...
+  [13.127 s, 85 proof obligations]  verified
+
+Verifying CheckWellformed$$_module.__default.Lemma__TDsStateToCASForDev__AModesInTDsStateAreAppendedToCAS ...
+  [76.704 s, 80 proof obligations]  verified
+
+Verifying Impl$$_module.__default.Lemma__TDsStateToCASForDev__AModesInTDsStateAreAppendedToCAS ...
+  [7.683 s, 18 proof obligations]  verified
+
+Verifying CheckWellformed$$_module.__default.Lemma__TDsStateToCASForDev__ProveFulfillFindAllTDsReadByDevKParamsPreConditions ...
+  [1.140 s, 5 proof obligations]  verified
+
+Verifying Impl$$_module.__default.Lemma__TDsStateToCASForDev__ProveFulfillFindAllTDsReadByDevKParamsPreConditions ...
+  [2.157 s, 81 proof obligations]  verified
+
+Verifying CheckWellformed$$_module.__default.Lemma__TDsStateToCASForDev__Private ...
+  [1.134 s, 46 proof obligations]  verified
+
+Verifying Impl$$_module.__default.Lemma__TDsStateToCASForDev__Private ...
+  [3.042 s, 1 proof obligation]  verified
+
+Dafny program verifier finished with 20 verified, 0 errors
+
+Statistics
+----------
+Call graph width (max)    424
+Datatypes                  26
+Functions (total)         194
+Functions recursive         3
+Methods (total)           201
+Methods ghost             170
+Methods recursive          11
+Module height (max)         0
+Modules                     1

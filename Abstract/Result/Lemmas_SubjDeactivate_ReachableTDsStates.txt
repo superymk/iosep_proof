@@ -1,0 +1,312 @@
+[TRACE] Using prover: D:\utils\dafny\z3\bin\z3.exe
+Dafny 2.1.1.10209
+Parsing Lemmas_SubjDeactivate_ReachableTDsStates.dfy
+Lemmas_SubjDeactivate_ReachableTDsStates.dfy(432,12): Warning: /!\ No trigger covering all quantified variables found.
+Lemmas_SubjDeactivate_ReachableTDsStates.dfy(648,12): Warning: /!\ No trigger covering all quantified variables found.
+Lemmas_SubjDeactivate_ReachableTDsStates.dfy(789,12): Warning: /!\ No trigger covering all quantified variables found.
+Lemmas_SubjDeactivate_ReachableTDsStates.dfy(779,13): Warning: /!\ No trigger covering all quantified variables found.
+Lemmas_SubjDeactivate_ReachableTDsStates.dfy(780,13): Warning: /!\ No terms found to trigger on.
+Lemmas_SubjDeactivate_ReachableTDsStates.dfy(981,12): Warning: /!\ No trigger covering all quantified variables found.
+Lemmas_SubjDeactivate_ReachableTDsStates.dfy(968,13): Warning: /!\ No trigger covering all quantified variables found.
+Lemmas_SubjDeactivate_ReachableTDsStates.dfy(969,13): Warning: /!\ No terms found to trigger on.
+Lemmas_SubjDeactivate_ReachableTDsStates.dfy(1153,12): Warning: /!\ No trigger covering all quantified variables found.
+Lemmas_SubjDeactivate_ReachableTDsStates.dfy(1277,12): Warning: /!\ No trigger covering all quantified variables found.
+Lemmas_SubjDeactivate_ReachableTDsStates.dfy(1871,12): Warning: /!\ No trigger covering all quantified variables found.
+Lemmas_SubjDeactivate_ReachableTDsStates.dfy(1863,13): Warning: /!\ No trigger covering all quantified variables found.
+Lemmas_SubjDeactivate_ReachableTDsStates.dfy(2018,13): Warning: /!\ No trigger covering all quantified variables found.
+Lemmas_SubjDeactivate_ReachableTDsStates.dfy(2026,13): Warning: /!\ No trigger covering all quantified variables found.
+Lemmas_SubjDeactivate_ReachableTDsStates.dfy(2410,13): Warning: /!\ No trigger covering all quantified variables found.
+Lemmas_SubjDeactivate_ReachableTDsStates.dfy(2418,13): Warning: /!\ No trigger covering all quantified variables found.
+Lemmas_SubjDeactivate_ReachableTDsStates.dfy(2426,8): Warning: /!\ No trigger covering all quantified variables found.
+Lemmas_SubjDeactivate_ReachableTDsStates.dfy(2434,8): Warning: /!\ No trigger covering all quantified variables found.
+Lemmas_SubjDeactivate_ReachableTDsStates.dfy(2512,13): Warning: /!\ No trigger covering all quantified variables found.
+Lemmas_SubjDeactivate_ReachableTDsStates.dfy(2504,13): Warning: /!\ No trigger covering all quantified variables found.
+Lemmas_SubjDeactivate_ReachableTDsStates.dfy(2523,8): Warning: /!\ No trigger covering all quantified variables found.
+Lemmas_SubjDeactivate_ReachableTDsStates.dfy(2531,8): Warning: /!\ No trigger covering all quantified variables found.
+Utils.dfy(12,4): Warning: /!\ No trigger covering all quantified variables found.
+Utils.dfy(21,4): Warning: /!\ No trigger covering all quantified variables found.
+Utils.dfy(30,4): Warning: /!\ No trigger covering all quantified variables found.
+Utils.dfy(39,4): Warning: /!\ No trigger covering all quantified variables found.
+Utils.dfy(48,4): Warning: /!\ No trigger covering all quantified variables found.
+Lemmas.dfy(6,12): Warning: /!\ No terms found to trigger on.
+Lemmas.dfy(20,12): Warning: /!\ No terms found to trigger on.
+Lemmas.dfy(21,12): Warning: /!\ No terms found to trigger on.
+./BuildCAS/ReachableTDsStates.dfy(102,19): Warning: /!\ No trigger covering all quantified variables found.
+./BuildCAS/ReachableTDsStates.dfy(210,19): Warning: /!\ No trigger covering all quantified variables found.
+./BuildCAS/ReachableTDsStates.dfy(295,15): Warning: /!\ No trigger covering all quantified variables found.
+./BuildCAS/ReachableTDsStates.dfy(300,15): Warning: /!\ No trigger covering all quantified variables found.
+./BuildCAS/ReachableTDsStates.dfy(403,21): Warning: /!\ No trigger covering all quantified variables found.
+./BuildCAS/ReachableTDsStates.dfy(1565,13): Warning: /!\ No trigger covering all quantified variables found.
+./BuildCAS/ReachableTDsStates.dfy(1572,13): Warning: /!\ No trigger covering all quantified variables found.
+./BuildCAS/ReachableTDsStates.dfy(1923,13): Warning: /!\ No trigger covering all quantified variables found.
+./BuildCAS/ReachableTDsStates.dfy(2148,5): Warning: /!\ No trigger covering all quantified variables found.
+./utils/Collections.dfy(298,12): Warning: Selected triggers: {s[_t#0], s[i]} (may loop with "s[i + 1]")
+ Rejected triggers:
+   {s[_t#0] in super_set, s[i] in small_set} (more specific than {s[_t#0] in super_set, s[i]} (may loop with "s[i + 1]"), {s[_t#0], s[i] in small_set} (may loop with "s[i + 1]", "s[i + 1] !in small_set"), {s[_t#0], s[i]} (may loop with "s[i + 1]"))
+   {s[_t#0] in super_set, s[i]} (more specific than {s[_t#0], s[i]} (may loop with "s[i + 1]"))
+   {s[_t#0], s[i] in small_set} (more specific than {s[_t#0], s[i]} (may loop with "s[i + 1]"))
+ /!\ Suppressing loops would leave this expression without triggers.
+./utils/Collections.dfy(301,12): Warning: /!\ No terms found to trigger on.
+Utils_SlimState.dfy(11,5): Warning: /!\ No trigger covering all quantified variables found.
+Utils_SlimState.dfy(21,5): Warning: /!\ No trigger covering all quantified variables found.
+Utils_SlimState.dfy(41,5): Warning: /!\ No trigger covering all quantified variables found.
+Utils_SlimState.dfy(51,5): Warning: /!\ No trigger covering all quantified variables found.
+Utils_SlimState.dfy(61,5): Warning: /!\ No trigger covering all quantified variables found.
+HCodedTD_Ops.dfy(260,5): Warning: /!\ No trigger covering all quantified variables found.
+HCodedTD_Ops.dfy(261,5): Warning: /!\ No trigger covering all quantified variables found.
+HCodedTD_Ops.dfy(262,5): Warning: /!\ No trigger covering all quantified variables found.
+./BuildCAS/Utils_BuildCAS.dfy(265,12): Warning: /!\ No trigger covering all quantified variables found.
+.\BuildCAS\ReachableTDsStates_Utils.dfy(239,4): Warning: /!\ No trigger covering all quantified variables found.
+.\BuildCAS\ReachableTDsStates_Utils.dfy(333,24): Warning: /!\ No terms found to trigger on.
+.\BuildCAS\ReachableTDsStates_Utils.dfy(950,20): Warning: /!\ No trigger covering all quantified variables found.
+Coalescing blocks...
+Inlining...
+
+Running abstract interpretation...
+  [1.5624649 s]
+[TRACE] Using prover: D:\utils\dafny\z3\bin\z3.exe
+
+Verifying CheckWellformed$$_module.__default.SubjObjDeactivate__CommonPreConditionsOfKAndNewK ...
+  [101.651 s, 159 proof obligations]  verified
+Linearising   [0.9218514 s]
+
+Verifying CheckWellformed$$_module.__default.Lemma__SubjObjDeactivate__FindReachableTDsStatesFromTDsState__AlwaysReturnsTrue ...
+  [15.312 s, 28 proof obligations]  verified
+
+Verifying Impl$$_module.__default.Lemma__SubjObjDeactivate__FindReachableTDsStatesFromTDsState__AlwaysReturnsTrue ...
+  [222.102 s, 275 proof obligations]  verified
+
+Verifying CheckWellformed$$_module.__default.NoActiveDevHasTransferToObjsInReachableActiveTDsStates ...
+  [2.372 s, 18 proof obligations]  verified
+
+Verifying CheckWellformed$$_module.__default.SubjObjDeactivate__PreConditionsOfK ...
+  [4.089 s, 40 proof obligations]  verified
+
+Verifying CheckWellformed$$_module.__default.SubjObjDeactivate__UnchangedStateVarsBetweenKandNewK__SlimState ...
+  [1.984 s, 28 proof obligations]  verified
+
+Verifying CheckWellformed$$_module.__default.SubjObjDeactivate__UnchangedStateVarsBetweenKandNewK ...
+  [2.039 s, 28 proof obligations]  verified
+
+Verifying CheckWellformed$$_module.__default.SubjObjDeactivate__SubjsObjsPIDsInNewK ...
+  [2.287 s, 14 proof obligations]  verified
+
+Verifying CheckWellformed$$_module.__default.SubjObjDeactivate__PreConditionsOfSubjObjToDeactivate ...
+  [10.565 s, 57 proof obligations]  verified
+
+Verifying CheckWellformed$$_module.__default.SubjObjDeactivate__ReachableActiveTDsStatesInK__Fulfill51And3And5And6 ...
+  [3.217 s, 72 proof obligations]  verified
+
+Verifying CheckWellformed$$_module.__default.SubjObjDeactivate__ReachableActiveTDsStatesInK__FulfillConditionsToTDsBeingDeactivated ...
+  [2.010 s, 46 proof obligations]  verified
+
+Verifying CheckWellformed$$_module.__default.SubjObjDeactivate__ReachableActiveTDsStatesInK__FulfillConditionsToFDsAndDOsBeingDeactivated ...
+  [32.256 s, 111 proof obligations]  verified
+
+Verifying CheckWellformed$$_module.__default.P__SubjObjDeactivate__IfTDsInReachableTDsStatesInNewKIsSecure__ThenTDsInReachableTDsStatesInKIsSecure ...
+  [5.801 s, 39 proof obligations]  verified
+
+Verifying CheckWellformed$$_module.__default.Lemma__SubjObjDeactivate__TDsStateIsValidBeforeRemoveTDsIfValidAfter ...
+  [15.824 s, 182 proof obligations]  verified
+Linearising   [0.5168392 s]
+
+Verifying Impl$$_module.__default.Lemma__SubjObjDeactivate__TDsStateIsValidBeforeRemoveTDsIfValidAfter ...
+  [226.256 s, 376 proof obligations]  verified
+
+Verifying CheckWellformed$$_module.__default.P__ObjsToBeDeactivatedAreInactiveInNewK__AndNoActiveDevsInNewKHaveTransferToThem ...
+  [41.374 s, 82 proof obligations]  verified
+
+Verifying CheckWellformed$$_module.__default.Lemma__SubjObjDeactivate__TDsStateIsValidAfterAddTDsIfValidBefore ...
+  [2.719 s, 138 proof obligations]  verified
+
+Verifying Impl$$_module.__default.Lemma__SubjObjDeactivate__TDsStateIsValidAfterAddTDsIfValidBefore ...
+  [79.818 s, 233 proof obligations]  verified
+
+Verifying CheckWellformed$$_module.__default.Lemma__SubjObjDeactivate__ReachableActiveTDsStateInNewKHasNoInvalidRefs ...
+  [14.542 s, 199 proof obligations]  verified
+Linearising   [0.5781102 s]
+
+Verifying Impl$$_module.__default.Lemma__SubjObjDeactivate__ReachableActiveTDsStateInNewKHasNoInvalidRefs ...
+  [139.025 s, 631 proof obligations]  verified
+
+Verifying CheckWellformed$$_module.__default.Lemma__SubjObjDeactivate__PropertyOfKToKParams ...
+  [1.964 s, 10 proof obligations]  verified
+
+Verifying Impl$$_module.__default.Lemma__SubjObjDeactivate__PropertyOfKToKParams ...
+  [1.688 s, 2 proof obligations]  verified
+
+Verifying CheckWellformed$$_module.__default.Lemma__SubjObjDeactivate__TDsStateIsValidBeforeRemoveTDsIfValidAfter__Induction__ActiveTDsStatesInKCanReach__Private ...
+  [15.098 s, 180 proof obligations]  verified
+
+Verifying Impl$$_module.__default.Lemma__SubjObjDeactivate__TDsStateIsValidBeforeRemoveTDsIfValidAfter__Induction__ActiveTDsStatesInKCanReach__Private ...
+  [77.976 s, 314 proof obligations]  verified
+
+Verifying CheckWellformed$$_module.__default.Lemma__SubjObjDeactivate__TDsStateIsValidBeforeRemoveTDsIfValidAfter__Induction__PropertyOfAddTDs ...
+  [2.434 s, 6 proof obligations]  verified
+
+Verifying Impl$$_module.__default.Lemma__SubjObjDeactivate__TDsStateIsValidBeforeRemoveTDsIfValidAfter__Induction__PropertyOfAddTDs ...
+  [1.735 s, 13 proof obligations]  verified
+
+Verifying CheckWellformed$$_module.__default.Lemma__SubjObjDeactivate__TDsStateIsValidBeforeRemoveTDsIfValidAfter__Induction__Private ...
+  [14.662 s, 237 proof obligations]  verified
+
+Verifying Impl$$_module.__default.Lemma__SubjObjDeactivate__TDsStateIsValidBeforeRemoveTDsIfValidAfter__Induction__Private ...
+  [445.920 s, 178 proof obligations]  verified
+
+Verifying CheckWellformed$$_module.__default.Lemma__SubjObjDeactivate__ActiveTDsStateInNewKConcatWithAddTDs__EqualToActiveTDsStateInK ...
+  [1.983 s, 4 proof obligations]  verified
+
+Verifying Impl$$_module.__default.Lemma__SubjObjDeactivate__ActiveTDsStateInNewKConcatWithAddTDs__EqualToActiveTDsStateInK ...
+  [1.433 s, 18 proof obligations]  verified
+
+Verifying CheckWellformed$$_module.__default.Lemma__SubjObjDeactivate__ActiveTDsStateInNewKConcatWithAddTDs__ResultContainsAllActiveTDsInK ...
+  [1.367 s, 4 proof obligations]  verified
+
+Verifying Impl$$_module.__default.Lemma__SubjObjDeactivate__ActiveTDsStateInNewKConcatWithAddTDs__ResultContainsAllActiveTDsInK ...
+  [1.350 s, 1 proof obligation]  verified
+
+Verifying CheckWellformed$$_module.__default.Lemma__SubjObjDeactivate__TDsStateIsValidBeforeRemoveTDsIfValidAfter__Base__ActiveTDsStatesInKCanReach__Private ...
+  [10.461 s, 164 proof obligations]  verified
+
+Verifying Impl$$_module.__default.Lemma__SubjObjDeactivate__TDsStateIsValidBeforeRemoveTDsIfValidAfter__Base__ActiveTDsStatesInKCanReach__Private ...
+  [166.129 s, 371 proof obligations]  verified
+
+Verifying CheckWellformed$$_module.__default.Lemma__SubjObjDeactivate__TDsStateIsValidBeforeRemoveTDsIfValidAfter__Base__ActiveTDsStatesInKCanReach ...
+  [9.559 s, 182 proof obligations]  verified
+
+Verifying Impl$$_module.__default.Lemma__SubjObjDeactivate__TDsStateIsValidBeforeRemoveTDsIfValidAfter__Base__ActiveTDsStatesInKCanReach ...
+  [14.347 s, 172 proof obligations]  verified
+
+Verifying CheckWellformed$$_module.__default.Lemma__SubjObjDeactivate__TDsStateIsValidAfterAddTDsIffValidBefore__NewKFulfillsKParamsPreConditions ...
+  [1.132 s, 5 proof obligations]  verified
+
+Verifying Impl$$_module.__default.Lemma__SubjObjDeactivate__TDsStateIsValidAfterAddTDsIffValidBefore__NewKFulfillsKParamsPreConditions ...
+  [1.234 s, 6 proof obligations]  verified
+
+Verifying CheckWellformed$$_module.__default.Lemma__SubjObjDeactivate__CertainVarsInKParamsAndNewKParamsAreSame ...
+  [1.239 s, 30 proof obligations]  verified
+
+Verifying Impl$$_module.__default.Lemma__SubjObjDeactivate__CertainVarsInKParamsAndNewKParamsAreSame ...
+  [1.805 s, 3 proof obligations]  verified
+
+Verifying CheckWellformed$$_module.__default.Lemma__SubjObjDeactivate__TDsStateIsValidAfterAddTDsIffValidBefore__ActiveTDsInKAndNewKHaveNoInvalidTransfersInBothActiveTDsStates ...
+  [16.401 s, 140 proof obligations]  verified
+
+Verifying Impl$$_module.__default.Lemma__SubjObjDeactivate__TDsStateIsValidAfterAddTDsIffValidBefore__ActiveTDsInKAndNewKHaveNoInvalidTransfersInBothActiveTDsStates ...
+  [1.741 s, 322 proof obligations]  verified
+
+Verifying CheckWellformed$$_module.__default.Lemma__SubjObjDeactivate__TDsStateIsValidAfterAddTDsIffValidBefore__ActiveTDsInKAndNewKHaveNoInvalidTransfersInBothActiveTDsStates__TDs ...
+  [19.285 s, 93 proof obligations]  verified
+
+Verifying Impl$$_module.__default.Lemma__SubjObjDeactivate__TDsStateIsValidAfterAddTDsIffValidBefore__ActiveTDsInKAndNewKHaveNoInvalidTransfersInBothActiveTDsStates__TDs ...
+  [12.326 s, 246 proof obligations]  verified
+
+Verifying CheckWellformed$$_module.__default.Lemma__SubjObjDeactivate__TDsStateIsValidAfterAddTDsIffValidBefore__ActiveTDsInKAndNewKHaveNoInvalidTransfersInBothActiveTDsStates__FDs ...
+  [31.420 s, 110 proof obligations]  verified
+
+Verifying Impl$$_module.__default.Lemma__SubjObjDeactivate__TDsStateIsValidAfterAddTDsIffValidBefore__ActiveTDsInKAndNewKHaveNoInvalidTransfersInBothActiveTDsStates__FDs ...
+  [66.432 s, 264 proof obligations]  verified
+
+Verifying CheckWellformed$$_module.__default.Lemma__SubjObjDeactivate__TDsStateIsValidAfterAddTDsIffValidBefore__ActiveTDsInKAndNewKHaveNoInvalidTransfersInBothActiveTDsStates__DOs ...
+  [28.034 s, 110 proof obligations]  verified
+
+Verifying Impl$$_module.__default.Lemma__SubjObjDeactivate__TDsStateIsValidAfterAddTDsIffValidBefore__ActiveTDsInKAndNewKHaveNoInvalidTransfersInBothActiveTDsStates__DOs ...
+  [88.419 s, 262 proof obligations]  verified
+
+Verifying CheckWellformed$$_module.__default.Lemma__SubjObjDeactivate__TDsStateIsValidAfterAddTDsIffValidBefore__ActiveTDsInKAndNewKHaveNoInvalidTransfersInBothActiveTDsStates__FDs__GetAModesOfObjRefedInTDNotEmpty ...
+  [1.383 s, 6 proof obligations]  verified
+
+Verifying Impl$$_module.__default.Lemma__SubjObjDeactivate__TDsStateIsValidAfterAddTDsIffValidBefore__ActiveTDsInKAndNewKHaveNoInvalidTransfersInBothActiveTDsStates__FDs__GetAModesOfObjRefedInTDNotEmpty ...
+  [1.092 s, 3 proof obligations]  verified
+
+Verifying CheckWellformed$$_module.__default.Lemma__SubjObjDeactivate__TDsStateIsValidAfterAddTDsIffValidBefore__ActiveTDsInKAndNewKHaveNoInvalidTransfersInBothActiveTDsStates__DOs__GetAModesOfObjRefedInTDNotEmpty ...
+  [1.026 s, 7 proof obligations]  verified
+
+Verifying Impl$$_module.__default.Lemma__SubjObjDeactivate__TDsStateIsValidAfterAddTDsIffValidBefore__ActiveTDsInKAndNewKHaveNoInvalidTransfersInBothActiveTDsStates__DOs__GetAModesOfObjRefedInTDNotEmpty ...
+  [1.119 s, 14 proof obligations]  verified
+
+Verifying CheckWellformed$$_module.__default.Lemma__SubjObjDeactivate__ReachableActiveTDsStateInNewKHasNoInvalidRefs__Induction__Private ...
+  [12.591 s, 223 proof obligations]  verified
+
+Verifying Impl$$_module.__default.Lemma__SubjObjDeactivate__ReachableActiveTDsStateInNewKHasNoInvalidRefs__Induction__Private ...
+  [10.845 s, 548 proof obligations]  verified
+
+Verifying CheckWellformed$$_module.__default.Lemma__SubjObjDeactivate__ReachableActiveTDsStateInNewKHasNoInvalidRefs__Induction__Private__AddTD ...
+  [1.607 s, 38 proof obligations]  verified
+
+Verifying Impl$$_module.__default.Lemma__SubjObjDeactivate__ReachableActiveTDsStateInNewKHasNoInvalidRefs__Induction__Private__AddTD ...
+  [6.070 s, 1 proof obligation]  verified
+
+Verifying CheckWellformed$$_module.__default.Lemma__IsTDsDiffReqInActiveTDsStateAndIssuedByDev__SubjsBeingDeactivatedDoNotModifyCurrentAccessesOfOtherActiveDevs ...
+  [21.085 s, 141 proof obligations]  verified
+
+Verifying Impl$$_module.__default.Lemma__IsTDsDiffReqInActiveTDsStateAndIssuedByDev__SubjsBeingDeactivatedDoNotModifyCurrentAccessesOfOtherActiveDevs ...
+  [24.616 s, 215 proof obligations]  verified
+
+Verifying CheckWellformed$$_module.__default.Lemma__IsActiveTDsStateReachActiveTDsStateInOneStep__SubjsBeingDeactivatedDoNotModifyCurrentAccessesOfOtherActiveDevs ...
+  [11.313 s, 108 proof obligations]  verified
+
+Verifying Impl$$_module.__default.Lemma__IsActiveTDsStateReachActiveTDsStateInOneStep__SubjsBeingDeactivatedDoNotModifyCurrentAccessesOfOtherActiveDevs ...
+  [10.119 s, 147 proof obligations]  verified
+
+Verifying CheckWellformed$$_module.__default.Lemma__CanActiveDevReadActiveTD__SubjObjDeactivate__IfActiveDevCanReadTDInNewK__ThenDevCanReadTDInK ...
+  [15.754 s, 83 proof obligations]  verified
+
+Verifying Impl$$_module.__default.Lemma__CanActiveDevReadActiveTD__SubjObjDeactivate__IfActiveDevCanReadTDInNewK__ThenDevCanReadTDInK ...
+  [2.918 s, 153 proof obligations]  verified
+
+Verifying CheckWellformed$$_module.__default.Lemma__CanActiveDevReadActiveTD__SubjObjDeactivate__IfActiveDevCanReadTDInK__ThenDevCanReadTDInNewK ...
+  [17.633 s, 92 proof obligations]  verified
+
+Verifying Impl$$_module.__default.Lemma__CanActiveDevReadActiveTD__SubjObjDeactivate__IfActiveDevCanReadTDInK__ThenDevCanReadTDInNewK ...
+  [17.205 s, 238 proof obligations]  verified
+
+Verifying CheckWellformed$$_module.__default.Lemma__CanActiveDevReadActiveTD__SubjObjDeactivate__ActiveDevsAndTDsInNewKHasSameResultWithTheOneForK ...
+  [11.405 s, 92 proof obligations]  verified
+
+Verifying Impl$$_module.__default.Lemma__CanActiveDevReadActiveTD__SubjObjDeactivate__ActiveDevsAndTDsInNewKHasSameResultWithTheOneForK ...
+  [38.258 s, 193 proof obligations]  verified
+
+Verifying CheckWellformed$$_module.__default.Lemma__DevAModesToObj__SubjObjDeactivate__IfDevCanReadTDAndTDIncludesTransferToObj__ThenDevHasTransferToObj ...
+  [1.712 s, 29 proof obligations]  verified
+
+Verifying Impl$$_module.__default.Lemma__DevAModesToObj__SubjObjDeactivate__IfDevCanReadTDAndTDIncludesTransferToObj__ThenDevHasTransferToObj ...
+  [2.132 s, 43 proof obligations]  verified
+
+Verifying CheckWellformed$$_module.__default.Lemma__IsTDsDiffReqInActiveTDsStateAndIssuedByDev__SubjsBeingDeactivatedDoNotModifyCurrentAccessesOfOtherActiveDevs__Right ...
+  [14.358 s, 114 proof obligations]  verified
+
+Verifying Impl$$_module.__default.Lemma__IsTDsDiffReqInActiveTDsStateAndIssuedByDev__SubjsBeingDeactivatedDoNotModifyCurrentAccessesOfOtherActiveDevs__Right ...
+  [48.964 s, 133 proof obligations]  verified
+
+Verifying CheckWellformed$$_module.__default.Lemma__IsTDsDiffReqInActiveTDsStateAndIssuedByDev__SubjsBeingDeactivatedDoNotModifyCurrentAccessesOfOtherActiveDevs__Left ...
+  [15.304 s, 114 proof obligations]  verified
+
+Verifying Impl$$_module.__default.Lemma__IsTDsDiffReqInActiveTDsStateAndIssuedByDev__SubjsBeingDeactivatedDoNotModifyCurrentAccessesOfOtherActiveDevs__Left ...
+  [15.411 s, 227 proof obligations]  verified
+
+Verifying CheckWellformed$$_module.__default.Lemma__CanActiveDevReadActiveTD__SubjObjDeactivate__IfActiveDevCanReadTDInNewK__ThenDevCanReadTDInK__Private ...
+  [1.606 s, 30 proof obligations]  verified
+
+Verifying Impl$$_module.__default.Lemma__CanActiveDevReadActiveTD__SubjObjDeactivate__IfActiveDevCanReadTDInNewK__ThenDevCanReadTDInK__Private ...
+  [1.703 s, 1 proof obligation]  verified
+
+Verifying CheckWellformed$$_module.__default.Lemma__CanActiveDevReadActiveTD__SubjObjDeactivate__IfActiveDevCanReadTDInK__ThenDevCanReadTDInNewK__Private ...
+  [2.956 s, 29 proof obligations]  verified
+
+Verifying Impl$$_module.__default.Lemma__CanActiveDevReadActiveTD__SubjObjDeactivate__IfActiveDevCanReadTDInK__ThenDevCanReadTDInNewK__Private ...
+  [7.689 s, 20 proof obligations]  verified
+
+Dafny program verifier finished with 76 verified, 0 errors
+
+Statistics
+----------
+Call graph width (max)    457
+Datatypes                  26
+Functions (total)         204
+Functions recursive         3
+Methods (total)           224
+Methods ghost             199
+Methods recursive          11
+Module height (max)         0
+Modules                     1

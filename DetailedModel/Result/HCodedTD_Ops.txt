@@ -1,0 +1,53 @@
+[TRACE] Using prover: D:\utils\dafny\z3\bin\z3.exe
+Dafny 2.1.1.10209
+Parsing HCodedTD_Ops.dfy
+../Abstract/utils/Collections.dfy(298,12): Warning: Selected triggers: {s[_t#0], s[i]} (may loop with "s[i + 1]")
+ Rejected triggers:
+   {s[_t#0] in super_set, s[i] in small_set} (more specific than {s[_t#0] in super_set, s[i]} (may loop with "s[i + 1]"), {s[_t#0], s[i] in small_set} (may loop with "s[i + 1]", "s[i + 1] !in small_set"), {s[_t#0], s[i]} (may loop with "s[i + 1]"))
+   {s[_t#0] in super_set, s[i]} (more specific than {s[_t#0], s[i]} (may loop with "s[i + 1]"))
+   {s[_t#0], s[i] in small_set} (more specific than {s[_t#0], s[i]} (may loop with "s[i + 1]"))
+ /!\ Suppressing loops would leave this expression without triggers.
+../Abstract/utils/Collections.dfy(301,12): Warning: /!\ No terms found to trigger on.
+../Abstract/BuildCAS/Utils_BuildCAS.dfy(265,12): Warning: /!\ No trigger covering all quantified variables found.
+..\Abstract\BuildCAS\../Utils.dfy(12,4): Warning: /!\ No trigger covering all quantified variables found.
+..\Abstract\BuildCAS\../Utils.dfy(21,4): Warning: /!\ No trigger covering all quantified variables found.
+..\Abstract\BuildCAS\../Utils.dfy(30,4): Warning: /!\ No trigger covering all quantified variables found.
+..\Abstract\BuildCAS\../Utils.dfy(39,4): Warning: /!\ No trigger covering all quantified variables found.
+..\Abstract\BuildCAS\../Utils.dfy(48,4): Warning: /!\ No trigger covering all quantified variables found.
+..\Abstract\BuildCAS\../HCodedTD_Ops.dfy(260,5): Warning: /!\ No trigger covering all quantified variables found.
+..\Abstract\BuildCAS\../HCodedTD_Ops.dfy(261,5): Warning: /!\ No trigger covering all quantified variables found.
+..\Abstract\BuildCAS\../HCodedTD_Ops.dfy(262,5): Warning: /!\ No trigger covering all quantified variables found.
+..\Abstract\BuildCAS\../Lemmas.dfy(6,12): Warning: /!\ No terms found to trigger on.
+..\Abstract\BuildCAS\../Lemmas.dfy(20,12): Warning: /!\ No terms found to trigger on.
+..\Abstract\BuildCAS\../Lemmas.dfy(21,12): Warning: /!\ No terms found to trigger on.
+..\Abstract\BuildCAS\..\Utils_SlimState.dfy(11,5): Warning: /!\ No trigger covering all quantified variables found.
+..\Abstract\BuildCAS\..\Utils_SlimState.dfy(21,5): Warning: /!\ No trigger covering all quantified variables found.
+..\Abstract\BuildCAS\..\Utils_SlimState.dfy(41,5): Warning: /!\ No trigger covering all quantified variables found.
+..\Abstract\BuildCAS\..\Utils_SlimState.dfy(51,5): Warning: /!\ No trigger covering all quantified variables found.
+..\Abstract\BuildCAS\..\Utils_SlimState.dfy(61,5): Warning: /!\ No trigger covering all quantified variables found.
+Coalescing blocks...
+Inlining...
+
+Running abstract interpretation...
+  [0.1562462 s]
+[TRACE] Using prover: D:\utils\dafny\z3\bin\z3.exe
+
+Verifying CheckWellformed$$_module.__default.DM__AllHCodedTDIDs ...
+  [9.268 s, 4 proof obligations]  verified
+
+Verifying CheckWellformed$$_module.__default.DM__BuildMap__DevsToHCodedTDVals ...
+  [1.937 s, 17 proof obligations]  verified
+
+Dafny program verifier finished with 2 verified, 0 errors
+
+Statistics
+----------
+Call graph width (max)    291
+Datatypes                  25
+Functions (total)         192
+Functions recursive         1
+Methods (total)            71
+Methods ghost              66
+Methods recursive           3
+Module height (max)         0
+Modules                     1
