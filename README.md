@@ -1,9 +1,9 @@
 # Formal Spec and Verification of I/O Separation Model, Interpretation for General On-Demand I/O Kernels, and Further Instantiation to Wimpy Kernel
 Folders
 =======================
-<Abstract> - I/O Separation model, aka. abstract model  
-<DetailedModel> - Concrete model, aka. detailed model,  
-<WK_Design> - the model of sound Wimpy Kernel design. This model uses the same state, hardware mediation mechanisms, state invariants, transition constraints, initial state definitions as the one in the detailed model. Thus, there is no syntax.dfy in this folder  
+\<Abstract> - I/O Separation model, aka. abstract model  
+\<DetailedModel> - Concrete model, aka. detailed model,  
+\<WK_Design> - the model of sound Wimpy Kernel design. This model uses the same state, hardware mediation mechanisms, state invariants, transition constraints, initial state definitions as the one in the detailed model. Thus, there is no syntax.dfy in this folder  
 
 
 Steps to Run Verification (tested on Windows only)
@@ -18,7 +18,5 @@ Important Notes:
 
 How to Know Verification Succeed
 =======================
-(1) After verification is done in <Abstract>, <DetailedModel> or <WK_Design> folder, a <Result> folder is created as a subfolder under these folders.  
-(2) In the <Result> folder, run "grep -RsIn "errors" ." command. In each line displayed, there should be "0 errors" at the end.  
-
-
+(1) After verification is done in \<Abstract>, \<DetailedModel> or \<WK_Design> folder, a \<Result> folder is created as a subfolder under these folders.  
+(2) In the \<Result> folder, run "grep -RsIn "errors" ." command. In each line displayed, there should be "0 errors" at the end.  
