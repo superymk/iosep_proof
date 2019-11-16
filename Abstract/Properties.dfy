@@ -7,7 +7,7 @@ include "Lemmas.dfy"
 predicate IsValidState_Subjects(k:State)
 {
     // 1. Subjects
-    //// Condition 1.1 Different types of subjects have different subject IDs
+    //// Condition 1.1 Drivers and devices must have different subject IDs
     //// [NOTE] The model syntax defines that different subjects of the same  
     //// type (Driver/Device) have different IDs
     (forall drv_sid, dev_sid :: 
@@ -27,7 +27,7 @@ predicate IsValidState_Objects(k:State)
          ==> (drv_sid != dev_sid)
 {
     // 2. Objects
-    //// Condition 2.1 Different types of objects have different object IDs
+    //// Condition 2.1 TDs, FDs and DOs must have different object IDs
     //// [NOTE] The model syntax defines that different objects of the same  
     //// type (TD/FD/DO) have different IDs
     (forall td_id, fd_id :: TD_ID(td_id) in k.objects.tds && FD_ID(fd_id) in k.objects.fds
@@ -45,11 +45,11 @@ predicate IsValidState_Objects(k:State)
      |MapGetKeys<FD_ID, FD_State>(k.objects.fds)| + 
      |MapGetKeys<DO_ID, DO_State>(k.objects.dos)| > 0) &&
 
-    //// Condition 2.n1 Hardcoded TDs are in devices
+    //// Condition 2.n1 Each device's TDs must include its hardcoded TD
     (forall dev_id :: dev_id in k.subjects.devs
         ==> k.subjects.devs[dev_id].hcoded_td_id in k.subjects.devs[dev_id].td_ids) &&
 
-    //// Condition 2.6 No two subjects own the same object
+    //// Condition 2.6 No two subjects associates (owns) the same object
     (forall o_id, s_id1, s_id2 :: 
         s_id1 in AllSubjsIDs(k.subjects) && s_id2 in AllSubjsIDs(k.subjects) && 
         DoOwnObj(k, s_id1, o_id) && DoOwnObj(k, s_id2, o_id)
@@ -77,7 +77,7 @@ predicate IsValidState_Objects(k:State)
         dev_id in k.subjects.devs && do_id in k.subjects.devs[dev_id].do_ids
         ==> do_id in k.objects.dos) &&
 
-    //// Condition 2.5 No individual hardcoded TD request R and W to the same TD
+    //// Condition 2.5 No hardcoded TD defines direct transfers to any TD with both read and write access modes
     var hcoded_tds := BuildMap_DevsToHCodedTDVals(k.subjects, k.objects);
     (forall dev_id :: dev_id in k.subjects.devs
         ==> (forall td_id :: td_id in HCodedTDValOfDev(hcoded_tds, dev_id).trans_params_tds
@@ -88,7 +88,7 @@ predicate IsValidState_Objects(k:State)
                 td_id in HCodedTDValOfDev(hcoded_tds, dev_id).trans_params_tds
         ==> td_id !in AllHCodedTDIDs(k.subjects)) &&
 
-    //// Condition 2.4 Objects refed in hardcoded TDs must be owned by the device
+    //// Condition 2.4 Objects refed in hardcoded TDs must be associated (owned) by the device
     (forall dev_id :: dev_id in k.subjects.devs
         ==> (MapGetKeys(HCodedTDValOfDev(hcoded_tds, dev_id).trans_params_tds) <= 
                 IDToDev(k, dev_id).td_ids) &&
@@ -96,7 +96,7 @@ predicate IsValidState_Objects(k:State)
                 IDToDev(k, dev_id).fd_ids) &&
             (MapGetKeys(HCodedTDValOfDev(hcoded_tds, dev_id).trans_params_dos) <= 
                 IDToDev(k, dev_id).do_ids)) &&
-    //// Condition 2.n5 Arbitary set of TDs have finite ranges
+    //// Known from Axioms: Arbitary set of TDs have finite ranges
     IsValidState_TDsToAllStates(k) &&
 
     (true)
@@ -215,7 +215,7 @@ predicate IsSecureState_SI2(k:State)
     requires forall fd_id, do_id :: FD_ID(fd_id) in k.objects.fds && DO_ID(do_id) in k.objects.dos
                 ==> fd_id != do_id
 {
-    // SI2: Subjects and objects can only be activated into existing partitions
+    // SI2: Active subjects and objects must be belong to existing partitions
     (forall s_id :: s_id in AllSubjsIDs(k.subjects) && SubjPID(k, s_id) != NULL
         ==> SubjPID(k, s_id) in k.pids) &&
     (forall o_id :: o_id in AllObjsIDs(k.objects) && ObjPID(k, o_id) != NULL
