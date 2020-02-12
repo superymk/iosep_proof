@@ -1,4 +1,4 @@
-[TRACE] Using prover: D:\utils\dafny\z3\bin\z3.exe
+[TRACE] Using prover: E:\utils\dafny-v2.1\z3\bin\z3.exe
 Dafny 2.1.1.10209
 Parsing Lemmas_DevHWProt.dfy
 Lemmas_DevHWProt.dfy(232,13): Warning: /!\ No terms found to trigger on.
@@ -77,91 +77,91 @@ Coalescing blocks...
 Inlining...
 
 Running abstract interpretation...
-  [0.3437425 s]
-[TRACE] Using prover: D:\utils\dafny\z3\bin\z3.exe
+  [0.3949429 s]
+[TRACE] Using prover: E:\utils\dafny-v2.1\z3\bin\z3.exe
 
 Verifying CheckWellformed$$_module.__default.Lemma__DevHWProt__GoodDM__TDsReadByRedDevs__ThenDoActiveTDIncludeTransfersToInvalidObjOrObjOutsidePartitionIsFalse ...
-  [25.861 s, 68 proof obligations]  verified
-Linearising   [1.0156021 s]
+  [12.261 s, 68 proof obligations]  verified
 
 Verifying Impl$$_module.__default.Lemma__DevHWProt__GoodDM__TDsReadByRedDevs__ThenDoActiveTDIncludeTransfersToInvalidObjOrObjOutsidePartitionIsFalse ...
-  [15.968 s, 279 proof obligations]  verified
+  [6.357 s, 279 proof obligations]  verified
 
 Verifying CheckWellformed$$_module.__default.Lemma__DevHWProt__GoodDM__GreenTDsAreUnmodifiedInClosureByRedDevs ...
-  [11.959 s, 67 proof obligations]  verified
-Linearising   [0.5312378 s]
+  [5.098 s, 67 proof obligations]  verified
 
 Verifying Impl$$_module.__default.Lemma__DevHWProt__GoodDM__GreenTDsAreUnmodifiedInClosureByRedDevs ...
-  [9.375 s, 190 proof obligations]  verified
+  [4.493 s, 190 proof obligations]  verified
 
 Verifying CheckWellformed$$_module.__default.P__DevHWProt__GreenTDsAreUnmodifiedByRedDevs ...
-  [11.223 s, 13 proof obligations]  verified
+  [12.179 s, 13 proof obligations]  verified
 
 Verifying CheckWellformed$$_module.__default.Lemma__DevHWProt__GoodDM__GreenTDsAreUnmodifiedInClosureByRedDevs__SameTDsStateGetTDIDs__TwoElems ...
-  [8.984 s, 2 proof obligations]  verified
+  [12.991 s, 2 proof obligations]  verified
 
 Verifying Impl$$_module.__default.Lemma__DevHWProt__GoodDM__GreenTDsAreUnmodifiedInClosureByRedDevs__SameTDsStateGetTDIDs__TwoElems ...
-  [8.906 s, 1 proof obligation]  verified
+  [12.030 s, 1 proof obligation]  verified
 
 Verifying CheckWellformed$$_module.__default.Lemma__DevHWProt__GoodDM__GreenTDsAreUnmodifiedInClosureByRedDevs__TwoElemsSummary ...
-  [14.041 s, 18 proof obligations]  verified
+  [14.540 s, 18 proof obligations]  verified
 
 Verifying Impl$$_module.__default.Lemma__DevHWProt__GoodDM__GreenTDsAreUnmodifiedInClosureByRedDevs__TwoElemsSummary ...
-  [7.156 s, 1 proof obligation]  verified
+  [3.439 s, 1 proof obligation]  verified
+Linearising   [2.3407384 s]
 
 Verifying CheckWellformed$$_module.__default.Lemma__DevHWProt__GoodDM__GreenTDsAreUnmodifiedInClosureByRedDevs__MultiElemsSummary ...
-  [92.448 s, 28 proof obligations]  verified
+  [41.305 s, 28 proof obligations]  verified
 
 Verifying Impl$$_module.__default.Lemma__DevHWProt__GoodDM__GreenTDsAreUnmodifiedInClosureByRedDevs__MultiElemsSummary ...
-  [8.224 s, 21 proof obligations]  verified
+  [6.770 s, 21 proof obligations]  verified
 
 Verifying CheckWellformed$$_module.__default.Lemma__DevHWProt__GreenTDsAreUnmodifiedByRedDevs__Prove ...
-  [9.922 s, 14 proof obligations]  verified
+  [9.812 s, 14 proof obligations]  verified
 
 Verifying Impl$$_module.__default.Lemma__DevHWProt__GreenTDsAreUnmodifiedByRedDevs__Prove ...
-  [7.063 s, 1 proof obligation]  verified
+  [13.040 s, 1 proof obligation]  verified
 
 Verifying CheckWellformed$$_module.__default.Lemma__DevHWProt__GoodDM__GreenTDsAreUnmodifiedInClosureByRedDevs__Conflict ...
-  [6.413 s, 34 proof obligations]  verified
+  [12.711 s, 34 proof obligations]  verified
 
 Verifying Impl$$_module.__default.Lemma__DevHWProt__GoodDM__GreenTDsAreUnmodifiedInClosureByRedDevs__Conflict ...
-  [29.016 s, 1 proof obligation]  verified
+  [32.934 s, 1 proof obligation]  verified
 
 Verifying CheckWellformed$$_module.__default.Lemma__DevHWProt__GoodDM__GreenTDsAreUnmodifiedInClosureByRedDevs__TwoElems__ActiveTDs ...
-  [7.206 s, 41 proof obligations]  verified
+  [7.264 s, 41 proof obligations]  verified
 
 Verifying Impl$$_module.__default.Lemma__DevHWProt__GoodDM__GreenTDsAreUnmodifiedInClosureByRedDevs__TwoElems__ActiveTDs ...
-  [6.253 s, 2 proof obligations]  verified
+  [10.715 s, 2 proof obligations]  verified
 
 Verifying CheckWellformed$$_module.__default.Lemma__DevHWProt__GoodDM__GreenTDsAreUnmodifiedInClosureByRedDevs__TwoElems ...
-  [6.961 s, 67 proof obligations]  verified
+  [7.462 s, 67 proof obligations]  verified
+Linearising   [0.6911521 s]
 
 Verifying Impl$$_module.__default.Lemma__DevHWProt__GoodDM__GreenTDsAreUnmodifiedInClosureByRedDevs__TwoElems ...
-  [43.217 s, 324 proof obligations]  verified
+  [29.370 s, 324 proof obligations]  verified
 
 Verifying CheckWellformed$$_module.__default.Lemma__DevHWProt__GoodDM__GreenTDsAreUnmodifiedInClosureByRedDevs__MultiElems ...
-  [7.515 s, 73 proof obligations]  verified
+  [6.593 s, 73 proof obligations]  verified
 
 Verifying Impl$$_module.__default.Lemma__DevHWProt__GoodDM__GreenTDsAreUnmodifiedInClosureByRedDevs__MultiElems ...
-  [33.937 s, 245 proof obligations]  verified
+  [20.163 s, 245 proof obligations]  verified
 
 Verifying CheckWellformed$$_module.__default.Lemma__DevHWProt__GoodDM__GreenTDsAreUnmodifiedInClosureByRedDevs__Recursion__ProvePreConditions ...
-  [5.653 s, 44 proof obligations]  verified
+  [5.283 s, 44 proof obligations]  verified
 
 Verifying Impl$$_module.__default.Lemma__DevHWProt__GoodDM__GreenTDsAreUnmodifiedInClosureByRedDevs__Recursion__ProvePreConditions ...
-  [5.019 s, 9 proof obligations]  verified
+  [7.914 s, 9 proof obligations]  verified
 
 Verifying CheckWellformed$$_module.__default.Lemma__DevHWProt__TDsReadByRedDevsOnlyHaveTransfersToRedObjsAtAnyTime__TDsReadByActiveDevAreInSamePartitionWithDev__Private ...
-  [14.488 s, 48 proof obligations]  verified
+  [17.356 s, 48 proof obligations]  verified
 
 Verifying Impl$$_module.__default.Lemma__DevHWProt__TDsReadByRedDevsOnlyHaveTransfersToRedObjsAtAnyTime__TDsReadByActiveDevAreInSamePartitionWithDev__Private ...
-  [5.170 s, 2 proof obligations]  verified
+  [6.736 s, 2 proof obligations]  verified
 
 Verifying CheckWellformed$$_module.__default.Lemma__DevHWProt__TDsReadByRedDevsOnlyHaveTransfersToRedObjsAtAnyTime__TDsReadByActiveDevAreInSamePartitionWithDev ...
-  [45.942 s, 52 proof obligations]  verified
+  [27.377 s, 52 proof obligations]  verified
 
 Verifying Impl$$_module.__default.Lemma__DevHWProt__TDsReadByRedDevsOnlyHaveTransfersToRedObjsAtAnyTime__TDsReadByActiveDevAreInSamePartitionWithDev ...
-  [41.661 s, 181 proof obligations]  verified
+  [31.991 s, 181 proof obligations]  verified
 
 Dafny program verifier finished with 27 verified, 0 errors
 

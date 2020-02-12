@@ -1,4 +1,4 @@
-[TRACE] Using prover: D:\utils\dafny\z3\bin\z3.exe
+[TRACE] Using prover: E:\utils\dafny-v2.1\z3\bin\z3.exe
 Dafny 2.1.1.10209
 Parsing Lemmas_Ops_SubjObjActivate.dfy
 ../Abstract/Model.dfy(2097,5): Warning: /!\ No trigger covering all quantified variables found.
@@ -75,63 +75,62 @@ Coalescing blocks...
 Inlining...
 
 Running abstract interpretation...
-  [0.6093608 s]
-[TRACE] Using prover: D:\utils\dafny\z3\bin\z3.exe
+  [0.2842397 s]
+[TRACE] Using prover: E:\utils\dafny-v2.1\z3\bin\z3.exe
 
 Verifying CheckWellformed$$_module.__default.Lemma__NewDM__SubjObjActivate__FulfillSI2 ...
-  [28.536 s, 58 proof obligations]  verified
-Linearising   [0.6249858 s]
+  [11.986 s, 58 proof obligations]  verified
 
 Verifying Impl$$_module.__default.Lemma__NewDM__SubjObjActivate__FulfillSI2 ...
-  [72.731 s, 206 proof obligations]  verified
+  [42.013 s, 206 proof obligations]  verified
 
 Verifying CheckWellformed$$_module.__default.Lemma__DM__DevActivate__ProveCheckOfDevActivateInK ...
-  [7.640 s, 2 proof obligations]  verified
+  [7.671 s, 2 proof obligations]  verified
 
 Verifying Impl$$_module.__default.Lemma__DM__DevActivate__ProveCheckOfDevActivateInK ...
-  [7.124 s, 8 proof obligations]  verified
+  [9.784 s, 8 proof obligations]  verified
 
 Verifying CheckWellformed$$_module.__default.Lemma__NewDM__DevActivate__OtherDevsHaveUnchangedPIDs ...
-  [6.828 s, 13 proof obligations]  verified
+  [6.321 s, 13 proof obligations]  verified
 
 Verifying Impl$$_module.__default.Lemma__NewDM__DevActivate__OtherDevsHaveUnchangedPIDs ...
-  [7.672 s, 5 proof obligations]  verified
+  [10.240 s, 5 proof obligations]  verified
 
 Verifying CheckWellformed$$_module.__default.Lemma__NewDM__IsValidState__DevActivate__DevsActivateCond ...
-  [6.178 s, 17 proof obligations]  verified
+  [16.708 s, 17 proof obligations]  verified
 
 Verifying Impl$$_module.__default.Lemma__NewDM__IsValidState__DevActivate__DevsActivateCond ...
-  [7.747 s, 55 proof obligations]  verified
+  [6.916 s, 55 proof obligations]  verified
 
 Verifying CheckWellformed$$_module.__default.Lemma__DevActivate__HCodedTDsBeingActivatedHaveNoWriteTransfersToTDs ...
-  [5.765 s, 12 proof obligations]  verified
+  [6.877 s, 12 proof obligations]  verified
 
 Verifying Impl$$_module.__default.Lemma__DevActivate__HCodedTDsBeingActivatedHaveNoWriteTransfersToTDs ...
-  [6.531 s, 32 proof obligations]  verified
+  [15.563 s, 32 proof obligations]  verified
 
 Verifying CheckWellformed$$_module.__default.Lemma__DM__ExternalObjActivate__ProveCheckOfDevActivateInK ...
-  [5.791 s, 25 proof obligations]  verified
+  [15.769 s, 25 proof obligations]  verified
 
 Verifying Impl$$_module.__default.Lemma__DM__ExternalObjActivate__ProveCheckOfDevActivateInK ...
-  [4.333 s, 55 proof obligations]  verified
+  [11.934 s, 55 proof obligations]  verified
 
 Verifying CheckWellformed$$_module.__default.Lemma__NewDM__SubjObjActivate__FulfillSI2__ActivateIntoGreenPartition ...
-  [4.703 s, 58 proof obligations]  verified
+  [15.155 s, 58 proof obligations]  verified
 
 Verifying Impl$$_module.__default.Lemma__NewDM__SubjObjActivate__FulfillSI2__ActivateIntoGreenPartition ...
-  [156.281 s, 217 proof obligations]  verified
+  [125.059 s, 217 proof obligations]  verified
 
 Verifying CheckWellformed$$_module.__default.Lemma__NewDM__SubjObjActivate__FulfillSI2__ActivateIntoGreenPartition__TDInToActiveTDIDs ...
-  [4.539 s, 58 proof obligations]  verified
+  [11.341 s, 58 proof obligations]  verified
 
 Verifying Impl$$_module.__default.Lemma__NewDM__SubjObjActivate__FulfillSI2__ActivateIntoGreenPartition__TDInToActiveTDIDs ...
-  [72.591 s, 319 proof obligations]  verified
+  [70.549 s, 319 proof obligations]  verified
 
 Verifying CheckWellformed$$_module.__default.Lemma__NewDM__SubjObjActivate__FulfillSI2__ActivateIntoGreenPartition__TDInToActiveTDIDs__Private ...
-  [10.794 s, 43 proof obligations]  verified
+  [14.373 s, 43 proof obligations]  verified
 
 Verifying Impl$$_module.__default.Lemma__NewDM__SubjObjActivate__FulfillSI2__ActivateIntoGreenPartition__TDInToActiveTDIDs__Private ...
-  [5.194 s, 28 proof obligations]  verified
+  [4.673 s, 28 proof obligations]  verified
 
 Dafny program verifier finished with 18 verified, 0 errors
 

@@ -1,4 +1,4 @@
-[TRACE] Using prover: D:\utils\dafny\z3\bin\z3.exe
+[TRACE] Using prover: E:\utils\dafny-v2.1\z3\bin\z3.exe
 Dafny 2.1.1.10209
 Parsing SecurityProperties.dfy
 SecurityProperties.dfy(68,12): Warning: Selected triggers: {states[i]} (may loop with "states[i + 1]")
@@ -92,80 +92,81 @@ Coalescing blocks...
 Inlining...
 
 Running abstract interpretation...
-  [0.6094392 s]
-[TRACE] Using prover: D:\utils\dafny\z3\bin\z3.exe
-Linearising   [2.7813276 s]
+  [0.4517899 s]
+[TRACE] Using prover: E:\utils\dafny-v2.1\z3\bin\z3.exe
+Linearising   [3.0368768 s]
 
 Verifying CheckWellformed$$_module.__default.Lemma__WS__ProveSP1 ...
-  [25.273 s, 5004 proof obligations]  verified
+  [58.757 s, 5004 proof obligations]  verified
 
 Verifying Impl$$_module.__default.Lemma__WS__ProveSP1 ...
-  [87.215 s, 1 proof obligation]  verified
+  [102.643 s, 1 proof obligation]  verified
 
 Verifying CheckWellformed$$_module.__default.Lemma__WS__ProveSP2 ...
-  [18.017 s, 216 proof obligations]  verified
-Linearising   [0.8906876 s]
+  [27.956 s, 216 proof obligations]  verified
+Linearising   [3.544516 s]
 
 Verifying Impl$$_module.__default.Lemma__WS__ProveSP2 ...
-  [42.535 s, 1565 proof obligations]  verified
+  [63.547 s, 1565 proof obligations]  verified
 
 Verifying CheckWellformed$$_module.__default.Lemma__WS__ProveInitialStateIsSecure ...
-  [3.725 s, 89 proof obligations]  verified
+  [13.445 s, 89 proof obligations]  verified
 
 Verifying Impl$$_module.__default.Lemma__WS__ProveInitialStateIsSecure ...
-  [3.438 s, 92 proof obligations]  verified
+  [9.184 s, 92 proof obligations]  verified
 
 Verifying CheckWellformed$$_module.__default.Lemma__WS__ProveTheorem1 ...
-  [4.328 s, 221 proof obligations]  verified
+  [8.462 s, 221 proof obligations]  verified
 
 Verifying Impl$$_module.__default.Lemma__WS__ProveTheorem1 ...
-  [3.594 s, 47 proof obligations]  verified
+  [12.901 s, 47 proof obligations]  verified
+Linearising   [0.6273226 s]
 
 Verifying CheckWellformed$$_module.__default.Lemma__WS__ProveTheorem2 ...
-  [3.740 s, 528 proof obligations]  verified
+  [7.475 s, 528 proof obligations]  verified
 
 Verifying Impl$$_module.__default.Lemma__WS__ProveTheorem2 ...
-  [10.704 s, 297 proof obligations]  verified
+  [26.638 s, 297 proof obligations]  verified
 
 Verifying CheckWellformed$$_module.__default.P__WS__OpsProperties ...
-  [3.219 s, 20 proof obligations]  verified
+  [6.016 s, 20 proof obligations]  verified
 
 Verifying CheckWellformed$$_module.__default.P__WS__OpsFulfillPreConditions ...
-  [4.406 s, 55 proof obligations]  verified
+  [9.694 s, 55 proof obligations]  verified
+Linearising   [0.9953399 s]
 
 Verifying CheckWellformed$$_module.__default.WS__IsValidTrace ...
-  [4.203 s, 755 proof obligations]  verified
-Linearising   [0.5937372 s]
+  [8.347 s, 755 proof obligations]  verified
 
 Verifying CheckWellformed$$_module.__default.WS__CalcNewState ...
-  [5.888 s, 1030 proof obligations]  verified
-Linearising   [0.8125613 s]
+  [11.348 s, 1030 proof obligations]  verified
+Linearising   [0.9095671 s]
 
 Verifying CheckWellformed$$_module.__default.WS__CalcDMTrace ...
-  [7.829 s, 1735 proof obligations]  verified
-Linearising   [2.0470714 s]
+  [14.962 s, 1735 proof obligations]  verified
+Linearising   [1.9797037 s]
 
 Verifying CheckWellformed$$_module.__default.WS__CalcNewStates ...
-  [128.157 s, 2864 proof obligations]  verified
+  [239.759 s, 2864 proof obligations]  verified
 
 Verifying CheckWellformed$$_module.__default.Lemma__WS__CalcNewStates__Private2 ...
-  [3.328 s, 4 proof obligations]  verified
-Linearising   [1.2813142 s]
+  [3.047 s, 4 proof obligations]  verified
+Linearising   [1.1259876 s]
 
 Verifying Impl$$_module.__default.Lemma__WS__CalcNewStates__Private2 ...
-  [5.524 s, 621 proof obligations]  verified
+  [5.477 s, 621 proof obligations]  verified
 
 Verifying CheckWellformed$$_module.__default.Lemma__WS__ProveSP2__Private ...
-  [3.391 s, 56 proof obligations]  verified
+  [3.273 s, 56 proof obligations]  verified
 
 Verifying Impl$$_module.__default.Lemma__WS__ProveSP2__Private ...
-  [3.672 s, 3 proof obligations]  verified
+  [3.511 s, 3 proof obligations]  verified
 
 Verifying CheckWellformed$$_module.__default.Lemma__IfWSTraceIsValid__ThenDMTraceIsValid ...
-  [3.125 s, 183 proof obligations]  verified
+  [2.923 s, 183 proof obligations]  verified
 
 Verifying Impl$$_module.__default.Lemma__IfWSTraceIsValid__ThenDMTraceIsValid ...
-  [3.047 s, 4 proof obligations]  verified
+  [2.930 s, 4 proof obligations]  verified
 
 Dafny program verifier finished with 22 verified, 0 errors
 

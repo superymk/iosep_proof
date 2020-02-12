@@ -1,4 +1,4 @@
-[TRACE] Using prover: D:\utils\dafny\z3\bin\z3.exe
+[TRACE] Using prover: E:\utils\dafny-v2.1\z3\bin\z3.exe
 Dafny 2.1.1.10209
 Parsing DM_AdditionalPropertiesLemmas.dfy
 ../DetailedModel/SecurityProperties.dfy(69,12): Warning: Selected triggers: {states[i]} (may loop with "states[i + 1]")
@@ -82,94 +82,93 @@ Coalescing blocks...
 Inlining...
 
 Running abstract interpretation...
-  [0.6562322 s]
-[TRACE] Using prover: D:\utils\dafny\z3\bin\z3.exe
-Linearising   [0.5000689 s]
+  [0.5585056 s]
+[TRACE] Using prover: E:\utils\dafny-v2.1\z3\bin\z3.exe
+Linearising   [0.5056467 s]
 
 Verifying CheckWellformed$$_module.__default.DM__DetailedTrace__IsValidTrace ...
-  [13.345 s, 1007 proof obligations]  verified
-Linearising   [0.5470211 s]
+  [25.390 s, 1007 proof obligations]  verified
 
 Verifying CheckWellformed$$_module.__default.ValidDMTrace__Concat ...
-  [4.875 s, 685 proof obligations]  verified
+  [21.081 s, 685 proof obligations]  verified
 
 Verifying CheckWellformed$$_module.__default.Lemma__DMTraceConcat__IsConcatOfDMOps ...
-  [3.334 s, 321 proof obligations]  verified
+  [13.493 s, 321 proof obligations]  verified
 
 Verifying Impl$$_module.__default.Lemma__DMTraceConcat__IsConcatOfDMOps ...
-  [2.875 s, 1 proof obligation]  verified
+  [5.965 s, 1 proof obligation]  verified
 
 Verifying Impl$$_module.__default.Lemma__ConcatFourOpSeq ...
-  [2.922 s, 1 proof obligation]  verified
-Linearising   [0.5782021 s]
+  [4.233 s, 1 proof obligation]  verified
 
 Verifying CheckWellformed$$_module.__default.ConvertDetailedTraceToTrace ...
-  [7.407 s, 1132 proof obligations]  verified
-Linearising   [1.1562957 s]
+  [25.022 s, 1132 proof obligations]  verified
+Linearising   [3.4467785 s]
 
 Verifying CheckWellformed$$_module.__default.ConvertTraceToDetailedTrace ...
-  [63.069 s, 2190 proof obligations]  verified
-Linearising   [0.8281897 s]
+  [95.557 s, 2190 proof obligations]  verified
+Linearising   [2.9211857 s]
 
 Verifying CheckWellformed$$_module.__default.Lemma__ValidDetailedTraceInsertValidStateAndChainedAtFirst ...
-  [5.797 s, 1795 proof obligations]  verified
-Linearising   [2.0469867 s]
+  [22.136 s, 1795 proof obligations]  verified
+Linearising   [1.9527767 s]
 
 Verifying Impl$$_module.__default.Lemma__ValidDetailedTraceInsertValidStateAndChainedAtFirst ...
-  [16.223 s, 2848 proof obligations]  verified
+  [27.272 s, 2848 proof obligations]  verified
 
 Verifying CheckWellformed$$_module.__default.P__DMState__UnchangedStateVarsAndFields ...
-  [3.016 s, 24 proof obligations]  verified
+  [9.084 s, 24 proof obligations]  verified
 
 Verifying Impl$$_module.__default.Lemma__P__DMState__UnchangedStateVarsAndFields__Transitivity ...
-  [2.750 s, 9 proof obligations]  verified
+  [9.750 s, 9 proof obligations]  verified
 
 Verifying CheckWellformed$$_module.__default.Lemma__WS__UnchangedStateVars__ProveSameSubjObjIDsAndRedPID ...
-  [3.000 s, 81 proof obligations]  verified
+  [5.122 s, 81 proof obligations]  verified
 
 Verifying Impl$$_module.__default.Lemma__WS__UnchangedStateVars__ProveSameSubjObjIDsAndRedPID ...
-  [7.579 s, 77 proof obligations]  verified
+  [22.860 s, 77 proof obligations]  verified
 
 Verifying CheckWellformed$$_module.__default.Lemma__DM__TwoSubjectsCannotOwnSameObj ...
-  [2.875 s, 2 proof obligations]  verified
+  [3.728 s, 2 proof obligations]  verified
 
 Verifying Impl$$_module.__default.Lemma__DM__TwoSubjectsCannotOwnSameObj ...
-  [2.781 s, 18 proof obligations]  verified
+  [10.028 s, 18 proof obligations]  verified
 
 Verifying CheckWellformed$$_module.__default.Lemma__ExternalObjsActivateDeactivate__ProvePreConditions ...
-  [2.672 s, 2 proof obligations]  verified
+  [6.175 s, 2 proof obligations]  verified
 
 Verifying Impl$$_module.__default.Lemma__ExternalObjsActivateDeactivate__ProvePreConditions ...
-  [2.859 s, 7 proof obligations]  verified
+  [8.795 s, 7 proof obligations]  verified
 
 Verifying CheckWellformed$$_module.__default.Lemma__WS__DevDeactivate__FromRed__Multi__ProveProperty9 ...
-  [2.766 s, 188 proof obligations]  verified
+  [8.806 s, 188 proof obligations]  verified
 
 Verifying Impl$$_module.__default.Lemma__WS__DevDeactivate__FromRed__Multi__ProveProperty9 ...
-  [2.781 s, 1 proof obligation]  verified
+  [4.622 s, 1 proof obligation]  verified
 
 Verifying CheckWellformed$$_module.__default.P__DM__DevDeactivate__ModificationToState ...
-  [2.766 s, 11 proof obligations]  verified
+  [3.871 s, 11 proof obligations]  verified
+Linearising   [0.5136252 s]
 
 Verifying CheckWellformed$$_module.__default.Lemma__ConvertTraceToDetailedTrace__ProveDM__CalcNewStates ...
-  [13.534 s, 1019 proof obligations]  verified
-Linearising   [0.8590176 s]
+  [19.784 s, 1019 proof obligations]  verified
+Linearising   [0.7160835 s]
 
 Verifying Impl$$_module.__default.Lemma__ConvertTraceToDetailedTrace__ProveDM__CalcNewStates ...
-  [5.038 s, 1831 proof obligations]  verified
+  [6.705 s, 1831 proof obligations]  verified
 
 Verifying CheckWellformed$$_module.__default.Lemma__DetailedTraceIsInvalid__IfDetailedSubTraceIsInvalid ...
-  [3.453 s, 40 proof obligations]  verified
+  [3.717 s, 40 proof obligations]  verified
 
 Verifying Impl$$_module.__default.Lemma__DetailedTraceIsInvalid__IfDetailedSubTraceIsInvalid ...
-  [14.178 s, 1 proof obligation]  verified
+  [21.510 s, 1 proof obligation]  verified
 
 Verifying CheckWellformed$$_module.__default.Lemma__ValidDMTrace__Concat__ProveResultDetailedTraceIsValid ...
-  [2.750 s, 6 proof obligations]  verified
-Linearising   [3.953406 s]
+  [3.832 s, 6 proof obligations]  verified
+Linearising   [3.5774302 s]
 
 Verifying Impl$$_module.__default.Lemma__ValidDMTrace__Concat__ProveResultDetailedTraceIsValid ...
-  [29.311 s, 4283 proof obligations]  verified
+  [35.824 s, 4283 proof obligations]  verified
 
 Dafny program verifier finished with 26 verified, 0 errors
 

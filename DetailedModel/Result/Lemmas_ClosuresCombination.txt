@@ -1,4 +1,4 @@
-[TRACE] Using prover: D:\utils\dafny\z3\bin\z3.exe
+[TRACE] Using prover: E:\utils\dafny-v2.1\z3\bin\z3.exe
 Dafny 2.1.1.10209
 Parsing Lemmas_ClosuresCombination.dfy
 K_AdditionalPropertiesLemmas.dfy(112,12): Warning: /!\ No terms found to trigger on.
@@ -75,185 +75,185 @@ Coalescing blocks...
 Inlining...
 
 Running abstract interpretation...
-  [1.281221 s]
-[TRACE] Using prover: D:\utils\dafny\z3\bin\z3.exe
+  [0.2204104 s]
+[TRACE] Using prover: E:\utils\dafny-v2.1\z3\bin\z3.exe
 
 Verifying CheckWellformed$$_module.__default.ReachableTDsStates__PreConditionsOfK ...
-  [27.249 s, 12 proof obligations]  verified
+  [11.034 s, 12 proof obligations]  verified
 
 Verifying CheckWellformed$$_module.__default.WKStateToKState__AnyClrXTDsStatesReachableFromClrXTDsStates0HaveNoInvalidRefsInTDs ...
-  [10.348 s, 39 proof obligations]  verified
+  [3.649 s, 39 proof obligations]  verified
 
 Verifying CheckWellformed$$_module.__default.WKStateToKState__WKTDsStateAreTheMergeOfClrATDsStateAndClrBTDsState ...
-  [7.781 s, 9 proof obligations]  verified
+  [2.368 s, 9 proof obligations]  verified
 
 Verifying CheckWellformed$$_module.__default.WKStateToKState__ClrAAndClrBHaveOwnTDsAndTDsStates ...
-  [75.695 s, 34 proof obligations]  verified
+  [33.724 s, 34 proof obligations]  verified
 
 Verifying CheckWellformed$$_module.__default.WKStateToKState__SubjsOwnObjsThenInSamePartition ...
-  [6.547 s, 9 proof obligations]  verified
+  [3.623 s, 9 proof obligations]  verified
 
 Verifying CheckWellformed$$_module.__default.Lemma__WKStateToKState__ActiveClrADevsNeverReadClrBTDs ...
-  [21.253 s, 70 proof obligations]  verified
+  [14.618 s, 70 proof obligations]  verified
 
 Verifying Impl$$_module.__default.Lemma__WKStateToKState__ActiveClrADevsNeverReadClrBTDs ...
-  [126.869 s, 137 proof obligations]  verified
+  [110.337 s, 137 proof obligations]  verified
 
 Verifying CheckWellformed$$_module.__default.Lemma__WKStateToKState__NoInvalidRefInClrAAndClrBTDsState__ThenNoInvalidRefInKTDsState ...
-  [11.677 s, 74 proof obligations]  verified
+  [14.137 s, 74 proof obligations]  verified
 
 Verifying Impl$$_module.__default.Lemma__WKStateToKState__NoInvalidRefInClrAAndClrBTDsState__ThenNoInvalidRefInKTDsState ...
-  [21.421 s, 166 proof obligations]  verified
+  [23.730 s, 166 proof obligations]  verified
 
 Verifying CheckWellformed$$_module.__default.Lemma__WKStateToKState__ActiveClrADevsNeverModifyClrBTDs ...
-  [4.305 s, 67 proof obligations]  verified
+  [12.028 s, 67 proof obligations]  verified
 
 Verifying Impl$$_module.__default.Lemma__WKStateToKState__ActiveClrADevsNeverModifyClrBTDs ...
-  [62.031 s, 132 proof obligations]  verified
+  [72.830 s, 132 proof obligations]  verified
 
 Verifying CheckWellformed$$_module.__default.Lemma__IfClrADevCauseKTDsStateCanBeReachedInOneStep__ThenClrATDsStateCanBeReachedInOneStep ...
-  [7.357 s, 90 proof obligations]  verified
+  [10.874 s, 90 proof obligations]  verified
 
 Verifying Impl$$_module.__default.Lemma__IfClrADevCauseKTDsStateCanBeReachedInOneStep__ThenClrATDsStateCanBeReachedInOneStep ...
-  [99.698 s, 249 proof obligations]  verified
+  [125.124 s, 249 proof obligations]  verified
 
 Verifying CheckWellformed$$_module.__default.Lemma__WKStateToState__AllReachableStatesAreSecure ...
-  [3.764 s, 73 proof obligations]  verified
+  [4.495 s, 73 proof obligations]  verified
 
 Verifying Impl$$_module.__default.Lemma__WKStateToState__AllReachableStatesAreSecure ...
-  [3.536 s, 194 proof obligations]  verified
+  [3.635 s, 194 proof obligations]  verified
 
 Verifying CheckWellformed$$_module.__default.Lemma__ActiveClrADevsHaveDifferentPIDsWithActiveClrBTDs__AndViceVersa ...
-  [4.023 s, 36 proof obligations]  verified
+  [4.959 s, 36 proof obligations]  verified
 
 Verifying Impl$$_module.__default.Lemma__ActiveClrADevsHaveDifferentPIDsWithActiveClrBTDs__AndViceVersa ...
-  [2.728 s, 2 proof obligations]  verified
+  [2.798 s, 2 proof obligations]  verified
 
 Verifying CheckWellformed$$_module.__default.Lemma__ReachableClrTDsStateHasNoInvalidRef ...
-  [2.649 s, 35 proof obligations]  verified
+  [2.652 s, 35 proof obligations]  verified
 
 Verifying Impl$$_module.__default.Lemma__ReachableClrTDsStateHasNoInvalidRef ...
-  [3.047 s, 1 proof obligation]  verified
+  [2.642 s, 1 proof obligation]  verified
 
 Verifying CheckWellformed$$_module.__default.Lemma__WKStateToState__FindReachableTDsStatesFromTDsState__AlwaysReturnsTrue__ReachableActiveTDsStatesHaveNoInvalidRefs__Summary ...
-  [2.706 s, 41 proof obligations]  verified
+  [2.771 s, 41 proof obligations]  verified
 
 Verifying Impl$$_module.__default.Lemma__WKStateToState__FindReachableTDsStatesFromTDsState__AlwaysReturnsTrue__ReachableActiveTDsStatesHaveNoInvalidRefs__Summary ...
-  [2.566 s, 1 proof obligation]  verified
+  [3.356 s, 1 proof obligation]  verified
 
 Verifying CheckWellformed$$_module.__default.Lemma__WKStateToKState__ReachableActiveTDsStatesHaveNoInvalidRefs__ActiveRedGreenTDsAreInKTDsState ...
-  [2.675 s, 1 proof obligation]  verified
+  [2.515 s, 1 proof obligation]  verified
 
 Verifying Impl$$_module.__default.Lemma__WKStateToKState__ReachableActiveTDsStatesHaveNoInvalidRefs__ActiveRedGreenTDsAreInKTDsState ...
-  [2.664 s, 2 proof obligations]  verified
+  [2.628 s, 2 proof obligations]  verified
 
 Verifying CheckWellformed$$_module.__default.Lemma__WKStateToKState__ReachableActiveTDsStatesHaveNoInvalidRefs__MultipleTDsStates__Summary ...
-  [6.579 s, 60 proof obligations]  verified
+  [6.101 s, 60 proof obligations]  verified
 
 Verifying Impl$$_module.__default.Lemma__WKStateToKState__ReachableActiveTDsStatesHaveNoInvalidRefs__MultipleTDsStates__Summary ...
-  [2.679 s, 1 proof obligation]  verified
+  [2.075 s, 1 proof obligation]  verified
 
 Verifying CheckWellformed$$_module.__default.Lemma__WKStateToKState__ReachableActiveTDsStatesHaveNoInvalidRefs__MultipleTDsStates ...
-  [76.602 s, 153 proof obligations]  verified
+  [79.414 s, 153 proof obligations]  verified
 
 Verifying Impl$$_module.__default.Lemma__WKStateToKState__ReachableActiveTDsStatesHaveNoInvalidRefs__MultipleTDsStates ...
-  [10.963 s, 399 proof obligations]  verified
+  [10.566 s, 399 proof obligations]  verified
 
 Verifying CheckWellformed$$_module.__default.Lemma__WKStateToKState__ReachableActiveTDsStatesHaveNoInvalidRefs__TwoTDsStates ...
-  [65.712 s, 116 proof obligations]  verified
+  [70.759 s, 116 proof obligations]  verified
 
 Verifying Impl$$_module.__default.Lemma__WKStateToKState__ReachableActiveTDsStatesHaveNoInvalidRefs__TwoTDsStates ...
-  [52.703 s, 279 proof obligations]  verified
+  [55.477 s, 279 proof obligations]  verified
 
 Verifying CheckWellformed$$_module.__default.Lemma__WKStateToKState__ReachableActiveTDsStatesHaveNoInvalidRefs__Internal ...
-  [67.402 s, 118 proof obligations]  verified
+  [64.848 s, 118 proof obligations]  verified
 
 Verifying Impl$$_module.__default.Lemma__WKStateToKState__ReachableActiveTDsStatesHaveNoInvalidRefs__Internal ...
-  [50.031 s, 378 proof obligations]  verified
+  [50.972 s, 378 proof obligations]  verified
 
 Verifying CheckWellformed$$_module.__default.Lemma__WKStateToKState__ReachableActiveTDsStatesHaveNoInvalidRefs ...
-  [50.244 s, 90 proof obligations]  verified
+  [48.091 s, 90 proof obligations]  verified
 
 Verifying Impl$$_module.__default.Lemma__WKStateToKState__ReachableActiveTDsStatesHaveNoInvalidRefs ...
-  [6.597 s, 123 proof obligations]  verified
+  [6.463 s, 123 proof obligations]  verified
 
 Verifying CheckWellformed$$_module.__default.Lemma__WKStateToState__AllReachableStatesAreSecure__PreConditions1 ...
-  [2.193 s, 33 proof obligations]  verified
+  [1.529 s, 33 proof obligations]  verified
 
 Verifying Impl$$_module.__default.Lemma__WKStateToState__AllReachableStatesAreSecure__PreConditions1 ...
-  [5.778 s, 41 proof obligations]  verified
+  [5.367 s, 41 proof obligations]  verified
 
 Verifying CheckWellformed$$_module.__default.Lemma__WKStateToState__AllReachableStatesAreSecure__PreConditions2 ...
-  [1.962 s, 43 proof obligations]  verified
+  [1.565 s, 43 proof obligations]  verified
 
 Verifying Impl$$_module.__default.Lemma__WKStateToState__AllReachableStatesAreSecure__PreConditions2 ...
-  [11.449 s, 89 proof obligations]  verified
+  [11.055 s, 89 proof obligations]  verified
 
 Verifying CheckWellformed$$_module.__default.Lemma__WKStateToState__AllReachableStatesAreSecure__FirstTDsState ...
-  [2.082 s, 64 proof obligations]  verified
+  [1.731 s, 64 proof obligations]  verified
 
 Verifying Impl$$_module.__default.Lemma__WKStateToState__AllReachableStatesAreSecure__FirstTDsState ...
-  [3.328 s, 160 proof obligations]  verified
+  [2.838 s, 160 proof obligations]  verified
 
 Verifying CheckWellformed$$_module.__default.Lemma__WKStateToState__AllReachableStatesAreSecure__ChainedTDsStates ...
-  [1.968 s, 73 proof obligations]  verified
+  [1.887 s, 73 proof obligations]  verified
 
 Verifying Impl$$_module.__default.Lemma__WKStateToState__AllReachableStatesAreSecure__ChainedTDsStates ...
-  [9.010 s, 197 proof obligations]  verified
+  [8.265 s, 197 proof obligations]  verified
 
 Verifying CheckWellformed$$_module.__default.MaskTDsState ...
-  [1.996 s, 7 proof obligations]  verified
+  [1.776 s, 7 proof obligations]  verified
 
 Verifying CheckWellformed$$_module.__default.MergeTDsState ...
-  [1.832 s, 9 proof obligations]  verified
+  [1.486 s, 9 proof obligations]  verified
 
 Verifying CheckWellformed$$_module.__default.HCodedTDOfDev ...
-  [1.849 s, 1 proof obligation]  verified
+  [1.353 s, 1 proof obligation]  verified
 
 Verifying CheckWellformed$$_module.__default.GetTransfersToTDsInHCodedTD__SlimState ...
-  [1.855 s, 2 proof obligations]  verified
+  [1.823 s, 2 proof obligations]  verified
 
 Verifying CheckWellformed$$_module.__default.Lemma__MergeTDsState__SameTDsDiff ...
-  [1.815 s, 8 proof obligations]  verified
+  [1.567 s, 8 proof obligations]  verified
 
 Verifying Impl$$_module.__default.Lemma__MergeTDsState__SameTDsDiff ...
-  [1.830 s, 1 proof obligation]  verified
+  [1.763 s, 1 proof obligation]  verified
 
 Verifying CheckWellformed$$_module.__default.Lemma__CanActiveDevReadActiveTD__ActiveDevsCannotReadTDsInAnotherPartition ...
-  [2.587 s, 56 proof obligations]  verified
+  [2.341 s, 56 proof obligations]  verified
 
 Verifying Impl$$_module.__default.Lemma__CanActiveDevReadActiveTD__ActiveDevsCannotReadTDsInAnotherPartition ...
-  [6.003 s, 79 proof obligations]  verified
+  [5.587 s, 79 proof obligations]  verified
 
 Verifying CheckWellformed$$_module.__default.Lemma__K__ActiveSubjsDevsIsActiveRedSubjsDevsPlusActiveGreenSubjsDevs ...
-  [1.847 s, 6 proof obligations]  verified
+  [1.423 s, 6 proof obligations]  verified
 
 Verifying Impl$$_module.__default.Lemma__K__ActiveSubjsDevsIsActiveRedSubjsDevsPlusActiveGreenSubjsDevs ...
-  [2.722 s, 30 proof obligations]  verified
+  [2.029 s, 30 proof obligations]  verified
 
 Verifying CheckWellformed$$_module.__default.Lemma__K__ActiveSubjsOwnedTDsAreInActiveTDsSet ...
-  [2.001 s, 29 proof obligations]  verified
+  [1.688 s, 29 proof obligations]  verified
 
 Verifying Impl$$_module.__default.Lemma__K__ActiveSubjsOwnedTDsAreInActiveTDsSet ...
-  [1.961 s, 24 proof obligations]  verified
+  [1.889 s, 24 proof obligations]  verified
 
 Verifying CheckWellformed$$_module.__default.Lemma__K__ActiveTDsIsTDsInRedPlusTDsInGreen ...
-  [2.027 s, 13 proof obligations]  verified
+  [1.517 s, 13 proof obligations]  verified
 
 Verifying Impl$$_module.__default.Lemma__K__ActiveTDsIsTDsInRedPlusTDsInGreen ...
-  [2.195 s, 11 proof obligations]  verified
+  [1.956 s, 11 proof obligations]  verified
 
 Verifying CheckWellformed$$_module.__default.Lemma__WKStateToState__AllReachableStatesAreSecure__PreConditions2__Inner ...
-  [2.884 s, 47 proof obligations]  verified
+  [2.598 s, 47 proof obligations]  verified
 
 Verifying Impl$$_module.__default.Lemma__WKStateToState__AllReachableStatesAreSecure__PreConditions2__Inner ...
-  [10.393 s, 129 proof obligations]  verified
+  [9.849 s, 129 proof obligations]  verified
 
 Verifying CheckWellformed$$_module.__default.Lemma__K__WholeClosureIsGood__ThenSubsetClosureIsGood ...
-  [1.947 s, 20 proof obligations]  verified
+  [1.850 s, 20 proof obligations]  verified
 
 Verifying Impl$$_module.__default.Lemma__K__WholeClosureIsGood__ThenSubsetClosureIsGood ...
-  [2.292 s, 46 proof obligations]  verified
+  [2.136 s, 46 proof obligations]  verified
 
 Dafny program verifier finished with 59 verified, 0 errors
 

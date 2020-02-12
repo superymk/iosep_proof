@@ -1,4 +1,4 @@
-[TRACE] Using prover: D:\utils\dafny\z3\bin\z3.exe
+[TRACE] Using prover: E:\utils\dafny-v2.1\z3\bin\z3.exe
 Dafny 2.1.1.10209
 Parsing Lemmas_SubjDeactivate_ReachableTDsStates.dfy
 Lemmas_SubjDeactivate_ReachableTDsStates.dfy(432,12): Warning: /!\ No trigger covering all quantified variables found.
@@ -63,239 +63,236 @@ Coalescing blocks...
 Inlining...
 
 Running abstract interpretation...
-  [1.5624649 s]
-[TRACE] Using prover: D:\utils\dafny\z3\bin\z3.exe
+  [0.6981318 s]
+[TRACE] Using prover: E:\utils\dafny-v2.1\z3\bin\z3.exe
 
 Verifying CheckWellformed$$_module.__default.SubjObjDeactivate__CommonPreConditionsOfKAndNewK ...
-  [101.651 s, 159 proof obligations]  verified
-Linearising   [0.9218514 s]
+  [47.601 s, 159 proof obligations]  verified
 
 Verifying CheckWellformed$$_module.__default.Lemma__SubjObjDeactivate__FindReachableTDsStatesFromTDsState__AlwaysReturnsTrue ...
-  [15.312 s, 28 proof obligations]  verified
+  [15.052 s, 28 proof obligations]  verified
 
 Verifying Impl$$_module.__default.Lemma__SubjObjDeactivate__FindReachableTDsStatesFromTDsState__AlwaysReturnsTrue ...
-  [222.102 s, 275 proof obligations]  verified
+  [122.472 s, 275 proof obligations]  verified
 
 Verifying CheckWellformed$$_module.__default.NoActiveDevHasTransferToObjsInReachableActiveTDsStates ...
-  [2.372 s, 18 proof obligations]  verified
+  [7.629 s, 18 proof obligations]  verified
 
 Verifying CheckWellformed$$_module.__default.SubjObjDeactivate__PreConditionsOfK ...
-  [4.089 s, 40 proof obligations]  verified
+  [11.709 s, 40 proof obligations]  verified
 
 Verifying CheckWellformed$$_module.__default.SubjObjDeactivate__UnchangedStateVarsBetweenKandNewK__SlimState ...
-  [1.984 s, 28 proof obligations]  verified
+  [5.377 s, 28 proof obligations]  verified
 
 Verifying CheckWellformed$$_module.__default.SubjObjDeactivate__UnchangedStateVarsBetweenKandNewK ...
-  [2.039 s, 28 proof obligations]  verified
+  [4.307 s, 28 proof obligations]  verified
 
 Verifying CheckWellformed$$_module.__default.SubjObjDeactivate__SubjsObjsPIDsInNewK ...
-  [2.287 s, 14 proof obligations]  verified
+  [4.991 s, 14 proof obligations]  verified
 
 Verifying CheckWellformed$$_module.__default.SubjObjDeactivate__PreConditionsOfSubjObjToDeactivate ...
-  [10.565 s, 57 proof obligations]  verified
+  [11.715 s, 57 proof obligations]  verified
 
 Verifying CheckWellformed$$_module.__default.SubjObjDeactivate__ReachableActiveTDsStatesInK__Fulfill51And3And5And6 ...
-  [3.217 s, 72 proof obligations]  verified
+  [7.942 s, 72 proof obligations]  verified
 
 Verifying CheckWellformed$$_module.__default.SubjObjDeactivate__ReachableActiveTDsStatesInK__FulfillConditionsToTDsBeingDeactivated ...
-  [2.010 s, 46 proof obligations]  verified
+  [5.024 s, 46 proof obligations]  verified
 
 Verifying CheckWellformed$$_module.__default.SubjObjDeactivate__ReachableActiveTDsStatesInK__FulfillConditionsToFDsAndDOsBeingDeactivated ...
-  [32.256 s, 111 proof obligations]  verified
+  [28.350 s, 111 proof obligations]  verified
 
 Verifying CheckWellformed$$_module.__default.P__SubjObjDeactivate__IfTDsInReachableTDsStatesInNewKIsSecure__ThenTDsInReachableTDsStatesInKIsSecure ...
-  [5.801 s, 39 proof obligations]  verified
+  [10.943 s, 39 proof obligations]  verified
 
 Verifying CheckWellformed$$_module.__default.Lemma__SubjObjDeactivate__TDsStateIsValidBeforeRemoveTDsIfValidAfter ...
-  [15.824 s, 182 proof obligations]  verified
-Linearising   [0.5168392 s]
+  [19.359 s, 182 proof obligations]  verified
 
 Verifying Impl$$_module.__default.Lemma__SubjObjDeactivate__TDsStateIsValidBeforeRemoveTDsIfValidAfter ...
-  [226.256 s, 376 proof obligations]  verified
+  [220.598 s, 376 proof obligations]  verified
 
 Verifying CheckWellformed$$_module.__default.P__ObjsToBeDeactivatedAreInactiveInNewK__AndNoActiveDevsInNewKHaveTransferToThem ...
-  [41.374 s, 82 proof obligations]  verified
+  [33.851 s, 82 proof obligations]  verified
 
 Verifying CheckWellformed$$_module.__default.Lemma__SubjObjDeactivate__TDsStateIsValidAfterAddTDsIfValidBefore ...
-  [2.719 s, 138 proof obligations]  verified
+  [1.742 s, 138 proof obligations]  verified
 
 Verifying Impl$$_module.__default.Lemma__SubjObjDeactivate__TDsStateIsValidAfterAddTDsIfValidBefore ...
-  [79.818 s, 233 proof obligations]  verified
+  [64.406 s, 233 proof obligations]  verified
 
 Verifying CheckWellformed$$_module.__default.Lemma__SubjObjDeactivate__ReachableActiveTDsStateInNewKHasNoInvalidRefs ...
-  [14.542 s, 199 proof obligations]  verified
-Linearising   [0.5781102 s]
+  [10.236 s, 199 proof obligations]  verified
 
 Verifying Impl$$_module.__default.Lemma__SubjObjDeactivate__ReachableActiveTDsStateInNewKHasNoInvalidRefs ...
-  [139.025 s, 631 proof obligations]  verified
+  [92.785 s, 631 proof obligations]  verified
 
 Verifying CheckWellformed$$_module.__default.Lemma__SubjObjDeactivate__PropertyOfKToKParams ...
-  [1.964 s, 10 proof obligations]  verified
+  [1.284 s, 10 proof obligations]  verified
 
 Verifying Impl$$_module.__default.Lemma__SubjObjDeactivate__PropertyOfKToKParams ...
-  [1.688 s, 2 proof obligations]  verified
+  [0.976 s, 2 proof obligations]  verified
 
 Verifying CheckWellformed$$_module.__default.Lemma__SubjObjDeactivate__TDsStateIsValidBeforeRemoveTDsIfValidAfter__Induction__ActiveTDsStatesInKCanReach__Private ...
-  [15.098 s, 180 proof obligations]  verified
+  [9.016 s, 180 proof obligations]  verified
 
 Verifying Impl$$_module.__default.Lemma__SubjObjDeactivate__TDsStateIsValidBeforeRemoveTDsIfValidAfter__Induction__ActiveTDsStatesInKCanReach__Private ...
-  [77.976 s, 314 proof obligations]  verified
+  [53.850 s, 314 proof obligations]  verified
 
 Verifying CheckWellformed$$_module.__default.Lemma__SubjObjDeactivate__TDsStateIsValidBeforeRemoveTDsIfValidAfter__Induction__PropertyOfAddTDs ...
-  [2.434 s, 6 proof obligations]  verified
+  [1.466 s, 6 proof obligations]  verified
 
 Verifying Impl$$_module.__default.Lemma__SubjObjDeactivate__TDsStateIsValidBeforeRemoveTDsIfValidAfter__Induction__PropertyOfAddTDs ...
-  [1.735 s, 13 proof obligations]  verified
+  [1.183 s, 13 proof obligations]  verified
 
 Verifying CheckWellformed$$_module.__default.Lemma__SubjObjDeactivate__TDsStateIsValidBeforeRemoveTDsIfValidAfter__Induction__Private ...
-  [14.662 s, 237 proof obligations]  verified
+  [8.916 s, 237 proof obligations]  verified
 
 Verifying Impl$$_module.__default.Lemma__SubjObjDeactivate__TDsStateIsValidBeforeRemoveTDsIfValidAfter__Induction__Private ...
-  [445.920 s, 178 proof obligations]  verified
+  [277.678 s, 178 proof obligations]  verified
 
 Verifying CheckWellformed$$_module.__default.Lemma__SubjObjDeactivate__ActiveTDsStateInNewKConcatWithAddTDs__EqualToActiveTDsStateInK ...
-  [1.983 s, 4 proof obligations]  verified
+  [1.386 s, 4 proof obligations]  verified
 
 Verifying Impl$$_module.__default.Lemma__SubjObjDeactivate__ActiveTDsStateInNewKConcatWithAddTDs__EqualToActiveTDsStateInK ...
-  [1.433 s, 18 proof obligations]  verified
+  [0.822 s, 18 proof obligations]  verified
 
 Verifying CheckWellformed$$_module.__default.Lemma__SubjObjDeactivate__ActiveTDsStateInNewKConcatWithAddTDs__ResultContainsAllActiveTDsInK ...
-  [1.367 s, 4 proof obligations]  verified
+  [0.731 s, 4 proof obligations]  verified
 
 Verifying Impl$$_module.__default.Lemma__SubjObjDeactivate__ActiveTDsStateInNewKConcatWithAddTDs__ResultContainsAllActiveTDsInK ...
-  [1.350 s, 1 proof obligation]  verified
+  [0.725 s, 1 proof obligation]  verified
 
 Verifying CheckWellformed$$_module.__default.Lemma__SubjObjDeactivate__TDsStateIsValidBeforeRemoveTDsIfValidAfter__Base__ActiveTDsStatesInKCanReach__Private ...
-  [10.461 s, 164 proof obligations]  verified
+  [5.837 s, 164 proof obligations]  verified
 
 Verifying Impl$$_module.__default.Lemma__SubjObjDeactivate__TDsStateIsValidBeforeRemoveTDsIfValidAfter__Base__ActiveTDsStatesInKCanReach__Private ...
-  [166.129 s, 371 proof obligations]  verified
+  [107.791 s, 371 proof obligations]  verified
 
 Verifying CheckWellformed$$_module.__default.Lemma__SubjObjDeactivate__TDsStateIsValidBeforeRemoveTDsIfValidAfter__Base__ActiveTDsStatesInKCanReach ...
-  [9.559 s, 182 proof obligations]  verified
+  [6.172 s, 182 proof obligations]  verified
 
 Verifying Impl$$_module.__default.Lemma__SubjObjDeactivate__TDsStateIsValidBeforeRemoveTDsIfValidAfter__Base__ActiveTDsStatesInKCanReach ...
-  [14.347 s, 172 proof obligations]  verified
+  [9.233 s, 172 proof obligations]  verified
 
 Verifying CheckWellformed$$_module.__default.Lemma__SubjObjDeactivate__TDsStateIsValidAfterAddTDsIffValidBefore__NewKFulfillsKParamsPreConditions ...
-  [1.132 s, 5 proof obligations]  verified
+  [0.913 s, 5 proof obligations]  verified
 
 Verifying Impl$$_module.__default.Lemma__SubjObjDeactivate__TDsStateIsValidAfterAddTDsIffValidBefore__NewKFulfillsKParamsPreConditions ...
-  [1.234 s, 6 proof obligations]  verified
+  [0.788 s, 6 proof obligations]  verified
 
 Verifying CheckWellformed$$_module.__default.Lemma__SubjObjDeactivate__CertainVarsInKParamsAndNewKParamsAreSame ...
-  [1.239 s, 30 proof obligations]  verified
+  [0.797 s, 30 proof obligations]  verified
 
 Verifying Impl$$_module.__default.Lemma__SubjObjDeactivate__CertainVarsInKParamsAndNewKParamsAreSame ...
-  [1.805 s, 3 proof obligations]  verified
+  [1.147 s, 3 proof obligations]  verified
 
 Verifying CheckWellformed$$_module.__default.Lemma__SubjObjDeactivate__TDsStateIsValidAfterAddTDsIffValidBefore__ActiveTDsInKAndNewKHaveNoInvalidTransfersInBothActiveTDsStates ...
-  [16.401 s, 140 proof obligations]  verified
+  [10.318 s, 140 proof obligations]  verified
 
 Verifying Impl$$_module.__default.Lemma__SubjObjDeactivate__TDsStateIsValidAfterAddTDsIffValidBefore__ActiveTDsInKAndNewKHaveNoInvalidTransfersInBothActiveTDsStates ...
-  [1.741 s, 322 proof obligations]  verified
+  [1.134 s, 322 proof obligations]  verified
 
 Verifying CheckWellformed$$_module.__default.Lemma__SubjObjDeactivate__TDsStateIsValidAfterAddTDsIffValidBefore__ActiveTDsInKAndNewKHaveNoInvalidTransfersInBothActiveTDsStates__TDs ...
-  [19.285 s, 93 proof obligations]  verified
+  [12.155 s, 93 proof obligations]  verified
 
 Verifying Impl$$_module.__default.Lemma__SubjObjDeactivate__TDsStateIsValidAfterAddTDsIffValidBefore__ActiveTDsInKAndNewKHaveNoInvalidTransfersInBothActiveTDsStates__TDs ...
-  [12.326 s, 246 proof obligations]  verified
+  [8.527 s, 246 proof obligations]  verified
 
 Verifying CheckWellformed$$_module.__default.Lemma__SubjObjDeactivate__TDsStateIsValidAfterAddTDsIffValidBefore__ActiveTDsInKAndNewKHaveNoInvalidTransfersInBothActiveTDsStates__FDs ...
-  [31.420 s, 110 proof obligations]  verified
+  [21.708 s, 110 proof obligations]  verified
 
 Verifying Impl$$_module.__default.Lemma__SubjObjDeactivate__TDsStateIsValidAfterAddTDsIffValidBefore__ActiveTDsInKAndNewKHaveNoInvalidTransfersInBothActiveTDsStates__FDs ...
-  [66.432 s, 264 proof obligations]  verified
+  [46.483 s, 264 proof obligations]  verified
 
 Verifying CheckWellformed$$_module.__default.Lemma__SubjObjDeactivate__TDsStateIsValidAfterAddTDsIffValidBefore__ActiveTDsInKAndNewKHaveNoInvalidTransfersInBothActiveTDsStates__DOs ...
-  [28.034 s, 110 proof obligations]  verified
+  [19.921 s, 110 proof obligations]  verified
 
 Verifying Impl$$_module.__default.Lemma__SubjObjDeactivate__TDsStateIsValidAfterAddTDsIffValidBefore__ActiveTDsInKAndNewKHaveNoInvalidTransfersInBothActiveTDsStates__DOs ...
-  [88.419 s, 262 proof obligations]  verified
+  [62.865 s, 262 proof obligations]  verified
 
 Verifying CheckWellformed$$_module.__default.Lemma__SubjObjDeactivate__TDsStateIsValidAfterAddTDsIffValidBefore__ActiveTDsInKAndNewKHaveNoInvalidTransfersInBothActiveTDsStates__FDs__GetAModesOfObjRefedInTDNotEmpty ...
-  [1.383 s, 6 proof obligations]  verified
+  [0.926 s, 6 proof obligations]  verified
 
 Verifying Impl$$_module.__default.Lemma__SubjObjDeactivate__TDsStateIsValidAfterAddTDsIffValidBefore__ActiveTDsInKAndNewKHaveNoInvalidTransfersInBothActiveTDsStates__FDs__GetAModesOfObjRefedInTDNotEmpty ...
-  [1.092 s, 3 proof obligations]  verified
+  [0.708 s, 3 proof obligations]  verified
 
 Verifying CheckWellformed$$_module.__default.Lemma__SubjObjDeactivate__TDsStateIsValidAfterAddTDsIffValidBefore__ActiveTDsInKAndNewKHaveNoInvalidTransfersInBothActiveTDsStates__DOs__GetAModesOfObjRefedInTDNotEmpty ...
-  [1.026 s, 7 proof obligations]  verified
+  [0.676 s, 7 proof obligations]  verified
 
 Verifying Impl$$_module.__default.Lemma__SubjObjDeactivate__TDsStateIsValidAfterAddTDsIffValidBefore__ActiveTDsInKAndNewKHaveNoInvalidTransfersInBothActiveTDsStates__DOs__GetAModesOfObjRefedInTDNotEmpty ...
-  [1.119 s, 14 proof obligations]  verified
+  [0.690 s, 14 proof obligations]  verified
 
 Verifying CheckWellformed$$_module.__default.Lemma__SubjObjDeactivate__ReachableActiveTDsStateInNewKHasNoInvalidRefs__Induction__Private ...
-  [12.591 s, 223 proof obligations]  verified
+  [8.161 s, 223 proof obligations]  verified
 
 Verifying Impl$$_module.__default.Lemma__SubjObjDeactivate__ReachableActiveTDsStateInNewKHasNoInvalidRefs__Induction__Private ...
-  [10.845 s, 548 proof obligations]  verified
+  [7.385 s, 548 proof obligations]  verified
 
 Verifying CheckWellformed$$_module.__default.Lemma__SubjObjDeactivate__ReachableActiveTDsStateInNewKHasNoInvalidRefs__Induction__Private__AddTD ...
-  [1.607 s, 38 proof obligations]  verified
+  [1.336 s, 38 proof obligations]  verified
 
 Verifying Impl$$_module.__default.Lemma__SubjObjDeactivate__ReachableActiveTDsStateInNewKHasNoInvalidRefs__Induction__Private__AddTD ...
-  [6.070 s, 1 proof obligation]  verified
+  [4.202 s, 1 proof obligation]  verified
 
 Verifying CheckWellformed$$_module.__default.Lemma__IsTDsDiffReqInActiveTDsStateAndIssuedByDev__SubjsBeingDeactivatedDoNotModifyCurrentAccessesOfOtherActiveDevs ...
-  [21.085 s, 141 proof obligations]  verified
+  [14.541 s, 141 proof obligations]  verified
 
 Verifying Impl$$_module.__default.Lemma__IsTDsDiffReqInActiveTDsStateAndIssuedByDev__SubjsBeingDeactivatedDoNotModifyCurrentAccessesOfOtherActiveDevs ...
-  [24.616 s, 215 proof obligations]  verified
+  [17.233 s, 215 proof obligations]  verified
 
 Verifying CheckWellformed$$_module.__default.Lemma__IsActiveTDsStateReachActiveTDsStateInOneStep__SubjsBeingDeactivatedDoNotModifyCurrentAccessesOfOtherActiveDevs ...
-  [11.313 s, 108 proof obligations]  verified
+  [7.727 s, 108 proof obligations]  verified
 
 Verifying Impl$$_module.__default.Lemma__IsActiveTDsStateReachActiveTDsStateInOneStep__SubjsBeingDeactivatedDoNotModifyCurrentAccessesOfOtherActiveDevs ...
-  [10.119 s, 147 proof obligations]  verified
+  [6.917 s, 147 proof obligations]  verified
 
 Verifying CheckWellformed$$_module.__default.Lemma__CanActiveDevReadActiveTD__SubjObjDeactivate__IfActiveDevCanReadTDInNewK__ThenDevCanReadTDInK ...
-  [15.754 s, 83 proof obligations]  verified
+  [10.634 s, 83 proof obligations]  verified
 
 Verifying Impl$$_module.__default.Lemma__CanActiveDevReadActiveTD__SubjObjDeactivate__IfActiveDevCanReadTDInNewK__ThenDevCanReadTDInK ...
-  [2.918 s, 153 proof obligations]  verified
+  [1.957 s, 153 proof obligations]  verified
 
 Verifying CheckWellformed$$_module.__default.Lemma__CanActiveDevReadActiveTD__SubjObjDeactivate__IfActiveDevCanReadTDInK__ThenDevCanReadTDInNewK ...
-  [17.633 s, 92 proof obligations]  verified
+  [12.149 s, 92 proof obligations]  verified
 
 Verifying Impl$$_module.__default.Lemma__CanActiveDevReadActiveTD__SubjObjDeactivate__IfActiveDevCanReadTDInK__ThenDevCanReadTDInNewK ...
-  [17.205 s, 238 proof obligations]  verified
+  [11.430 s, 238 proof obligations]  verified
 
 Verifying CheckWellformed$$_module.__default.Lemma__CanActiveDevReadActiveTD__SubjObjDeactivate__ActiveDevsAndTDsInNewKHasSameResultWithTheOneForK ...
-  [11.405 s, 92 proof obligations]  verified
+  [7.935 s, 92 proof obligations]  verified
 
 Verifying Impl$$_module.__default.Lemma__CanActiveDevReadActiveTD__SubjObjDeactivate__ActiveDevsAndTDsInNewKHasSameResultWithTheOneForK ...
-  [38.258 s, 193 proof obligations]  verified
+  [25.169 s, 193 proof obligations]  verified
 
 Verifying CheckWellformed$$_module.__default.Lemma__DevAModesToObj__SubjObjDeactivate__IfDevCanReadTDAndTDIncludesTransferToObj__ThenDevHasTransferToObj ...
-  [1.712 s, 29 proof obligations]  verified
+  [1.157 s, 29 proof obligations]  verified
 
 Verifying Impl$$_module.__default.Lemma__DevAModesToObj__SubjObjDeactivate__IfDevCanReadTDAndTDIncludesTransferToObj__ThenDevHasTransferToObj ...
-  [2.132 s, 43 proof obligations]  verified
+  [1.356 s, 43 proof obligations]  verified
 
 Verifying CheckWellformed$$_module.__default.Lemma__IsTDsDiffReqInActiveTDsStateAndIssuedByDev__SubjsBeingDeactivatedDoNotModifyCurrentAccessesOfOtherActiveDevs__Right ...
-  [14.358 s, 114 proof obligations]  verified
+  [9.356 s, 114 proof obligations]  verified
 
 Verifying Impl$$_module.__default.Lemma__IsTDsDiffReqInActiveTDsStateAndIssuedByDev__SubjsBeingDeactivatedDoNotModifyCurrentAccessesOfOtherActiveDevs__Right ...
-  [48.964 s, 133 proof obligations]  verified
+  [33.608 s, 133 proof obligations]  verified
 
 Verifying CheckWellformed$$_module.__default.Lemma__IsTDsDiffReqInActiveTDsStateAndIssuedByDev__SubjsBeingDeactivatedDoNotModifyCurrentAccessesOfOtherActiveDevs__Left ...
-  [15.304 s, 114 proof obligations]  verified
+  [10.948 s, 114 proof obligations]  verified
 
 Verifying Impl$$_module.__default.Lemma__IsTDsDiffReqInActiveTDsStateAndIssuedByDev__SubjsBeingDeactivatedDoNotModifyCurrentAccessesOfOtherActiveDevs__Left ...
-  [15.411 s, 227 proof obligations]  verified
+  [9.977 s, 227 proof obligations]  verified
 
 Verifying CheckWellformed$$_module.__default.Lemma__CanActiveDevReadActiveTD__SubjObjDeactivate__IfActiveDevCanReadTDInNewK__ThenDevCanReadTDInK__Private ...
-  [1.606 s, 30 proof obligations]  verified
+  [0.977 s, 30 proof obligations]  verified
 
 Verifying Impl$$_module.__default.Lemma__CanActiveDevReadActiveTD__SubjObjDeactivate__IfActiveDevCanReadTDInNewK__ThenDevCanReadTDInK__Private ...
-  [1.703 s, 1 proof obligation]  verified
+  [0.994 s, 1 proof obligation]  verified
 
 Verifying CheckWellformed$$_module.__default.Lemma__CanActiveDevReadActiveTD__SubjObjDeactivate__IfActiveDevCanReadTDInK__ThenDevCanReadTDInNewK__Private ...
-  [2.956 s, 29 proof obligations]  verified
+  [2.035 s, 29 proof obligations]  verified
 
 Verifying Impl$$_module.__default.Lemma__CanActiveDevReadActiveTD__SubjObjDeactivate__IfActiveDevCanReadTDInK__ThenDevCanReadTDInNewK__Private ...
-  [7.689 s, 20 proof obligations]  verified
+  [5.018 s, 20 proof obligations]  verified
 
 Dafny program verifier finished with 76 verified, 0 errors
 

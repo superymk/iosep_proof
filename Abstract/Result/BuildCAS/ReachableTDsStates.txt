@@ -1,4 +1,4 @@
-[TRACE] Using prover: D:\utils\dafny\z3\bin\z3.exe
+[TRACE] Using prover: E:\utils\dafny-v2.1\z3\bin\z3.exe
 Dafny 2.1.1.10209
 Parsing ./BuildCAS/ReachableTDsStates.dfy
 ./BuildCAS/ReachableTDsStates.dfy(102,19): Warning: /!\ No trigger covering all quantified variables found.
@@ -44,241 +44,241 @@ Coalescing blocks...
 Inlining...
 
 Running abstract interpretation...
-  [0.4218654 s]
-[TRACE] Using prover: D:\utils\dafny\z3\bin\z3.exe
+  [0.1805176 s]
+[TRACE] Using prover: E:\utils\dafny-v2.1\z3\bin\z3.exe
 
 Verifying CheckWellformed$$_module.__default.FindReachableActiveTDsStatesFromActiveTDsState__KParams__PreConditions ...
-  [6.448 s, 1 proof obligation]  verified
+  [9.113 s, 1 proof obligation]  verified
+Linearising   [0.6871612 s]
 
 Verifying CheckWellformed$$_module.__default.AllReachableActiveTDsStates ...
-  [20.625 s, 167 proof obligations]  verified
+  [14.563 s, 167 proof obligations]  verified
 
 Verifying CheckWellformed$$_module.__default.FindReachableActiveTDsStatesFromActiveTDsState ...
-  [11.249 s, 129 proof obligations]  verified
+  [12.174 s, 129 proof obligations]  verified
 
 Verifying Impl$$_module.__default.FindReachableActiveTDsStatesFromActiveTDsState ...
-  [4.100 s, 76 proof obligations]  verified
+  [8.180 s, 76 proof obligations]  verified
 
 Verifying CheckWellformed$$_module.__default.FindReachableActiveTDsStatesFromActiveTDsState__Internal ...
-  [13.531 s, 118 proof obligations]  verified
-Linearising   [0.7499819 s]
+  [12.391 s, 118 proof obligations]  verified
 
 Verifying Impl$$_module.__default.FindReachableActiveTDsStatesFromActiveTDsState__Internal ...
-  [46.557 s, 414 proof obligations]  verified
+  [24.406 s, 414 proof obligations]  verified
 
 Verifying CheckWellformed$$_module.__default.FindReachableTDsStatesFromTDsState__GetToExploreStates ...
-  [4.547 s, 72 proof obligations]  verified
-Linearising   [0.5312378 s]
+  [7.070 s, 72 proof obligations]  verified
+Linearising   [0.8995935 s]
 
 Verifying Impl$$_module.__default.FindReachableTDsStatesFromTDsState__GetToExploreStates ...
-  [11.074 s, 288 proof obligations]  verified
+  [10.115 s, 288 proof obligations]  verified
 
 Verifying CheckWellformed$$_module.__default.IsActiveTDsStateReachActiveTDsStateInChain__PreConditions ...
-  [2.594 s, 14 proof obligations]  verified
+  [5.353 s, 14 proof obligations]  verified
 
 Verifying CheckWellformed$$_module.__default.IsActiveTDsStateReachActiveTDsStateInChain ...
-  [4.109 s, 73 proof obligations]  verified
+  [7.866 s, 73 proof obligations]  verified
 
 Verifying CheckWellformed$$_module.__default.IsActiveTDsStateReachActiveTDsStateInOneStep__PreConditions ...
-  [2.562 s, 14 proof obligations]  verified
+  [5.219 s, 14 proof obligations]  verified
 
 Verifying CheckWellformed$$_module.__default.IsActiveTDsStateReachActiveTDsStateInOneStep ...
-  [2.375 s, 45 proof obligations]  verified
+  [4.798 s, 45 proof obligations]  verified
 
 Verifying CheckWellformed$$_module.__default.GetExploredTDsStates ...
-  [2.203 s, 23 proof obligations]  verified
+  [5.675 s, 23 proof obligations]  verified
 
 Verifying CheckWellformed$$_module.__default.Lemma__GetExploredTDsStates__IfOneTDsStateExistThenResultOnlyContainsIt ...
-  [2.078 s, 2 proof obligations]  verified
+  [3.503 s, 2 proof obligations]  verified
 
 Verifying Impl$$_module.__default.Lemma__GetExploredTDsStates__IfOneTDsStateExistThenResultOnlyContainsIt ...
-  [2.000 s, 1 proof obligation]  verified
+  [3.604 s, 1 proof obligation]  verified
 
 Verifying CheckWellformed$$_module.__default.Lemma__ProveAllReachableActiveTDsStates ...
-  [2.435 s, 33 proof obligations]  verified
+  [5.370 s, 33 proof obligations]  verified
 
 Verifying Impl$$_module.__default.Lemma__ProveAllReachableActiveTDsStates ...
-  [2.212 s, 1 proof obligation]  verified
+  [4.386 s, 1 proof obligation]  verified
 
 Verifying CheckWellformed$$_module.__default.Lemma__IsActiveTDsStateReachActiveTDsStateInChain__PostConditions ...
-  [2.047 s, 50 proof obligations]  verified
+  [3.696 s, 50 proof obligations]  verified
 
 Verifying Impl$$_module.__default.Lemma__IsActiveTDsStateReachActiveTDsStateInChain__PostConditions ...
-  [1.656 s, 2 proof obligations]  verified
+  [4.275 s, 2 proof obligations]  verified
 
 Verifying CheckWellformed$$_module.__default.Lemma__IsActiveTDsStateReachActiveTDsStateInChain__PostConditions__ReturnVals ...
-  [1.691 s, 28 proof obligations]  verified
+  [4.408 s, 28 proof obligations]  verified
 
 Verifying Impl$$_module.__default.Lemma__IsActiveTDsStateReachActiveTDsStateInChain__PostConditions__ReturnVals ...
-  [1.900 s, 27 proof obligations]  verified
+  [4.876 s, 27 proof obligations]  verified
 
 Verifying CheckWellformed$$_module.__default.Lemma__IsActiveTDsStateReachActiveTDsStateInChain__PreConditionsCanBeEliminated ...
-  [2.156 s, 18 proof obligations]  verified
+  [6.624 s, 18 proof obligations]  verified
 
 Verifying Impl$$_module.__default.Lemma__IsActiveTDsStateReachActiveTDsStateInChain__PreConditionsCanBeEliminated ...
-  [1.734 s, 1 proof obligation]  verified
+  [2.118 s, 1 proof obligation]  verified
 
 Verifying CheckWellformed$$_module.__default.Lemma__ExploredTDsStatesAfterAppendingIncludeOldExploredTDsStatesAndAddedExploreTDsStates ...
-  [1.781 s, 4 proof obligations]  verified
+  [4.976 s, 4 proof obligations]  verified
 
 Verifying Impl$$_module.__default.Lemma__ExploredTDsStatesAfterAppendingIncludeOldExploredTDsStatesAndAddedExploreTDsStates ...
-  [1.578 s, 1 proof obligation]  verified
+  [3.933 s, 1 proof obligation]  verified
 
 Verifying CheckWellformed$$_module.__default.Lemma__ExploredTDsStatesCanBeSeparated ...
-  [1.625 s, 6 proof obligations]  verified
+  [3.851 s, 6 proof obligations]  verified
 
 Verifying Impl$$_module.__default.Lemma__ExploredTDsStatesCanBeSeparated ...
-  [3.187 s, 9 proof obligations]  verified
+  [7.326 s, 9 proof obligations]  verified
 
 Verifying CheckWellformed$$_module.__default.Lemma__TDsStateAReachTDsStateBInChainAndBReachTDsStateCInOneStep__ThenAReachesCInChain ...
-  [2.609 s, 37 proof obligations]  verified
+  [5.857 s, 37 proof obligations]  verified
 
 Verifying Impl$$_module.__default.Lemma__TDsStateAReachTDsStateBInChainAndBReachTDsStateCInOneStep__ThenAReachesCInChain ...
-  [8.751 s, 123 proof obligations]  verified
+  [14.494 s, 123 proof obligations]  verified
 
 Verifying CheckWellformed$$_module.__default.Lemma__FindAllActiveTDsStatesByDev__TDsStatesReachedInOneStepAreReturned ...
-  [1.781 s, 31 proof obligations]  verified
+  [3.880 s, 31 proof obligations]  verified
 
 Verifying Impl$$_module.__default.Lemma__FindAllActiveTDsStatesByDev__TDsStatesReachedInOneStepAreReturned ...
-  [1.797 s, 36 proof obligations]  verified
+  [3.811 s, 36 proof obligations]  verified
 
 Verifying CheckWellformed$$_module.__default.Lemma__FindAllActiveTDsStatesByDev__ReturnedTDsStatesCouldBeReachedInOneStep ...
-  [1.672 s, 31 proof obligations]  verified
+  [3.966 s, 31 proof obligations]  verified
 
 Verifying Impl$$_module.__default.Lemma__FindAllActiveTDsStatesByDev__ReturnedTDsStatesCouldBeReachedInOneStep ...
-  [1.609 s, 1 proof obligation]  verified
+  [1.665 s, 1 proof obligation]  verified
 
 Verifying CheckWellformed$$_module.__default.Lemma__TDsStateReachedInOneStepAlsoReachedInChain ...
-  [2.156 s, 28 proof obligations]  verified
+  [3.920 s, 28 proof obligations]  verified
 
 Verifying Impl$$_module.__default.Lemma__TDsStateReachedInOneStepAlsoReachedInChain ...
-  [1.734 s, 27 proof obligations]  verified
+  [3.729 s, 27 proof obligations]  verified
 
 Verifying Impl$$_module.__default.Lemma__UnExploredStatesHasNoIntersectionWithInputExploredStates ...
-  [1.531 s, 1 proof obligation]  verified
+  [2.817 s, 1 proof obligation]  verified
 
 Verifying Impl$$_module.__default.Lemma__FindReachableTDsStatesFromTDsState__LoopInv2 ...
-  [1.641 s, 1 proof obligation]  verified
+  [2.982 s, 1 proof obligation]  verified
 
 Verifying CheckWellformed$$_module.__default.Lemma__FindReachableTDsStatesFromTDsState__LoopInv3 ...
-  [1.828 s, 43 proof obligations]  verified
+  [3.797 s, 43 proof obligations]  verified
 
 Verifying Impl$$_module.__default.Lemma__FindReachableTDsStatesFromTDsState__LoopInv3 ...
-  [8.679 s, 153 proof obligations]  verified
+  [9.677 s, 153 proof obligations]  verified
 
 Verifying CheckWellformed$$_module.__default.Lemma__TDsStateAReachTDsStateBInOneStep__ThenTDsStatesReachedByBInChainAlsoReachedByAInChain ...
-  [2.453 s, 37 proof obligations]  verified
+  [4.776 s, 37 proof obligations]  verified
 
 Verifying Impl$$_module.__default.Lemma__TDsStateAReachTDsStateBInOneStep__ThenTDsStatesReachedByBInChainAlsoReachedByAInChain ...
-  [19.437 s, 195 proof obligations]  verified
+  [19.785 s, 195 proof obligations]  verified
 
 Verifying CheckWellformed$$_module.__default.Lemma__TDsStateAReachTDsStateBInOneStep__ThenTDsStatesReachedByBInChainAlsoReachedByAInChain__ApplyIsTDsStateReachTDsStateInChainDef ...
-  [2.755 s, 33 proof obligations]  verified
+  [5.264 s, 33 proof obligations]  verified
 
 Verifying Impl$$_module.__default.Lemma__TDsStateAReachTDsStateBInOneStep__ThenTDsStatesReachedByBInChainAlsoReachedByAInChain__ApplyIsTDsStateReachTDsStateInChainDef ...
-  [1.578 s, 1 proof obligation]  verified
+  [2.730 s, 1 proof obligation]  verified
 
 Verifying CheckWellformed$$_module.__default.Lemma__FindReachableTDsStatesFromTDsState__LoopInv4 ...
-  [2.906 s, 80 proof obligations]  verified
+  [4.390 s, 80 proof obligations]  verified
 
 Verifying Impl$$_module.__default.Lemma__FindReachableTDsStatesFromTDsState__LoopInv4 ...
-  [1.937 s, 56 proof obligations]  verified
+  [3.138 s, 56 proof obligations]  verified
 
 Verifying Impl$$_module.__default.Lemma__FindReachableTDsStatesFromTDsState__LoopInv5 ...
-  [1.562 s, 1 proof obligation]  verified
+  [2.563 s, 1 proof obligation]  verified
 
 Verifying CheckWellformed$$_module.__default.Lemma__FindReachableTDsStatesFromTDsState__LoopInv6 ...
-  [2.000 s, 67 proof obligations]  verified
+  [3.826 s, 67 proof obligations]  verified
 
 Verifying Impl$$_module.__default.Lemma__FindReachableTDsStatesFromTDsState__LoopInv6 ...
-  [1.656 s, 1 proof obligation]  verified
+  [2.533 s, 1 proof obligation]  verified
 
 Verifying CheckWellformed$$_module.__default.Lemma__FindReachableTDsStatesFromTDsState__LoopInv7 ...
-  [1.391 s, 3 proof obligations]  verified
+  [2.524 s, 3 proof obligations]  verified
 
 Verifying Impl$$_module.__default.Lemma__FindReachableTDsStatesFromTDsState__LoopInv7 ...
-  [1.687 s, 1 proof obligation]  verified
+  [2.638 s, 1 proof obligation]  verified
 
 Verifying CheckWellformed$$_module.__default.Lemma__FindReachableTDsStatesFromTDsState__ToExploreStatesIsEmptyThenReachableStatesAreExplored ...
-  [1.817 s, 60 proof obligations]  verified
+  [3.605 s, 60 proof obligations]  verified
 
 Verifying Impl$$_module.__default.Lemma__FindReachableTDsStatesFromTDsState__ToExploreStatesIsEmptyThenReachableStatesAreExplored ...
-  [1.719 s, 3 proof obligations]  verified
+  [2.709 s, 3 proof obligations]  verified
 
 Verifying CheckWellformed$$_module.__default.Lemma__FindReachableTDsStatesFromTDsState__ReachableStatesHaveValidRefsOnly ...
-  [2.141 s, 75 proof obligations]  verified
+  [4.368 s, 75 proof obligations]  verified
 
 Verifying Impl$$_module.__default.Lemma__FindReachableTDsStatesFromTDsState__ReachableStatesHaveValidRefsOnly ...
-  [1.406 s, 3 proof obligations]  verified
+  [2.038 s, 3 proof obligations]  verified
 
 Verifying CheckWellformed$$_module.__default.Lemma__ReachableTDsStatesAreExplored ...
-  [1.674 s, 37 proof obligations]  verified
+  [2.769 s, 37 proof obligations]  verified
 
 Verifying Impl$$_module.__default.Lemma__ReachableTDsStatesAreExplored ...
-  [2.147 s, 55 proof obligations]  verified
+  [2.667 s, 55 proof obligations]  verified
 
 Verifying CheckWellformed$$_module.__default.Lemma__ReachableTDsStatesAreExplored__TDsStatesReachedInChainAreExplored ...
-  [1.781 s, 37 proof obligations]  verified
+  [2.140 s, 37 proof obligations]  verified
 
 Verifying Impl$$_module.__default.Lemma__ReachableTDsStatesAreExplored__TDsStatesReachedInChainAreExplored ...
-  [2.595 s, 62 proof obligations]  verified
+  [4.282 s, 62 proof obligations]  verified
 
 Verifying CheckWellformed$$_module.__default.Lemma__FindReachableActiveTDsStatesFromActiveTDsStateReturnsTrue__ThenIsValidStateOfReachableTDsStates ...
-  [3.187 s, 69 proof obligations]  verified
+  [4.660 s, 69 proof obligations]  verified
 
 Verifying Impl$$_module.__default.Lemma__FindReachableActiveTDsStatesFromActiveTDsStateReturnsTrue__ThenIsValidStateOfReachableTDsStates ...
-  [1.891 s, 3 proof obligations]  verified
+  [2.495 s, 3 proof obligations]  verified
 
 Verifying CheckWellformed$$_module.__default.Lemma__FindReachableTDsStatesFromTDsState__Req2 ...
-  [2.078 s, 39 proof obligations]  verified
+  [2.785 s, 39 proof obligations]  verified
 
 Verifying Impl$$_module.__default.Lemma__FindReachableTDsStatesFromTDsState__Req2 ...
-  [1.628 s, 3 proof obligations]  verified
+  [2.046 s, 3 proof obligations]  verified
 
 Verifying CheckWellformed$$_module.__default.Lemma__FindReachableTDsStatesFromTDsState__Req4 ...
-  [2.736 s, 62 proof obligations]  verified
+  [3.709 s, 62 proof obligations]  verified
 
 Verifying Impl$$_module.__default.Lemma__FindReachableTDsStatesFromTDsState__Req4 ...
-  [4.199 s, 48 proof obligations]  verified
+  [5.357 s, 48 proof obligations]  verified
 
 Verifying CheckWellformed$$_module.__default.Lemma__FindReachableTDsStatesFromTDsState__Req7 ...
-  [1.703 s, 15 proof obligations]  verified
+  [1.515 s, 15 proof obligations]  verified
 
 Verifying Impl$$_module.__default.Lemma__FindReachableTDsStatesFromTDsState__Req7 ...
-  [1.609 s, 3 proof obligations]  verified
+  [1.645 s, 3 proof obligations]  verified
 
 Verifying CheckWellformed$$_module.__default.Lemma__FindReachableTDsStatesFromTDsState__ProveTermination ...
-  [1.609 s, 10 proof obligations]  verified
+  [2.173 s, 10 proof obligations]  verified
 
 Verifying Impl$$_module.__default.Lemma__FindReachableTDsStatesFromTDsState__ProveTermination ...
-  [1.599 s, 32 proof obligations]  verified
+  [1.252 s, 32 proof obligations]  verified
 
 Verifying CheckWellformed$$_module.__default.Lemma__IsActiveTDsStateReachActiveTDsStateInOneStep__Property ...
-  [1.599 s, 27 proof obligations]  verified
+  [1.607 s, 27 proof obligations]  verified
 
 Verifying Impl$$_module.__default.Lemma__IsActiveTDsStateReachActiveTDsStateInOneStep__Property ...
-  [1.565 s, 1 proof obligation]  verified
+  [1.588 s, 1 proof obligation]  verified
 
 Verifying CheckWellformed$$_module.__default.Lemma__IsActiveTDsStateReachActiveTDsStateInOneStep__TDModificationsAreFromTDs ...
-  [1.596 s, 37 proof obligations]  verified
+  [1.599 s, 37 proof obligations]  verified
 
 Verifying Impl$$_module.__default.Lemma__IsActiveTDsStateReachActiveTDsStateInOneStep__TDModificationsAreFromTDs ...
-  [2.152 s, 56 proof obligations]  verified
+  [2.248 s, 56 proof obligations]  verified
 
 Verifying CheckWellformed$$_module.__default.DevModifyTDsStateOnlyWithHCodedWToTDs ...
-  [1.893 s, 37 proof obligations]  verified
+  [1.692 s, 37 proof obligations]  verified
 
 Verifying CheckWellformed$$_module.__default.Lemma__KParams__ValidAndSecureK__HCodedTDsOfDevRefObjInDev__SlimState ...
-  [3.836 s, 32 proof obligations]  verified
+  [3.261 s, 32 proof obligations]  verified
 
 Verifying Impl$$_module.__default.Lemma__KParams__ValidAndSecureK__HCodedTDsOfDevRefObjInDev__SlimState ...
-  [1.743 s, 1 proof obligation]  verified
+  [1.314 s, 1 proof obligation]  verified
 
 Verifying CheckWellformed$$_module.__default.Lemma__TDsStateAReachTDsStateBInChainAndBReachTDsStateCInOneStep__ThenAReachesCInChain__Private ...
-  [3.211 s, 59 proof obligations]  verified
+  [2.931 s, 59 proof obligations]  verified
 
 Verifying Impl$$_module.__default.Lemma__TDsStateAReachTDsStateBInChainAndBReachTDsStateCInOneStep__ThenAReachesCInChain__Private ...
-  [2.031 s, 1 proof obligation]  verified
+  [1.461 s, 1 proof obligation]  verified
 
 Dafny program verifier finished with 77 verified, 0 errors
 

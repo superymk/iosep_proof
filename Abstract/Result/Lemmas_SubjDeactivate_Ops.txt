@@ -1,4 +1,4 @@
-[TRACE] Using prover: D:\utils\dafny\z3\bin\z3.exe
+[TRACE] Using prover: E:\utils\dafny-v2.1\z3\bin\z3.exe
 Dafny 2.1.1.10209
 Parsing Lemmas_SubjDeactivate_Ops.dfy
 Lemmas_SubjDeactivate_Ops.dfy(1838,13): Warning: /!\ No trigger covering all quantified variables found.
@@ -65,268 +65,266 @@ Coalescing blocks...
 Inlining...
 
 Running abstract interpretation...
-  [0.7343596 s]
-[TRACE] Using prover: D:\utils\dafny\z3\bin\z3.exe
+  [0.2712738 s]
+[TRACE] Using prover: E:\utils\dafny-v2.1\z3\bin\z3.exe
 
 Verifying CheckWellformed$$_module.__default.SubjObjDeactivate__PropertiesOfTDs ...
-  [46.234 s, 36 proof obligations]  verified
+  [19.300 s, 36 proof obligations]  verified
 
 Verifying CheckWellformed$$_module.__default.SubjObjDeactivate__PropertiesOfFDs ...
-  [22.110 s, 36 proof obligations]  verified
+  [22.375 s, 36 proof obligations]  verified
 
 Verifying CheckWellformed$$_module.__default.SubjObjDeactivate__PropertiesOfDOs ...
-  [21.042 s, 36 proof obligations]  verified
+  [14.768 s, 36 proof obligations]  verified
 
 Verifying CheckWellformed$$_module.__default.SubjObjDeactivate__PropertiesOfSubjs ...
-  [10.687 s, 35 proof obligations]  verified
+  [24.512 s, 35 proof obligations]  verified
 
 Verifying Impl$$_module.__default.Lemma__SubjObjDeactivate__NewK__UniqueIDsAndOwnedObjs ...
-  [9.943 s, 12 proof obligations]  verified
+  [14.190 s, 12 proof obligations]  verified
 
 Verifying CheckWellformed$$_module.__default.Lemma__SubjObjDeactivate__FulfillCommonPreConditionsOfKAndNewK ...
-  [15.544 s, 119 proof obligations]  verified
-Linearising   [1.0468509 s]
+  [13.073 s, 119 proof obligations]  verified
 
 Verifying Impl$$_module.__default.Lemma__SubjObjDeactivate__FulfillCommonPreConditionsOfKAndNewK ...
-  [33.199 s, 619 proof obligations]  verified
+  [31.266 s, 619 proof obligations]  verified
 
 Verifying CheckWellformed$$_module.__default.Lemma__SubjObjDeactivate__ActiveDevsInNewKHaveNoTransfersToObjsToBeDeactivated ...
-  [12.890 s, 64 proof obligations]  verified
+  [16.246 s, 64 proof obligations]  verified
 
 Verifying Impl$$_module.__default.Lemma__SubjObjDeactivate__ActiveDevsInNewKHaveNoTransfersToObjsToBeDeactivated ...
-  [39.759 s, 57 proof obligations]  verified
+  [35.596 s, 57 proof obligations]  verified
 
 Verifying CheckWellformed$$_module.__default.Lemma__ExternalObjsDeactivate__AllObjsToBeDeactivatedAreExternalObjs ...
-  [3.024 s, 31 proof obligations]  verified
+  [3.151 s, 31 proof obligations]  verified
 
 Verifying Impl$$_module.__default.Lemma__ExternalObjsDeactivate__AllObjsToBeDeactivatedAreExternalObjs ...
-  [12.001 s, 21 proof obligations]  verified
+  [11.095 s, 21 proof obligations]  verified
 
 Verifying CheckWellformed$$_module.__default.Lemma__ExternalObjsDeactivate__HCodedTDsAreUnchanged ...
-  [2.573 s, 12 proof obligations]  verified
+  [5.937 s, 12 proof obligations]  verified
 
 Verifying Impl$$_module.__default.Lemma__ExternalObjsDeactivate__HCodedTDsAreUnchanged ...
-  [2.430 s, 18 proof obligations]  verified
+  [2.099 s, 18 proof obligations]  verified
 
 Verifying CheckWellformed$$_module.__default.Lemma__SubjObjDeactivate__NewKParams__HasUnmodifiedVarsFromKParams ...
-  [10.157 s, 66 proof obligations]  verified
+  [10.029 s, 66 proof obligations]  verified
 
 Verifying Impl$$_module.__default.Lemma__SubjObjDeactivate__NewKParams__HasUnmodifiedVarsFromKParams ...
-  [9.964 s, 33 proof obligations]  verified
+  [13.236 s, 33 proof obligations]  verified
 
 Verifying CheckWellformed$$_module.__default.Lemma__ExternalObjsDeactivate__SubjsAndTheirObjsHaveSamePIDs ...
-  [27.191 s, 47 proof obligations]  verified
+  [38.528 s, 47 proof obligations]  verified
 
 Verifying Impl$$_module.__default.Lemma__ExternalObjsDeactivate__SubjsAndTheirObjsHaveSamePIDs ...
-  [5.993 s, 57 proof obligations]  verified
+  [7.063 s, 57 proof obligations]  verified
 
 Verifying CheckWellformed$$_module.__default.Lemma__SubjObjDeactivate__FindReachableActiveTDsStatesFromActiveTDsState__ReturnsReachableTDsStates ...
-  [3.546 s, 29 proof obligations]  verified
+  [6.606 s, 29 proof obligations]  verified
 
 Verifying Impl$$_module.__default.Lemma__SubjObjDeactivate__FindReachableActiveTDsStatesFromActiveTDsState__ReturnsReachableTDsStates ...
-  [2.750 s, 2 proof obligations]  verified
+  [4.189 s, 2 proof obligations]  verified
 
 Verifying CheckWellformed$$_module.__default.Lemma__SubjObjDeactivate__NewK__FulfillSI2 ...
-  [2.992 s, 103 proof obligations]  verified
+  [4.124 s, 103 proof obligations]  verified
 
 Verifying Impl$$_module.__default.Lemma__SubjObjDeactivate__NewK__FulfillSI2 ...
-  [4.991 s, 15 proof obligations]  verified
+  [8.652 s, 15 proof obligations]  verified
 
 Verifying CheckWellformed$$_module.__default.Lemma__DrvDevDeactivate__SubjsNotBeingDeactivatedDoNotOwnAnyObjsBeingDeactivated ...
-  [3.460 s, 13 proof obligations]  verified
+  [5.088 s, 13 proof obligations]  verified
 
 Verifying Impl$$_module.__default.Lemma__DrvDevDeactivate__SubjsNotBeingDeactivatedDoNotOwnAnyObjsBeingDeactivated ...
-  [33.280 s, 51 proof obligations]  verified
-Linearising   [0.5781119 s]
+  [26.536 s, 51 proof obligations]  verified
 
 Verifying CheckWellformed$$_module.__default.Lemma__DrvDeactivate__ProveSubjsObjsFulfillProperties ...
-  [96.637 s, 212 proof obligations]  verified
+  [85.870 s, 212 proof obligations]  verified
 
 Verifying Impl$$_module.__default.Lemma__DrvDeactivate__ProveSubjsObjsFulfillProperties ...
-  [5.373 s, 276 proof obligations]  verified
+  [4.696 s, 276 proof obligations]  verified
 
 Verifying CheckWellformed$$_module.__default.Lemma__DrvDeactivate__ActiveDevsInNewKAreSubsetOfOnesInK__PreConditions ...
-  [1.681 s, 7 proof obligations]  verified
+  [1.337 s, 7 proof obligations]  verified
 
 Verifying Impl$$_module.__default.Lemma__DrvDeactivate__ActiveDevsInNewKAreSubsetOfOnesInK__PreConditions ...
-  [1.691 s, 5 proof obligations]  verified
+  [1.921 s, 5 proof obligations]  verified
 
 Verifying CheckWellformed$$_module.__default.Lemma__DrvDeactivate__ProveSubjsObjsFulfillProperties__PreConditions ...
-  [5.745 s, 81 proof obligations]  verified
+  [4.905 s, 81 proof obligations]  verified
 
 Verifying Impl$$_module.__default.Lemma__DrvDeactivate__ProveSubjsObjsFulfillProperties__PreConditions ...
-  [14.661 s, 25 proof obligations]  verified
+  [11.985 s, 25 proof obligations]  verified
 
 Verifying CheckWellformed$$_module.__default.Lemma__DrvDevDeactivate__ActiveDevsInNewKAreSubsetOfOnesInK ...
-  [1.809 s, 6 proof obligations]  verified
+  [1.308 s, 6 proof obligations]  verified
 
 Verifying Impl$$_module.__default.Lemma__DrvDevDeactivate__ActiveDevsInNewKAreSubsetOfOnesInK ...
-  [1.625 s, 1 proof obligation]  verified
+  [1.192 s, 1 proof obligation]  verified
 
 Verifying CheckWellformed$$_module.__default.Lemma__DrvDevDeactivate__NewK__SubjsAndTheirObjsHaveSamePIDs ...
-  [7.706 s, 117 proof obligations]  verified
+  [6.116 s, 117 proof obligations]  verified
 
 Verifying Impl$$_module.__default.Lemma__DrvDevDeactivate__NewK__SubjsAndTheirObjsHaveSamePIDs ...
-  [2.243 s, 265 proof obligations]  verified
+  [1.692 s, 265 proof obligations]  verified
 
 Verifying CheckWellformed$$_module.__default.Lemma__DrvDeactivate__OwnershipOfObjsIsPreserved ...
-  [1.685 s, 17 proof obligations]  verified
+  [1.684 s, 17 proof obligations]  verified
 
 Verifying Impl$$_module.__default.Lemma__DrvDeactivate__OwnershipOfObjsIsPreserved ...
-  [1.687 s, 2 proof obligations]  verified
+  [1.167 s, 2 proof obligations]  verified
 
 Verifying Impl$$_module.__default.Lemma__DrvDeactivate__SameSetOfActiveDevsInNewKAndK ...
-  [1.723 s, 1 proof obligation]  verified
+  [1.215 s, 1 proof obligation]  verified
 
 Verifying CheckWellformed$$_module.__default.Lemma__DevDeactivate__ActiveDevsInNewKAreSubsetOfOnesInK__PreConditions ...
-  [1.725 s, 7 proof obligations]  verified
+  [1.252 s, 7 proof obligations]  verified
 
 Verifying Impl$$_module.__default.Lemma__DevDeactivate__ActiveDevsInNewKAreSubsetOfOnesInK__PreConditions ...
-  [2.318 s, 14 proof obligations]  verified
+  [1.766 s, 14 proof obligations]  verified
 
 Verifying CheckWellformed$$_module.__default.Lemma__DevDeactivate__BuildMap__DevsToHCodedTDVals__PreConditions ...
-  [1.671 s, 5 proof obligations]  verified
+  [1.179 s, 5 proof obligations]  verified
 
 Verifying Impl$$_module.__default.Lemma__DevDeactivate__BuildMap__DevsToHCodedTDVals__PreConditions ...
-  [1.767 s, 2 proof obligations]  verified
+  [1.231 s, 2 proof obligations]  verified
 
 Verifying CheckWellformed$$_module.__default.Lemma__DevDeactivate__ProveSubjsObjsFulfillProperties ...
-  [150.178 s, 212 proof obligations]  verified
+  [127.728 s, 212 proof obligations]  verified
 
 Verifying Impl$$_module.__default.Lemma__DevDeactivate__ProveSubjsObjsFulfillProperties ...
-  [22.109 s, 277 proof obligations]  verified
+  [16.729 s, 277 proof obligations]  verified
 
 Verifying CheckWellformed$$_module.__default.Lemma__DevDeactivate__ProveSubjsObjsFulfillProperties__PreConditions ...
-  [5.747 s, 81 proof obligations]  verified
+  [4.187 s, 81 proof obligations]  verified
 
 Verifying Impl$$_module.__default.Lemma__DevDeactivate__ProveSubjsObjsFulfillProperties__PreConditions ...
-  [17.853 s, 25 proof obligations]  verified
+  [13.297 s, 25 proof obligations]  verified
 
 Verifying CheckWellformed$$_module.__default.Lemma__DevDeactivate__ActiveDevsInNewKIsActiveDevsInKMinusDevToBeDeactivated ...
-  [1.758 s, 1 proof obligation]  verified
+  [1.198 s, 1 proof obligation]  verified
 
 Verifying Impl$$_module.__default.Lemma__DevDeactivate__ActiveDevsInNewKIsActiveDevsInKMinusDevToBeDeactivated ...
-  [4.922 s, 1 proof obligation]  verified
+  [3.436 s, 1 proof obligation]  verified
 
 Verifying CheckWellformed$$_module.__default.Lemma__DevDeactivate__OwnershipOfObjsIsPreserved ...
-  [1.641 s, 18 proof obligations]  verified
+  [1.121 s, 18 proof obligations]  verified
 
 Verifying Impl$$_module.__default.Lemma__DevDeactivate__OwnershipOfObjsIsPreserved ...
-  [1.750 s, 2 proof obligations]  verified
+  [0.939 s, 2 proof obligations]  verified
 
 Verifying CheckWellformed$$_module.__default.Lemma__DevDeactivate__HCodedTDsHaveUnmodifiedVals ...
-  [1.719 s, 7 proof obligations]  verified
+  [1.325 s, 7 proof obligations]  verified
 
 Verifying Impl$$_module.__default.Lemma__DevDeactivate__HCodedTDsHaveUnmodifiedVals ...
-  [1.625 s, 1 proof obligation]  verified
+  [1.017 s, 1 proof obligation]  verified
 
 Verifying CheckWellformed$$_module.__default.Lemma__DevDeactivate__UnchangedStateVarsBetweenKandNewK ...
-  [1.661 s, 4 proof obligations]  verified
+  [1.005 s, 4 proof obligations]  verified
 
 Verifying Impl$$_module.__default.Lemma__DevDeactivate__UnchangedStateVarsBetweenKandNewK ...
-  [9.312 s, 11 proof obligations]  verified
+  [5.986 s, 11 proof obligations]  verified
 
 Verifying Impl$$_module.__default.Lemma__DevDeactivate__ProveIsValidState__Subjects ...
-  [1.725 s, 3 proof obligations]  verified
+  [1.018 s, 3 proof obligations]  verified
 
 Verifying Impl$$_module.__default.Lemma__SubjObjDeactivate__ProveNewKTDsToAllStatesContainsAllSetsOfTDs ...
-  [1.687 s, 1 proof obligation]  verified
+  [1.108 s, 1 proof obligation]  verified
 
 Verifying CheckWellformed$$_module.__default.Lemma__SubjObjDeactivate__NewK__ActiveObjsInNewKHasUnchangedPIDs ...
-  [2.122 s, 111 proof obligations]  verified
+  [1.290 s, 111 proof obligations]  verified
 
 Verifying Impl$$_module.__default.Lemma__SubjObjDeactivate__NewK__ActiveObjsInNewKHasUnchangedPIDs ...
-  [8.158 s, 1 proof obligation]  verified
+  [5.684 s, 1 proof obligation]  verified
 
 Verifying CheckWellformed$$_module.__default.Lemma__SubjObjDeactivate__NewK__ReachableActiveTDsStatesInK__FulfillConditionsToObjsBeingDeactivated ...
-  [84.472 s, 162 proof obligations]  verified
+  [56.617 s, 162 proof obligations]  verified
 
 Verifying Impl$$_module.__default.Lemma__SubjObjDeactivate__NewK__ReachableActiveTDsStatesInK__FulfillConditionsToObjsBeingDeactivated ...
-  [22.960 s, 11 proof obligations]  verified
+  [14.055 s, 11 proof obligations]  verified
 
 Verifying CheckWellformed$$_module.__default.Lemma__SubjObjDeactivate__NewK__FulfillNextThreePredicates ...
-  [71.929 s, 177 proof obligations]  verified
+  [44.177 s, 177 proof obligations]  verified
 
 Verifying Impl$$_module.__default.Lemma__SubjObjDeactivate__NewK__FulfillNextThreePredicates ...
-  [149.752 s, 30 proof obligations]  verified
+  [98.997 s, 30 proof obligations]  verified
 
 Verifying CheckWellformed$$_module.__default.Lemma__SubjObjDeactivate__NewK__PreConditionsOfSubjObjToDeactivate ...
-  [2.982 s, 135 proof obligations]  verified
+  [1.694 s, 135 proof obligations]  verified
 
 Verifying Impl$$_module.__default.Lemma__SubjObjDeactivate__NewK__PreConditionsOfSubjObjToDeactivate ...
-  [96.053 s, 45 proof obligations]  verified
+  [53.307 s, 45 proof obligations]  verified
 
 Verifying CheckWellformed$$_module.__default.Lemma__SubjObjDeactivate__NewK__SubjsObjsPIDsInNewK ...
-  [2.959 s, 121 proof obligations]  verified
+  [1.571 s, 121 proof obligations]  verified
 
 Verifying Impl$$_module.__default.Lemma__SubjObjDeactivate__NewK__SubjsObjsPIDsInNewK ...
-  [1.866 s, 111 proof obligations]  verified
+  [0.986 s, 111 proof obligations]  verified
 
 Verifying CheckWellformed$$_module.__default.Lemma__SubjObjDeactivate__NewK__FulfillIsValidState__SubjsOwnObjsThenInSamePartition ...
-  [2.487 s, 109 proof obligations]  verified
+  [1.496 s, 109 proof obligations]  verified
 
 Verifying Impl$$_module.__default.Lemma__SubjObjDeactivate__NewK__FulfillIsValidState__SubjsOwnObjsThenInSamePartition ...
-  [31.266 s, 100 proof obligations]  verified
+  [18.011 s, 100 proof obligations]  verified
 
 Verifying CheckWellformed$$_module.__default.Lemma__SubjObjDeactivate__NewK__FulfillIsValidState__SubjsOwnObjsThenInSamePartition__Private ...
-  [1.697 s, 7 proof obligations]  verified
+  [0.916 s, 7 proof obligations]  verified
 
 Verifying Impl$$_module.__default.Lemma__SubjObjDeactivate__NewK__FulfillIsValidState__SubjsOwnObjsThenInSamePartition__Private ...
-  [2.946 s, 15 proof obligations]  verified
+  [1.594 s, 15 proof obligations]  verified
 
 Verifying CheckWellformed$$_module.__default.Lemma__DrvDevDeactivate__AllObjsToBeActivatedAreActiveInK ...
-  [38.654 s, 34 proof obligations]  verified
+  [21.493 s, 34 proof obligations]  verified
 
 Verifying Impl$$_module.__default.Lemma__DrvDevDeactivate__AllObjsToBeActivatedAreActiveInK ...
-  [2.781 s, 18 proof obligations]  verified
+  [1.443 s, 18 proof obligations]  verified
 
 Verifying CheckWellformed$$_module.__default.Lemma__DrvDevDeactivate__NewK__SubjsAndTheirObjsHaveSamePIDs__OwnedObjsAreInNewK ...
-  [2.110 s, 106 proof obligations]  verified
+  [1.120 s, 106 proof obligations]  verified
 
 Verifying Impl$$_module.__default.Lemma__DrvDevDeactivate__NewK__SubjsAndTheirObjsHaveSamePIDs__OwnedObjsAreInNewK ...
-  [17.241 s, 14 proof obligations]  verified
+  [9.411 s, 14 proof obligations]  verified
 
 Verifying CheckWellformed$$_module.__default.Lemma__DrvDevDeactivate__NewK__SubjsAndTheirObjsHaveSamePIDs__SubjIsBeingDeactivated ...
-  [5.298 s, 108 proof obligations]  verified
+  [2.833 s, 108 proof obligations]  verified
 
 Verifying Impl$$_module.__default.Lemma__DrvDevDeactivate__NewK__SubjsAndTheirObjsHaveSamePIDs__SubjIsBeingDeactivated ...
-  [35.572 s, 5 proof obligations]  verified
+  [20.874 s, 5 proof obligations]  verified
 
 Verifying CheckWellformed$$_module.__default.Lemma__DrvDevDeactivate__NewK__SubjsAndTheirObjsHaveSamePIDs__SubjIsNotBeingDeactivated ...
-  [6.198 s, 117 proof obligations]  verified
+  [3.384 s, 117 proof obligations]  verified
 
 Verifying Impl$$_module.__default.Lemma__DrvDevDeactivate__NewK__SubjsAndTheirObjsHaveSamePIDs__SubjIsNotBeingDeactivated ...
-  [28.422 s, 121 proof obligations]  verified
+  [16.652 s, 121 proof obligations]  verified
 
 Verifying CheckWellformed$$_module.__default.Lemma__DrvDevDeactivate__InSubjsNotBeingDeactivated__ObjsAreUnchanged ...
-  [22.027 s, 15 proof obligations]  verified
+  [12.784 s, 15 proof obligations]  verified
 
 Verifying Impl$$_module.__default.Lemma__DrvDevDeactivate__InSubjsNotBeingDeactivated__ObjsAreUnchanged ...
-  [2.441 s, 67 proof obligations]  verified
+  [1.310 s, 67 proof obligations]  verified
 
 Verifying CheckWellformed$$_module.__default.Lemma__DevDeactivate__NoTransferToDevToBeDeactivated__Equivilant ...
-  [3.003 s, 48 proof obligations]  verified
+  [1.299 s, 48 proof obligations]  verified
 
 Verifying Impl$$_module.__default.Lemma__DevDeactivate__NoTransferToDevToBeDeactivated__Equivilant ...
-  [39.057 s, 197 proof obligations]  verified
+  [21.955 s, 197 proof obligations]  verified
 
 Verifying CheckWellformed$$_module.__default.Lemma__ObjsDeactivate__NoTransferToObjsToBeDeactivated__Equivilant ...
-  [3.756 s, 51 proof obligations]  verified
+  [2.071 s, 51 proof obligations]  verified
 
 Verifying Impl$$_module.__default.Lemma__ObjsDeactivate__NoTransferToObjsToBeDeactivated__Equivilant ...
-  [1.856 s, 91 proof obligations]  verified
+  [1.008 s, 91 proof obligations]  verified
 
 Verifying CheckWellformed$$_module.__default.Lemma__ObjsDeactivate__NoTransferToObjsToBeDeactivated__Equivilant__Right ...
-  [2.401 s, 39 proof obligations]  verified
+  [1.445 s, 39 proof obligations]  verified
 
 Verifying Impl$$_module.__default.Lemma__ObjsDeactivate__NoTransferToObjsToBeDeactivated__Equivilant__Right ...
-  [43.898 s, 90 proof obligations]  verified
+  [25.128 s, 90 proof obligations]  verified
 
 Verifying CheckWellformed$$_module.__default.Lemma__ObjsDeactivate__NoTransferToObjsToBeDeactivated__Equivilant__Left ...
-  [3.818 s, 51 proof obligations]  verified
+  [2.260 s, 51 proof obligations]  verified
 
 Verifying Impl$$_module.__default.Lemma__ObjsDeactivate__NoTransferToObjsToBeDeactivated__Equivilant__Left ...
-  [76.971 s, 101 proof obligations]  verified
+  [43.647 s, 101 proof obligations]  verified
 
 Dafny program verifier finished with 86 verified, 0 errors
 

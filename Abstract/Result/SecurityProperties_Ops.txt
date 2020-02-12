@@ -1,4 +1,4 @@
-[TRACE] Using prover: D:\utils\dafny\z3\bin\z3.exe
+[TRACE] Using prover: E:\utils\dafny-v2.1\z3\bin\z3.exe
 Dafny 2.1.1.10209
 Parsing SecurityProperties_Ops.dfy
 Utils.dfy(12,4): Warning: /!\ No trigger covering all quantified variables found.
@@ -41,107 +41,108 @@ Coalescing blocks...
 Inlining...
 
 Running abstract interpretation...
-  [0.3906169 s]
-[TRACE] Using prover: D:\utils\dafny\z3\bin\z3.exe
+  [0.1176853 s]
+[TRACE] Using prover: E:\utils\dafny-v2.1\z3\bin\z3.exe
 
 Verifying CheckWellformed$$_module.__default.P__OpsProperties__DrvReadOp ...
-  [14.134 s, 64 proof obligations]  verified
+  [11.222 s, 64 proof obligations]  verified
 
 Verifying CheckWellformed$$_module.__default.P__OpsProperties__DevReadOp ...
-  [3.363 s, 67 proof obligations]  verified
+  [5.651 s, 67 proof obligations]  verified
 
 Verifying CheckWellformed$$_module.__default.P__OpsProperties__DevWriteOp ...
-  [3.284 s, 51 proof obligations]  verified
+  [6.369 s, 51 proof obligations]  verified
 
 Verifying CheckWellformed$$_module.__default.P__OpsProperties__EmptyPartitionCreateOp ...
-  [4.062 s, 62 proof obligations]  verified
+  [7.184 s, 62 proof obligations]  verified
 
 Verifying CheckWellformed$$_module.__default.P__OpsProperties__EmptyPartitionDestroyOp ...
-  [3.155 s, 62 proof obligations]  verified
+  [5.877 s, 62 proof obligations]  verified
 
 Verifying CheckWellformed$$_module.__default.P__OpsProperties__DrvActivateOp ...
-  [3.094 s, 64 proof obligations]  verified
+  [6.253 s, 64 proof obligations]  verified
 
 Verifying CheckWellformed$$_module.__default.P__OpsProperties__DrvDeactivateOp ...
-  [2.891 s, 63 proof obligations]  verified
+  [9.184 s, 63 proof obligations]  verified
 
 Verifying CheckWellformed$$_module.__default.P__OpsProperties__DevActivateOp ...
-  [3.236 s, 64 proof obligations]  verified
+  [8.519 s, 64 proof obligations]  verified
 
 Verifying CheckWellformed$$_module.__default.P__OpsProperties__DevDeactivateOp ...
-  [3.781 s, 63 proof obligations]  verified
+  [4.313 s, 63 proof obligations]  verified
 
 Verifying CheckWellformed$$_module.__default.P__OpsProperties__ExternalObjsActivateOp ...
-  [3.750 s, 41 proof obligations]  verified
+  [6.090 s, 41 proof obligations]  verified
 
 Verifying CheckWellformed$$_module.__default.P__OpsProperties__ExternalObjsDeactivateOp ...
-  [3.609 s, 41 proof obligations]  verified
+  [3.372 s, 41 proof obligations]  verified
 
 Verifying CheckWellformed$$_module.__default.P__OpsProperties__DrvWriteOp ...
-  [3.516 s, 52 proof obligations]  verified
+  [2.443 s, 52 proof obligations]  verified
 
 Verifying CheckWellformed$$_module.__default.DrvRead__PreConditions ...
-  [3.734 s, 30 proof obligations]  verified
+  [5.348 s, 30 proof obligations]  verified
 
 Verifying CheckWellformed$$_module.__default.DrvRead__PostConditions ...
-  [3.859 s, 67 proof obligations]  verified
+  [5.023 s, 67 proof obligations]  verified
+Linearising   [0.5694763 s]
 
 Verifying CheckWellformed$$_module.__default.DevRead__PreConditions ...
-  [3.844 s, 87 proof obligations]  verified
+  [5.310 s, 87 proof obligations]  verified
 
 Verifying CheckWellformed$$_module.__default.DevRead__PostConditions ...
-  [5.406 s, 67 proof obligations]  verified
+  [11.418 s, 67 proof obligations]  verified
 
 Verifying CheckWellformed$$_module.__default.P__K__SubjWrite__ObjsToWriteMustBeInSamePartitionWithSubj ...
-  [3.812 s, 18 proof obligations]  verified
+  [7.469 s, 18 proof obligations]  verified
 
 Verifying CheckWellformed$$_module.__default.DevWrite__PreConditions ...
-  [3.906 s, 145 proof obligations]  verified
+  [4.135 s, 145 proof obligations]  verified
 
 Verifying CheckWellformed$$_module.__default.DevWrite__PostConditions ...
-  [5.750 s, 58 proof obligations]  verified
+  [9.791 s, 58 proof obligations]  verified
 
 Verifying CheckWellformed$$_module.__default.Common__PostConditions ...
-  [4.001 s, 54 proof obligations]  verified
+  [7.016 s, 54 proof obligations]  verified
 
 Verifying CheckWellformed$$_module.__default.ExternalObjsActivate__PreConditions ...
-  [4.219 s, 35 proof obligations]  verified
+  [6.404 s, 35 proof obligations]  verified
 
 Verifying CheckWellformed$$_module.__default.ExternalObjsDeactivate__PreConditions ...
-  [4.062 s, 35 proof obligations]  verified
+  [6.469 s, 35 proof obligations]  verified
 
 Verifying CheckWellformed$$_module.__default.DrvWrite__PreConditions ...
-  [4.203 s, 29 proof obligations]  verified
+  [4.912 s, 29 proof obligations]  verified
 
 Verifying CheckWellformed$$_module.__default.DrvWrite__PostConditions ...
-  [4.016 s, 58 proof obligations]  verified
+  [3.618 s, 58 proof obligations]  verified
 
 Verifying CheckWellformed$$_module.__default.P__K__SubjRead__ObjsToReadAndCopiedToMustBeInSamePartitionWithSubj ...
-  [4.511 s, 35 proof obligations]  verified
+  [4.906 s, 35 proof obligations]  verified
 
 Verifying CheckWellformed$$_module.__default.K__SubjRead__ReadSrcObjsToDestObjs__SrcAndDstObjsOfCopyMustBeInDMState ...
-  [3.969 s, 3 proof obligations]  verified
+  [2.765 s, 3 proof obligations]  verified
 
 Verifying CheckWellformed$$_module.__default.DrvRead__ReadSrcObjsToDestObjs__PreConditions ...
-  [3.547 s, 6 proof obligations]  verified
+  [4.738 s, 6 proof obligations]  verified
 
 Verifying CheckWellformed$$_module.__default.DrvDevRead__ReadSrcObjsToDestObjs__SrcObjsOfCopyMustInReadObjs ...
-  [4.187 s, 3 proof obligations]  verified
+  [6.368 s, 3 proof obligations]  verified
 
 Verifying CheckWellformed$$_module.__default.DevRead__ReadSrcObjsToDestObjs__SrcAndDstObjsOfCopyMustBeInWSState ...
-  [2.922 s, 1 proof obligation]  verified
+  [6.270 s, 1 proof obligation]  verified
 
 Verifying CheckWellformed$$_module.__default.DevRead__ReadSrcObjsToDestObjs__WriteInCopyMustFromCorrespondingTransfers ...
-  [3.453 s, 149 proof obligations]  verified
+  [5.351 s, 149 proof obligations]  verified
 
 Verifying CheckWellformed$$_module.__default.DevWrite__WriteTDWithValMustBeInATransfer ...
-  [2.922 s, 61 proof obligations]  verified
+  [6.124 s, 61 proof obligations]  verified
 
 Verifying CheckWellformed$$_module.__default.DevWrite__WriteFDWithValMustBeInATransfer ...
-  [3.279 s, 61 proof obligations]  verified
+  [5.011 s, 61 proof obligations]  verified
 
 Verifying CheckWellformed$$_module.__default.DevWrite__WriteDOWithValMustBeInATransfer ...
-  [2.852 s, 61 proof obligations]  verified
+  [6.113 s, 61 proof obligations]  verified
 
 Dafny program verifier finished with 33 verified, 0 errors
 

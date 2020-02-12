@@ -1,4 +1,4 @@
-[TRACE] Using prover: D:\utils\dafny\z3\bin\z3.exe
+[TRACE] Using prover: E:\utils\dafny-v2.1\z3\bin\z3.exe
 Dafny 2.1.1.10209
 Parsing Lemmas_Ops_Common.dfy
 K_AdditionalPropertiesLemmas.dfy(112,12): Warning: /!\ No terms found to trigger on.
@@ -75,113 +75,113 @@ Coalescing blocks...
 Inlining...
 
 Running abstract interpretation...
-  [0.5937364 s]
-[TRACE] Using prover: D:\utils\dafny\z3\bin\z3.exe
+  [0.0917553 s]
+[TRACE] Using prover: E:\utils\dafny-v2.1\z3\bin\z3.exe
 
 Verifying CheckWellformed$$_module.__default.P__DMAndNewDM__SameSubjectIDAndObjOwnership ...
-  [24.677 s, 18 proof obligations]  verified
+  [9.191 s, 18 proof obligations]  verified
 
 Verifying CheckWellformed$$_module.__default.P__AllHCodedTDsAreObjs ...
-  [9.062 s, 3 proof obligations]  verified
+  [6.256 s, 3 proof obligations]  verified
 
 Verifying CheckWellformed$$_module.__default.P__DMAndNewDM__SameObjectID ...
-  [8.239 s, 10 proof obligations]  verified
+  [3.876 s, 10 proof obligations]  verified
 
 Verifying CheckWellformed$$_module.__default.P__DMAndNewDM__SameSubjObjPID ...
-  [7.344 s, 15 proof obligations]  verified
+  [2.890 s, 15 proof obligations]  verified
 
 Verifying CheckWellformed$$_module.__default.Lemma__NewDM__AlwaysFulfillMostValidityProperties ...
-  [7.484 s, 3 proof obligations]  verified
+  [3.902 s, 3 proof obligations]  verified
 
 Verifying Impl$$_module.__default.Lemma__NewDM__AlwaysFulfillMostValidityProperties ...
-  [93.385 s, 70 proof obligations]  verified
+  [57.824 s, 70 proof obligations]  verified
 
 Verifying CheckWellformed$$_module.__default.Lemma__NewDM__SameSubjObjPIDsIfPIDsAreUnchanged ...
-  [6.281 s, 27 proof obligations]  verified
+  [7.659 s, 27 proof obligations]  verified
 
 Verifying Impl$$_module.__default.Lemma__NewDM__SameSubjObjPIDsIfPIDsAreUnchanged ...
-  [6.656 s, 11 proof obligations]  verified
+  [10.018 s, 11 proof obligations]  verified
 
 Verifying CheckWellformed$$_module.__default.Lemma__NewDMFromNewK__SubjsOwnObjsThenInSamePartition__Prove ...
-  [4.000 s, 20 proof obligations]  verified
+  [7.861 s, 20 proof obligations]  verified
 
 Verifying Impl$$_module.__default.Lemma__NewDMFromNewK__SubjsOwnObjsThenInSamePartition__Prove ...
-  [5.122 s, 64 proof obligations]  verified
+  [12.344 s, 64 proof obligations]  verified
 
 Verifying CheckWellformed$$_module.__default.Lemma__NewDM__IsValidState__DevsActivateCond__IfDevPIDsAreUnchanged ...
-  [3.719 s, 2 proof obligations]  verified
+  [11.409 s, 2 proof obligations]  verified
 
 Verifying Impl$$_module.__default.Lemma__NewDM__IsValidState__DevsActivateCond__IfDevPIDsAreUnchanged ...
-  [3.875 s, 7 proof obligations]  verified
+  [6.192 s, 7 proof obligations]  verified
 
 Verifying CheckWellformed$$_module.__default.Lemma__NewDM__FulFillIsValidState__SubjsOwnObjsThenInSamePartition__IfPIDsAreUnchanged ...
-  [3.656 s, 34 proof obligations]  verified
+  [6.585 s, 34 proof obligations]  verified
 
 Verifying Impl$$_module.__default.Lemma__NewDM__FulFillIsValidState__SubjsOwnObjsThenInSamePartition__IfPIDsAreUnchanged ...
-  [24.935 s, 38 proof obligations]  verified
+  [22.535 s, 38 proof obligations]  verified
 
 Verifying CheckWellformed$$_module.__default.Lemma__NewDM__FulfillSI2__IfGreenTDsAreUnchanged ...
-  [6.972 s, 57 proof obligations]  verified
+  [12.309 s, 57 proof obligations]  verified
 
 Verifying Impl$$_module.__default.Lemma__NewDM__FulfillSI2__IfGreenTDsAreUnchanged ...
-  [135.386 s, 58 proof obligations]  verified
+  [123.551 s, 58 proof obligations]  verified
 
 Verifying CheckWellformed$$_module.__default.Lemma__NewDM__SameTDsInGreen__IfTDsPIDsAreUnchanged ...
-  [3.419 s, 8 proof obligations]  verified
+  [7.919 s, 8 proof obligations]  verified
 
 Verifying Impl$$_module.__default.Lemma__NewDM__SameTDsInGreen__IfTDsPIDsAreUnchanged ...
-  [3.340 s, 1 proof obligation]  verified
+  [7.353 s, 1 proof obligation]  verified
 
 Verifying CheckWellformed$$_module.__default.Lemma__NewDM__SameSubjObjIDs ...
-  [3.944 s, 2 proof obligations]  verified
+  [7.745 s, 2 proof obligations]  verified
 
 Verifying Impl$$_module.__default.Lemma__NewDM__SameSubjObjIDs ...
-  [4.561 s, 2 proof obligations]  verified
+  [7.537 s, 2 proof obligations]  verified
 
 Verifying CheckWellformed$$_module.__default.Lemma__NewDM__IsValidState__DevsActivateCond ...
-  [3.219 s, 7 proof obligations]  verified
+  [7.407 s, 7 proof obligations]  verified
 
 Verifying Impl$$_module.__default.Lemma__NewDM__IsValidState__DevsActivateCond ...
-  [2.996 s, 7 proof obligations]  verified
+  [6.666 s, 7 proof obligations]  verified
 
 Verifying CheckWellformed$$_module.__default.Lemma__NewDM__SameSubjObjOwnership ...
-  [3.720 s, 4 proof obligations]  verified
+  [6.695 s, 4 proof obligations]  verified
 
 Verifying Impl$$_module.__default.Lemma__NewDM__SameSubjObjOwnership ...
-  [5.214 s, 25 proof obligations]  verified
+  [7.699 s, 25 proof obligations]  verified
 
 Verifying CheckWellformed$$_module.__default.Lemma__ValidDMState__SameSubjIDsPIDsBetweenWKAndK ...
-  [3.053 s, 2 proof obligations]  verified
+  [5.478 s, 2 proof obligations]  verified
 
 Verifying Impl$$_module.__default.Lemma__ValidDMState__SameSubjIDsPIDsBetweenWKAndK ...
-  [3.031 s, 5 proof obligations]  verified
+  [4.838 s, 5 proof obligations]  verified
 
 Verifying CheckWellformed$$_module.__default.Lemma__ValidDMState__SameObjIDsPIDsBetweenWKAndK ...
-  [3.189 s, 8 proof obligations]  verified
+  [4.029 s, 8 proof obligations]  verified
 
 Verifying Impl$$_module.__default.Lemma__ValidDMState__SameObjIDsPIDsBetweenWKAndK ...
-  [3.835 s, 6 proof obligations]  verified
+  [4.294 s, 6 proof obligations]  verified
 
 Verifying CheckWellformed$$_module.__default.Lemma__DM__EmptyPartitionDestroy__ProveCheckOfDevActivateInK ...
-  [3.283 s, 10 proof obligations]  verified
+  [5.328 s, 10 proof obligations]  verified
 
 Verifying Impl$$_module.__default.Lemma__DM__EmptyPartitionDestroy__ProveCheckOfDevActivateInK ...
-  [3.124 s, 19 proof obligations]  verified
+  [4.338 s, 19 proof obligations]  verified
 
 Verifying Impl$$_module.__default.Lemma__EmptyPartitionDestroy__ProveRedPIDStillExists ...
-  [3.042 s, 1 proof obligation]  verified
+  [5.429 s, 1 proof obligation]  verified
 
 Verifying CheckWellformed$$_module.__default.Lemma__ExternalObjsActivateDeactivate__NoSubjOwnExternalObj__Interpretation ...
-  [3.647 s, 3 proof obligations]  verified
+  [5.974 s, 3 proof obligations]  verified
 
 Verifying Impl$$_module.__default.Lemma__ExternalObjsActivateDeactivate__NoSubjOwnExternalObj__Interpretation ...
-  [3.219 s, 4 proof obligations]  verified
+  [4.075 s, 4 proof obligations]  verified
 
 Verifying CheckWellformed$$_module.__default.Lemma__NewDMFromNewK__FulfillSI1__Private ...
-  [3.100 s, 9 proof obligations]  verified
+  [2.326 s, 9 proof obligations]  verified
 
 Verifying Impl$$_module.__default.Lemma__NewDMFromNewK__FulfillSI1__Private ...
-  [3.114 s, 1 proof obligation]  verified
+  [2.718 s, 1 proof obligation]  verified
 
 Dafny program verifier finished with 35 verified, 0 errors
 

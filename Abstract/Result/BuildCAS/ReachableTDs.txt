@@ -1,4 +1,4 @@
-[TRACE] Using prover: D:\utils\dafny\z3\bin\z3.exe
+[TRACE] Using prover: E:\utils\dafny-v2.1\z3\bin\z3.exe
 Dafny 2.1.1.10209
 Parsing ./BuildCAS/ReachableTDs.dfy
 .\BuildCAS\../Utils.dfy(12,4): Warning: /!\ No trigger covering all quantified variables found.
@@ -29,122 +29,123 @@ Coalescing blocks...
 Inlining...
 
 Running abstract interpretation...
-  [0.3749912 s]
-[TRACE] Using prover: D:\utils\dafny\z3\bin\z3.exe
+  [0.1097072 s]
+[TRACE] Using prover: E:\utils\dafny-v2.1\z3\bin\z3.exe
 
 Verifying CheckWellformed$$_module.__default.FindAllTDsReachableFromTDWithR__KParams__PreConditions ...
-  [4.797 s, 13 proof obligations]  verified
+  [6.960 s, 13 proof obligations]  verified
 
 Verifying CheckWellformed$$_module.__default.FindAllTDsReachableFromHCodedTDsWithR ...
-  [1.578 s, 33 proof obligations]  verified
+  [4.671 s, 33 proof obligations]  verified
 
 Verifying Impl$$_module.__default.FindAllTDsReachableFromHCodedTDsWithR ...
-  [1.844 s, 65 proof obligations]  verified
+  [6.086 s, 65 proof obligations]  verified
 
 Verifying CheckWellformed$$_module.__default.FindAllTDsReachableFromTDWithR ...
-  [2.500 s, 111 proof obligations]  verified
+  [3.533 s, 111 proof obligations]  verified
+Linearising   [0.637296 s]
 
 Verifying Impl$$_module.__default.FindAllTDsReachableFromTDWithR ...
-  [10.062 s, 264 proof obligations]  verified
+  [20.353 s, 264 proof obligations]  verified
 
 Verifying CheckWellformed$$_module.__default.FindAllTDsReachableFromTDWithR__GetToExploreTDs ...
-  [2.276 s, 82 proof obligations]  verified
+  [8.505 s, 82 proof obligations]  verified
 
 Verifying Impl$$_module.__default.FindAllTDsReachableFromTDWithR__GetToExploreTDs ...
-  [7.859 s, 207 proof obligations]  verified
+  [16.737 s, 207 proof obligations]  verified
 
 Verifying CheckWellformed$$_module.__default.IsActiveTDRefActiveTDInChainWithR ...
-  [1.922 s, 24 proof obligations]  verified
+  [5.490 s, 24 proof obligations]  verified
 
 Verifying CheckWellformed$$_module.__default.IsActiveTDRefActiveTDWithR ...
-  [2.531 s, 26 proof obligations]  verified
+  [6.373 s, 26 proof obligations]  verified
 
 Verifying CheckWellformed$$_module.__default.GetExploredTDs ...
-  [2.086 s, 18 proof obligations]  verified
+  [3.018 s, 18 proof obligations]  verified
 
 Verifying CheckWellformed$$_module.__default.Lemma__ActiveDevCanReadTheirHCodedTDs ...
-  [11.347 s, 35 proof obligations]  verified
+  [10.642 s, 35 proof obligations]  verified
 
 Verifying Impl$$_module.__default.Lemma__ActiveDevCanReadTheirHCodedTDs ...
-  [2.030 s, 36 proof obligations]  verified
+  [4.902 s, 36 proof obligations]  verified
 
 Verifying CheckWellformed$$_module.__default.Lemma__ActiveDevCanReadTDsRefedByActiveTDWithR ...
-  [1.984 s, 36 proof obligations]  verified
+  [3.891 s, 36 proof obligations]  verified
 
 Verifying Impl$$_module.__default.Lemma__ActiveDevCanReadTDsRefedByActiveTDWithR ...
-  [3.531 s, 39 proof obligations]  verified
+  [6.449 s, 39 proof obligations]  verified
 
 Verifying CheckWellformed$$_module.__default.Lemma__AllHCodedTDsReadByDevAreReturned ...
-  [1.704 s, 9 proof obligations]  verified
+  [3.850 s, 9 proof obligations]  verified
 
 Verifying Impl$$_module.__default.Lemma__AllHCodedTDsReadByDevAreReturned ...
-  [2.016 s, 6 proof obligations]  verified
+  [3.859 s, 6 proof obligations]  verified
 
 Verifying CheckWellformed$$_module.__default.Lemma__RootTDsAndAllActiveTDsRefedByRootTDsAreAllTDsReadByDev ...
-  [2.219 s, 23 proof obligations]  verified
+  [2.822 s, 23 proof obligations]  verified
 
 Verifying Impl$$_module.__default.Lemma__RootTDsAndAllActiveTDsRefedByRootTDsAreAllTDsReadByDev ...
-  [2.375 s, 33 proof obligations]  verified
+  [4.452 s, 33 proof obligations]  verified
 
 Verifying CheckWellformed$$_module.__default.Lemma__TDsRefedByTDAlsoRefedByTDInChain ...
-  [2.641 s, 19 proof obligations]  verified
+  [4.108 s, 19 proof obligations]  verified
 
 Verifying Impl$$_module.__default.Lemma__TDsRefedByTDAlsoRefedByTDInChain ...
-  [2.172 s, 18 proof obligations]  verified
+  [3.274 s, 18 proof obligations]  verified
 
 Verifying CheckWellformed$$_module.__default.Lemma__TD1RefsTD2InChainWithRAlsoRefsTDsReadByTheTD2 ...
-  [2.266 s, 26 proof obligations]  verified
+  [2.612 s, 26 proof obligations]  verified
 
 Verifying Impl$$_module.__default.Lemma__TD1RefsTD2InChainWithRAlsoRefsTDsReadByTheTD2 ...
-  [5.406 s, 93 proof obligations]  verified
+  [4.841 s, 93 proof obligations]  verified
 
 Verifying CheckWellformed$$_module.__default.Lemma__TD1RefsTD2InChainWithRAlsoRefsTDsReadByTheTD2Specific ...
-  [2.182 s, 26 proof obligations]  verified
+  [4.253 s, 26 proof obligations]  verified
 
 Verifying Impl$$_module.__default.Lemma__TD1RefsTD2InChainWithRAlsoRefsTDsReadByTheTD2Specific ...
-  [5.266 s, 73 proof obligations]  verified
+  [10.039 s, 73 proof obligations]  verified
 
 Verifying CheckWellformed$$_module.__default.Lemma__ExploredTDsAfterAppendingIncludeOldExploredTDsAndAddedExploreTDs ...
-  [2.141 s, 4 proof obligations]  verified
+  [3.291 s, 4 proof obligations]  verified
 
 Verifying Impl$$_module.__default.Lemma__ExploredTDsAfterAppendingIncludeOldExploredTDsAndAddedExploreTDs ...
-  [2.156 s, 1 proof obligation]  verified
+  [3.741 s, 1 proof obligation]  verified
 
 Verifying CheckWellformed$$_module.__default.Lemma__ReachableTDsAreExplored ...
-  [2.516 s, 29 proof obligations]  verified
+  [4.347 s, 29 proof obligations]  verified
 
 Verifying Impl$$_module.__default.Lemma__ReachableTDsAreExplored ...
-  [3.172 s, 74 proof obligations]  verified
+  [4.856 s, 74 proof obligations]  verified
 
 Verifying CheckWellformed$$_module.__default.Lemma__ExploredTDsCanBeSeparated ...
-  [2.375 s, 6 proof obligations]  verified
+  [2.646 s, 6 proof obligations]  verified
 
 Verifying Impl$$_module.__default.Lemma__ExploredTDsCanBeSeparated ...
-  [10.672 s, 1 proof obligation]  verified
+  [18.208 s, 1 proof obligation]  verified
 
 Verifying CheckWellformed$$_module.__default.Lemma__FindAllTDsReachableFromTDWithR__Req2 ...
-  [2.531 s, 31 proof obligations]  verified
+  [3.418 s, 31 proof obligations]  verified
 
 Verifying Impl$$_module.__default.Lemma__FindAllTDsReachableFromTDWithR__Req2 ...
-  [2.547 s, 19 proof obligations]  verified
+  [3.957 s, 19 proof obligations]  verified
 
 Verifying CheckWellformed$$_module.__default.Lemma__FindAllTDsReachableFromTDWithR__Req4 ...
-  [3.422 s, 61 proof obligations]  verified
+  [5.039 s, 61 proof obligations]  verified
 
 Verifying Impl$$_module.__default.Lemma__FindAllTDsReachableFromTDWithR__Req4 ...
-  [4.547 s, 61 proof obligations]  verified
+  [7.280 s, 61 proof obligations]  verified
 
 Verifying CheckWellformed$$_module.__default.Lemma__FindAllTDsReachableFromTDWithR__Req5 ...
-  [2.687 s, 34 proof obligations]  verified
+  [3.259 s, 34 proof obligations]  verified
 
 Verifying Impl$$_module.__default.Lemma__FindAllTDsReachableFromTDWithR__Req5 ...
-  [2.328 s, 38 proof obligations]  verified
+  [2.653 s, 38 proof obligations]  verified
 
 Verifying CheckWellformed$$_module.__default.Lemma__FindAllTDsReachableFromTDWithR__ProveTermination ...
-  [2.433 s, 11 proof obligations]  verified
+  [3.119 s, 11 proof obligations]  verified
 
 Verifying Impl$$_module.__default.Lemma__FindAllTDsReachableFromTDWithR__ProveTermination ...
-  [3.203 s, 24 proof obligations]  verified
+  [4.100 s, 24 proof obligations]  verified
 
 Dafny program verifier finished with 38 verified, 0 errors
 

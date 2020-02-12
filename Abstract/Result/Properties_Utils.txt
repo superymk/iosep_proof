@@ -1,4 +1,4 @@
-[TRACE] Using prover: D:\utils\dafny\z3\bin\z3.exe
+[TRACE] Using prover: E:\utils\dafny-v2.1\z3\bin\z3.exe
 Dafny 2.1.1.10209
 Parsing Properties_Utils.dfy
 Utils.dfy(12,4): Warning: /!\ No trigger covering all quantified variables found.
@@ -29,83 +29,83 @@ Coalescing blocks...
 Inlining...
 
 Running abstract interpretation...
-  [0.171871 s]
-[TRACE] Using prover: D:\utils\dafny\z3\bin\z3.exe
+  [0.0708102 s]
+[TRACE] Using prover: E:\utils\dafny-v2.1\z3\bin\z3.exe
 
 Verifying CheckWellformed$$_module.__default.DevAModesToObj ...
-  [9.906 s, 70 proof obligations]  verified
+  [10.101 s, 70 proof obligations]  verified
 
 Verifying CheckWellformed$$_module.__default.DevAModesToObjFromTDs ...
-  [6.797 s, 51 proof obligations]  verified
+  [6.615 s, 51 proof obligations]  verified
 
 Verifying CheckWellformed$$_module.__default.DevAModesToObjFromTDs__ExistR ...
-  [7.010 s, 51 proof obligations]  verified
+  [10.635 s, 51 proof obligations]  verified
 
 Verifying CheckWellformed$$_module.__default.DevAModesToObjFromTDs__ExistW ...
-  [7.109 s, 51 proof obligations]  verified
+  [14.134 s, 51 proof obligations]  verified
 
 Verifying CheckWellformed$$_module.__default.CanActiveDevReadActiveTD__KParams__PreConditions ...
-  [3.078 s, 4 proof obligations]  verified
+  [3.457 s, 4 proof obligations]  verified
 
 Verifying CheckWellformed$$_module.__default.CanActiveDevReadActiveTD__PreConditions ...
-  [2.866 s, 7 proof obligations]  verified
+  [4.678 s, 7 proof obligations]  verified
 
 Verifying CheckWellformed$$_module.__default.CanActiveDevReadActiveTD ...
-  [3.016 s, 28 proof obligations]  verified
+  [6.015 s, 28 proof obligations]  verified
 
 Verifying CheckWellformed$$_module.__default.DevAModesToObj__SlimState__PreConditions ...
-  [3.287 s, 10 proof obligations]  verified
+  [3.889 s, 10 proof obligations]  verified
 
 Verifying CheckWellformed$$_module.__default.DevAModesToObj__SlimState ...
-  [3.469 s, 12 proof obligations]  verified
+  [4.615 s, 12 proof obligations]  verified
 
 Verifying CheckWellformed$$_module.__default.DevAModesToObjFromTDs__SlimState ...
-  [3.093 s, 34 proof obligations]  verified
+  [4.917 s, 34 proof obligations]  verified
 
 Verifying CheckWellformed$$_module.__default.DevAModesToObjFromTDs__ExistR__SlimState ...
-  [2.828 s, 19 proof obligations]  verified
+  [4.186 s, 19 proof obligations]  verified
 
 Verifying CheckWellformed$$_module.__default.DevAModesToObjFromTDs__ExistW__SlimState ...
-  [2.797 s, 19 proof obligations]  verified
+  [4.161 s, 19 proof obligations]  verified
 
 Verifying CheckWellformed$$_module.__default.ActiveTDsStateIsSecure ...
-  [3.178 s, 28 proof obligations]  verified
+  [3.852 s, 28 proof obligations]  verified
 
 Verifying CheckWellformed$$_module.__default.AllReachableActiveTDsStatesAreSecure ...
-  [2.703 s, 20 proof obligations]  verified
+  [2.595 s, 20 proof obligations]  verified
 
 Verifying CheckWellformed$$_module.__default.Lemma__ActiveTDsStateIsSecure__TDReadByActiveDevMustHaveValidRefsOnly ...
-  [2.734 s, 44 proof obligations]  verified
+  [4.910 s, 44 proof obligations]  verified
 
 Verifying Impl$$_module.__default.Lemma__ActiveTDsStateIsSecure__TDReadByActiveDevMustHaveValidRefsOnly ...
-  [6.859 s, 4 proof obligations]  verified
+  [7.035 s, 4 proof obligations]  verified
 
 Verifying CheckWellformed$$_module.__default.Lemma__CanActiveDevReadActiveTD__DevCanAlwaysReadHCodedTD ...
-  [2.828 s, 14 proof obligations]  verified
+  [4.266 s, 14 proof obligations]  verified
 
 Verifying Impl$$_module.__default.Lemma__CanActiveDevReadActiveTD__DevCanAlwaysReadHCodedTD ...
-  [2.437 s, 14 proof obligations]  verified
+  [1.261 s, 14 proof obligations]  verified
 
 Verifying CheckWellformed$$_module.__default.Lemma__CanActiveDevReadActiveTD__ThenTDIsHCodedTDOrDevAModesToObjHasRTransfer ...
-  [2.447 s, 28 proof obligations]  verified
+  [3.723 s, 28 proof obligations]  verified
 
 Verifying Impl$$_module.__default.Lemma__CanActiveDevReadActiveTD__ThenTDIsHCodedTDOrDevAModesToObjHasRTransfer ...
-  [6.000 s, 86 proof obligations]  verified
+  [10.543 s, 86 proof obligations]  verified
 
 Verifying CheckWellformed$$_module.__default.Lemma__CanActiveDevReadActiveTD__DevCanReadAllIntermediateTDs ...
-  [2.562 s, 19 proof obligations]  verified
+  [4.224 s, 19 proof obligations]  verified
 
 Verifying Impl$$_module.__default.Lemma__CanActiveDevReadActiveTD__DevCanReadAllIntermediateTDs ...
-  [2.672 s, 23 proof obligations]  verified
+  [4.527 s, 23 proof obligations]  verified
 
 Verifying CheckWellformed$$_module.__default.P__CanActiveDevReadActiveTD__EachTDAlwaysRefedByPreviousTDWithRInChain ...
-  [2.484 s, 4 proof obligations]  verified
+  [3.904 s, 4 proof obligations]  verified
 
 Verifying CheckWellformed$$_module.__default.Lemma__CanActiveDevReadActiveTD__Apply ...
-  [2.437 s, 20 proof obligations]  verified
+  [3.699 s, 20 proof obligations]  verified
 
 Verifying Impl$$_module.__default.Lemma__CanActiveDevReadActiveTD__Apply ...
-  [2.531 s, 13 proof obligations]  verified
+  [3.505 s, 13 proof obligations]  verified
 
 Dafny program verifier finished with 25 verified, 0 errors
 

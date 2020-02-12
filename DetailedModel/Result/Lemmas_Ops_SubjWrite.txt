@@ -1,4 +1,4 @@
-[TRACE] Using prover: D:\utils\dafny\z3\bin\z3.exe
+[TRACE] Using prover: E:\utils\dafny-v2.1\z3\bin\z3.exe
 Dafny 2.1.1.10209
 Parsing Lemmas_Ops_SubjWrite.dfy
 ../Abstract/Model.dfy(2097,5): Warning: /!\ No trigger covering all quantified variables found.
@@ -77,105 +77,104 @@ Coalescing blocks...
 Inlining...
 
 Running abstract interpretation...
-  [0.2968704 s]
-[TRACE] Using prover: D:\utils\dafny\z3\bin\z3.exe
+  [0.1266614 s]
+[TRACE] Using prover: E:\utils\dafny-v2.1\z3\bin\z3.exe
 
 Verifying CheckWellformed$$_module.__default.Lemma__DM__DevWrite__AllWrittenObjsMustBeInSamePartitionWithDev ...
-  [21.454 s, 13 proof obligations]  verified
+  [13.054 s, 13 proof obligations]  verified
 
 Verifying Impl$$_module.__default.Lemma__DM__DevWrite__AllWrittenObjsMustBeInSamePartitionWithDev ...
-  [16.156 s, 1 proof obligation]  verified
+  [10.248 s, 1 proof obligation]  verified
 
 Verifying CheckWellformed$$_module.__default.Lemma__GreenDevWrite__TDsAreUnmodified ...
-  [10.521 s, 85 proof obligations]  verified
-Linearising   [0.5156125 s]
+  [5.689 s, 85 proof obligations]  verified
 
 Verifying Impl$$_module.__default.Lemma__GreenDevWrite__TDsAreUnmodified ...
-  [47.076 s, 227 proof obligations]  verified
+  [40.941 s, 227 proof obligations]  verified
 
 Verifying CheckWellformed$$_module.__default.Lemma__GreenDevWrite__TDsInDMObjectsAreSame ...
-  [8.656 s, 3 proof obligations]  verified
+  [9.789 s, 3 proof obligations]  verified
 
 Verifying Impl$$_module.__default.Lemma__GreenDevWrite__TDsInDMObjectsAreSame ...
-  [9.047 s, 1 proof obligation]  verified
+  [8.346 s, 1 proof obligation]  verified
 
 Verifying CheckWellformed$$_module.__default.Lemma__DrvDevWrite__Func__Prove ...
-  [7.984 s, 6 proof obligations]  verified
+  [7.171 s, 6 proof obligations]  verified
 
 Verifying Impl$$_module.__default.Lemma__DrvDevWrite__Func__Prove ...
-  [7.453 s, 1 proof obligation]  verified
+  [8.383 s, 1 proof obligation]  verified
 
 Verifying CheckWellformed$$_module.__default.Lemma__NewDM__RedDrvWrite__SameDMAllActiveGreenUSBTDs ...
-  [8.125 s, 25 proof obligations]  verified
+  [13.712 s, 25 proof obligations]  verified
 
 Verifying Impl$$_module.__default.Lemma__NewDM__RedDrvWrite__SameDMAllActiveGreenUSBTDs ...
-  [11.405 s, 47 proof obligations]  verified
+  [12.721 s, 47 proof obligations]  verified
 
 Verifying CheckWellformed$$_module.__default.Lemma__RedDrvWrite__CommonValidityPropertiesOfNewDM__AndUnchangedPIDsOfGreenFDsDOs ...
-  [8.140 s, 63 proof obligations]  verified
+  [14.850 s, 63 proof obligations]  verified
 
 Verifying Impl$$_module.__default.Lemma__RedDrvWrite__CommonValidityPropertiesOfNewDM__AndUnchangedPIDsOfGreenFDsDOs ...
-  [7.297 s, 152 proof obligations]  verified
+  [9.514 s, 152 proof obligations]  verified
 
 Verifying CheckWellformed$$_module.__default.Lemma__DrvWrite__NewDM__FulfillSI3 ...
-  [8.053 s, 33 proof obligations]  verified
+  [11.236 s, 33 proof obligations]  verified
 
 Verifying Impl$$_module.__default.Lemma__DrvWrite__NewDM__FulfillSI3 ...
-  [6.310 s, 5 proof obligations]  verified
+  [13.201 s, 5 proof obligations]  verified
 
 Verifying CheckWellformed$$_module.__default.Lemma__NewDM__RedDrvWrite__SameDMAllObjsIDsAndObjPIDs ...
-  [7.906 s, 22 proof obligations]  verified
+  [8.520 s, 22 proof obligations]  verified
 
 Verifying Impl$$_module.__default.Lemma__NewDM__RedDrvWrite__SameDMAllObjsIDsAndObjPIDs ...
-  [7.375 s, 2 proof obligations]  verified
+  [14.320 s, 2 proof obligations]  verified
 
 Verifying CheckWellformed$$_module.__default.Lemma__NewDM__RedDrvWrite__MappedStateOfNewDMIsProposedWriteResultOfMappedStateOfDM ...
-  [4.744 s, 18 proof obligations]  verified
+  [7.149 s, 18 proof obligations]  verified
 
 Verifying Impl$$_module.__default.Lemma__NewDM__RedDrvWrite__MappedStateOfNewDMIsProposedWriteResultOfMappedStateOfDM ...
-  [4.300 s, 13 proof obligations]  verified
+  [11.219 s, 13 proof obligations]  verified
 
 Verifying CheckWellformed$$_module.__default.Lemma__RedDrvWrite__ProveP__DrvWrite__ReturnTrue__Def ...
-  [6.268 s, 78 proof obligations]  verified
+  [15.099 s, 78 proof obligations]  verified
 
 Verifying Impl$$_module.__default.Lemma__RedDrvWrite__ProveP__DrvWrite__ReturnTrue__Def ...
-  [5.297 s, 4 proof obligations]  verified
+  [14.683 s, 4 proof obligations]  verified
 
 Verifying CheckWellformed$$_module.__default.Lemma__RedDrvWrite__PIDsOfAllTDsInTDDValMap2AreUnmodified ...
-  [6.265 s, 20 proof obligations]  verified
+  [9.430 s, 20 proof obligations]  verified
 
 Verifying Impl$$_module.__default.Lemma__RedDrvWrite__PIDsOfAllTDsInTDDValMap2AreUnmodified ...
-  [4.484 s, 38 proof obligations]  verified
+  [3.401 s, 38 proof obligations]  verified
 
 Verifying CheckWellformed$$_module.__default.Lemma__NewDM__GreenDrvWrite__SameDMAllObjsIDsAndObjPIDs ...
-  [5.453 s, 19 proof obligations]  verified
+  [7.587 s, 19 proof obligations]  verified
 
 Verifying Impl$$_module.__default.Lemma__NewDM__GreenDrvWrite__SameDMAllObjsIDsAndObjPIDs ...
-  [4.209 s, 2 proof obligations]  verified
+  [10.800 s, 2 proof obligations]  verified
 
 Verifying CheckWellformed$$_module.__default.Lemma__NewDM__GreenDrvWrite__SameDMRedTDs ...
-  [4.311 s, 20 proof obligations]  verified
+  [8.718 s, 20 proof obligations]  verified
 
 Verifying Impl$$_module.__default.Lemma__NewDM__GreenDrvWrite__SameDMRedTDs ...
-  [3.900 s, 1 proof obligation]  verified
+  [8.203 s, 1 proof obligation]  verified
 
 Verifying CheckWellformed$$_module.__default.Lemma__NewDM__GreenDrvWrite__SameDMAllActiveGreenTDIDs ...
-  [3.965 s, 17 proof obligations]  verified
+  [7.148 s, 17 proof obligations]  verified
 
 Verifying Impl$$_module.__default.Lemma__NewDM__GreenDrvWrite__SameDMAllActiveGreenTDIDs ...
-  [4.704 s, 1 proof obligation]  verified
+  [5.947 s, 1 proof obligation]  verified
 
 Verifying CheckWellformed$$_module.__default.Lemma__DM__GreenDrvWrite__FulfillSI2 ...
-  [54.535 s, 96 proof obligations]  verified
+  [53.329 s, 96 proof obligations]  verified
 
 Verifying Impl$$_module.__default.Lemma__DM__GreenDrvWrite__FulfillSI2 ...
-  [140.259 s, 58 proof obligations]  verified
+  [134.489 s, 58 proof obligations]  verified
 
 Verifying CheckWellformed$$_module.__default.Lemma__NewDM__GreenDrvWrite__SameTDsInRed ...
-  [4.290 s, 29 proof obligations]  verified
+  [3.169 s, 29 proof obligations]  verified
 
 Verifying Impl$$_module.__default.Lemma__NewDM__GreenDrvWrite__SameTDsInRed ...
-  [4.067 s, 10 proof obligations]  verified
+  [2.239 s, 10 proof obligations]  verified
 
 Dafny program verifier finished with 32 verified, 0 errors
 

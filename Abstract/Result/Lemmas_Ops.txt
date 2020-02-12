@@ -1,4 +1,4 @@
-[TRACE] Using prover: D:\utils\dafny\z3\bin\z3.exe
+[TRACE] Using prover: E:\utils\dafny-v2.1\z3\bin\z3.exe
 Dafny 2.1.1.10209
 Parsing Lemmas_Ops.dfy
 Utils.dfy(12,4): Warning: /!\ No trigger covering all quantified variables found.
@@ -41,212 +41,213 @@ Coalescing blocks...
 Inlining...
 
 Running abstract interpretation...
-  [0.6665665 s]
-[TRACE] Using prover: D:\utils\dafny\z3\bin\z3.exe
+  [0.1904897 s]
+[TRACE] Using prover: E:\utils\dafny-v2.1\z3\bin\z3.exe
+Linearising   [0.6352996 s]
 
 Verifying CheckWellformed$$_module.__default.Lemma__ValidK__HCodedTDsAreTDs ...
-  [15.146 s, 1 proof obligation]  verified
+  [10.334 s, 1 proof obligation]  verified
 
 Verifying Impl$$_module.__default.Lemma__ValidK__HCodedTDsAreTDs ...
-  [2.453 s, 1 proof obligation]  verified
+  [7.309 s, 1 proof obligation]  verified
 
 Verifying CheckWellformed$$_module.__default.Lemma__ValidState__FulfillCanActiveDevReadActiveTDPreConditions ...
-  [2.984 s, 5 proof obligations]  verified
+  [4.597 s, 5 proof obligations]  verified
 
 Verifying Impl$$_module.__default.Lemma__ValidState__FulfillCanActiveDevReadActiveTDPreConditions ...
-  [15.750 s, 1 proof obligation]  verified
+  [19.931 s, 1 proof obligation]  verified
 
 Verifying CheckWellformed$$_module.__default.Lemma__KParams__ValidAndSecureK__HCodedTDsOfDevRefObjInDev ...
-  [4.057 s, 32 proof obligations]  verified
+  [6.417 s, 32 proof obligations]  verified
 
 Verifying Impl$$_module.__default.Lemma__KParams__ValidAndSecureK__HCodedTDsOfDevRefObjInDev ...
-  [3.031 s, 1 proof obligation]  verified
+  [7.698 s, 1 proof obligation]  verified
 
 Verifying CheckWellformed$$_module.__default.Lemma__KParams__ValidAndSecureK__FindAllTDsReadByDev__PreConditions ...
-  [3.078 s, 29 proof obligations]  verified
+  [3.649 s, 29 proof obligations]  verified
 
 Verifying Impl$$_module.__default.Lemma__KParams__ValidAndSecureK__FindAllTDsReadByDev__PreConditions ...
-  [60.292 s, 48 proof obligations]  verified
+  [28.597 s, 48 proof obligations]  verified
 
 Verifying CheckWellformed$$_module.__default.Lemma__NewStateVars__HCodedTDsAreUnmodified ...
-  [3.859 s, 21 proof obligations]  verified
+  [8.810 s, 21 proof obligations]  verified
 
 Verifying Impl$$_module.__default.Lemma__NewStateVars__HCodedTDsAreUnmodified ...
-  [3.888 s, 7 proof obligations]  verified
+  [10.918 s, 7 proof obligations]  verified
 
 Verifying Impl$$_module.__default.Lemma__NewKTDsToAllStates__ContainsAllSubsetOfTDsInNewK ...
-  [2.446 s, 1 proof obligation]  verified
+  [5.776 s, 1 proof obligation]  verified
 
 Verifying Impl$$_module.__default.Lemma__NewKTDsToAllStates__ContainsActiveTDsInNewK ...
-  [2.062 s, 1 proof obligation]  verified
+  [2.968 s, 1 proof obligation]  verified
 
 Verifying CheckWellformed$$_module.__default.Lemma__NewK__FulfillIsValidStateObjects ...
-  [2.738 s, 23 proof obligations]  verified
+  [5.408 s, 23 proof obligations]  verified
 
 Verifying Impl$$_module.__default.Lemma__NewK__FulfillIsValidStateObjects ...
-  [4.088 s, 47 proof obligations]  verified
+  [9.368 s, 47 proof obligations]  verified
 
 Verifying CheckWellformed$$_module.__default.Lemma__IsValidState__SubjectsObjects__Properties ...
-  [1.891 s, 7 proof obligations]  verified
+  [5.623 s, 7 proof obligations]  verified
 
 Verifying Impl$$_module.__default.Lemma__IsValidState__SubjectsObjects__Properties ...
-  [2.828 s, 2 proof obligations]  verified
+  [7.968 s, 2 proof obligations]  verified
 
 Verifying CheckWellformed$$_module.__default.Lemma__IsValidState__HCodedTDsOnlyRefObjsInOwnerDevs ...
-  [2.109 s, 5 proof obligations]  verified
+  [4.745 s, 5 proof obligations]  verified
 
 Verifying Impl$$_module.__default.Lemma__IsValidState__HCodedTDsOnlyRefObjsInOwnerDevs ...
-  [2.297 s, 1 proof obligation]  verified
+  [6.120 s, 1 proof obligation]  verified
 
 Verifying CheckWellformed$$_module.__default.Lemma__NewKParams__FindAllTDsReadByDev__KParams__PreConditions__StillHold ...
-  [1.984 s, 18 proof obligations]  verified
+  [5.131 s, 18 proof obligations]  verified
 
 Verifying Impl$$_module.__default.Lemma__NewKParams__FindAllTDsReadByDev__KParams__PreConditions__StillHold ...
-  [3.235 s, 22 proof obligations]  verified
+  [5.934 s, 22 proof obligations]  verified
 
 Verifying CheckWellformed$$_module.__default.Lemma__NewKParams__SameSubjIDsOwnershipInSuccessiveStates ...
-  [1.984 s, 28 proof obligations]  verified
+  [5.287 s, 28 proof obligations]  verified
 
 Verifying Impl$$_module.__default.Lemma__NewKParams__SameSubjIDsOwnershipInSuccessiveStates ...
-  [1.891 s, 12 proof obligations]  verified
+  [4.665 s, 12 proof obligations]  verified
 
 Verifying CheckWellformed$$_module.__default.Lemma__CurrentActiveTDsStateOnlyHasValidRefs ...
-  [109.308 s, 63 proof obligations]  verified
+  [72.059 s, 63 proof obligations]  verified
 
 Verifying Impl$$_module.__default.Lemma__CurrentActiveTDsStateOnlyHasValidRefs ...
-  [2.181 s, 1 proof obligation]  verified
+  [4.415 s, 1 proof obligation]  verified
 
 Verifying CheckWellformed$$_module.__default.Lemma__FindReachableActiveTDsStatesFromActiveTDsStateReturnsTrue__AllReachableActiveTDsStatesIsResult ...
-  [10.365 s, 39 proof obligations]  verified
+  [10.085 s, 39 proof obligations]  verified
 
 Verifying Impl$$_module.__default.Lemma__FindReachableActiveTDsStatesFromActiveTDsStateReturnsTrue__AllReachableActiveTDsStatesIsResult ...
-  [2.693 s, 1 proof obligation]  verified
+  [3.582 s, 1 proof obligation]  verified
 
 Verifying CheckWellformed$$_module.__default.Lemma__NewState__FindReachableActiveTDsStatesFromActiveTDsStateReturnsTrue__ThenIsValidStateReachableTDsStates ...
-  [5.049 s, 124 proof obligations]  verified
+  [8.891 s, 124 proof obligations]  verified
 
 Verifying Impl$$_module.__default.Lemma__NewState__FindReachableActiveTDsStatesFromActiveTDsStateReturnsTrue__ThenIsValidStateReachableTDsStates ...
-  [2.830 s, 110 proof obligations]  verified
+  [5.632 s, 110 proof obligations]  verified
 
 Verifying CheckWellformed$$_module.__default.Lemma__AllActiveDevs__ReturnCorrectResult ...
-  [1.543 s, 11 proof obligations]  verified
+  [3.115 s, 11 proof obligations]  verified
 
 Verifying Impl$$_module.__default.Lemma__AllActiveDevs__ReturnCorrectResult ...
-  [1.807 s, 13 proof obligations]  verified
+  [3.019 s, 13 proof obligations]  verified
 
 Verifying CheckWellformed$$_module.__default.Lemma__K__ValidStateFulfillUniqueIDsAndOwnedObjs ...
-  [1.462 s, 1 proof obligation]  verified
+  [2.674 s, 1 proof obligation]  verified
 
 Verifying Impl$$_module.__default.Lemma__K__ValidStateFulfillUniqueIDsAndOwnedObjs ...
-  [1.911 s, 12 proof obligations]  verified
+  [3.697 s, 12 proof obligations]  verified
 
 Verifying CheckWellformed$$_module.__default.Lemma__AllReachableActiveTDsStates__ActiveTDsStateIsSecure__Property ...
-  [113.647 s, 122 proof obligations]  verified
+  [96.268 s, 122 proof obligations]  verified
 
 Verifying Impl$$_module.__default.Lemma__AllReachableActiveTDsStates__ActiveTDsStateIsSecure__Property ...
-  [19.589 s, 47 proof obligations]  verified
+  [15.454 s, 47 proof obligations]  verified
 
 Verifying CheckWellformed$$_module.__default.Lemma__P__ObjsInSubjsAreAlsoInState__Prove ...
-  [1.610 s, 1 proof obligation]  verified
+  [1.269 s, 1 proof obligation]  verified
 
 Verifying Impl$$_module.__default.Lemma__P__ObjsInSubjsAreAlsoInState__Prove ...
-  [5.656 s, 3 proof obligations]  verified
+  [4.658 s, 3 proof obligations]  verified
 
 Verifying CheckWellformed$$_module.__default.Lemma__AllReachableActiveTDsStates__PreConditions ...
-  [1.594 s, 21 proof obligations]  verified
+  [1.197 s, 21 proof obligations]  verified
 
 Verifying Impl$$_module.__default.Lemma__AllReachableActiveTDsStates__PreConditions ...
-  [1.578 s, 1 proof obligation]  verified
+  [1.339 s, 1 proof obligation]  verified
 
 Verifying CheckWellformed$$_module.__default.Lemma__DrvDevWrite__NewKParams__SameWithKParams ...
-  [2.362 s, 29 proof obligations]  verified
+  [2.058 s, 29 proof obligations]  verified
 
 Verifying Impl$$_module.__default.Lemma__DrvDevWrite__NewKParams__SameWithKParams ...
-  [4.847 s, 36 proof obligations]  verified
+  [3.654 s, 36 proof obligations]  verified
 
 Verifying CheckWellformed$$_module.__default.Lemma__DevWrite__ReachableActiveTDsStatesFromNewKActiveTDsStatesMustBeSecure ...
-  [38.862 s, 93 proof obligations]  verified
+  [32.706 s, 93 proof obligations]  verified
 
 Verifying Impl$$_module.__default.Lemma__DevWrite__ReachableActiveTDsStatesFromNewKActiveTDsStatesMustBeSecure ...
-  [4.922 s, 32 proof obligations]  verified
+  [4.080 s, 32 proof obligations]  verified
 
 Verifying CheckWellformed$$_module.__default.Lemma__DevWrite__WrittenTDsFDsDOsExistInSystem ...
-  [34.420 s, 168 proof obligations]  verified
+  [28.696 s, 168 proof obligations]  verified
 
 Verifying Impl$$_module.__default.Lemma__DevWrite__WrittenTDsFDsDOsExistInSystem ...
-  [259.225 s, 208 proof obligations]  verified
+  [205.433 s, 208 proof obligations]  verified
 
 Verifying CheckWellformed$$_module.__default.Lemma__DevWrite__DevAccessObjsInSystemAndAccessIsAllowed ...
-  [2.266 s, 112 proof obligations]  verified
+  [1.562 s, 112 proof obligations]  verified
 
 Verifying Impl$$_module.__default.Lemma__DevWrite__DevAccessObjsInSystemAndAccessIsAllowed ...
-  [16.298 s, 200 proof obligations]  verified
+  [11.004 s, 200 proof obligations]  verified
 
 Verifying CheckWellformed$$_module.__default.Lemma__DevWrite__HCodedTDsAreUnmodified ...
-  [1.610 s, 12 proof obligations]  verified
+  [0.944 s, 12 proof obligations]  verified
 
 Verifying Impl$$_module.__default.Lemma__DevWrite__HCodedTDsAreUnmodified ...
-  [1.281 s, 9 proof obligations]  verified
+  [0.835 s, 9 proof obligations]  verified
 
 Verifying CheckWellformed$$_module.__default.Lemma__DrvDevWrite__WrittenTDsMustBeActiveInK ...
-  [1.344 s, 4 proof obligations]  verified
+  [0.826 s, 4 proof obligations]  verified
 
 Verifying Impl$$_module.__default.Lemma__DrvDevWrite__WrittenTDsMustBeActiveInK ...
-  [1.281 s, 8 proof obligations]  verified
+  [0.732 s, 8 proof obligations]  verified
 
 Verifying CheckWellformed$$_module.__default.Lemma__UnmodifiedSubjObjPIDs__NewKFulfillIsValidState__SubjsOwnObjsThenInSamePartition ...
-  [26.155 s, 58 proof obligations]  verified
+  [16.504 s, 58 proof obligations]  verified
 
 Verifying Impl$$_module.__default.Lemma__UnmodifiedSubjObjPIDs__NewKFulfillIsValidState__SubjsOwnObjsThenInSamePartition ...
-  [50.830 s, 13 proof obligations]  verified
+  [31.844 s, 13 proof obligations]  verified
 
 Verifying CheckWellformed$$_module.__default.Lemma__DrvWrite__ProveProperty3 ...
-  [1.926 s, 20 proof obligations]  verified
+  [1.191 s, 20 proof obligations]  verified
 
 Verifying Impl$$_module.__default.Lemma__DrvWrite__ProveProperty3 ...
-  [2.192 s, 1 proof obligation]  verified
+  [1.210 s, 1 proof obligation]  verified
 
 Verifying CheckWellformed$$_module.__default.Lemma__ExternalObjActivateDeactivate__NoSubjsOwnsExternalObjs__EquivilantRepresentation ...
-  [1.594 s, 2 proof obligations]  verified
+  [0.816 s, 2 proof obligations]  verified
 
 Verifying Impl$$_module.__default.Lemma__ExternalObjActivateDeactivate__NoSubjsOwnsExternalObjs__EquivilantRepresentation ...
-  [1.578 s, 1 proof obligation]  verified
+  [0.711 s, 1 proof obligation]  verified
 
 Verifying CheckWellformed$$_module.__default.Lemma__DevWrite__DevAccessObjsInSystemAndAccessIsAllowed__Property2 ...
-  [1.953 s, 45 proof obligations]  verified
+  [0.905 s, 45 proof obligations]  verified
 
 Verifying Impl$$_module.__default.Lemma__DevWrite__DevAccessObjsInSystemAndAccessIsAllowed__Property2 ...
-  [16.666 s, 1 proof obligation]  verified
+  [9.951 s, 1 proof obligation]  verified
 
 Verifying CheckWellformed$$_module.__default.Lemma__DevWrite__CurrentTDsStateReachNewTDsStateInOneStep ...
-  [6.978 s, 58 proof obligations]  verified
+  [3.789 s, 58 proof obligations]  verified
 
 Verifying Impl$$_module.__default.Lemma__DevWrite__CurrentTDsStateReachNewTDsStateInOneStep ...
-  [5.295 s, 1 proof obligation]  verified
+  [3.012 s, 1 proof obligation]  verified
 
 Verifying CheckWellformed$$_module.__default.Lemma__DevWrite__NewReachableActiveTDsStatesIsSubsetOfTheOneInK ...
-  [11.673 s, 46 proof obligations]  verified
+  [6.789 s, 46 proof obligations]  verified
 
 Verifying Impl$$_module.__default.Lemma__DevWrite__NewReachableActiveTDsStatesIsSubsetOfTheOneInK ...
-  [7.373 s, 17 proof obligations]  verified
+  [4.248 s, 17 proof obligations]  verified
 
 Verifying CheckWellformed$$_module.__default.Lemma__K__DoActiveTDIncludeTransfersToInvalidObjOrObjOutsidePartition__Equivilant ...
-  [3.344 s, 87 proof obligations]  verified
+  [2.168 s, 87 proof obligations]  verified
 
 Verifying Impl$$_module.__default.Lemma__K__DoActiveTDIncludeTransfersToInvalidObjOrObjOutsidePartition__Equivilant ...
-  [1.203 s, 1 proof obligation]  verified
+  [0.890 s, 1 proof obligation]  verified
 
 Verifying CheckWellformed$$_module.__default.Lemma__K__DoActiveTDIncludeTransfersToInvalidObjOrObjOutsidePartition__Equivilant__More ...
-  [82.634 s, 200 proof obligations]  verified
+  [52.141 s, 200 proof obligations]  verified
 
 Verifying Impl$$_module.__default.Lemma__K__DoActiveTDIncludeTransfersToInvalidObjOrObjOutsidePartition__Equivilant__More ...
-  [59.100 s, 3 proof obligations]  verified
+  [39.903 s, 3 proof obligations]  verified
 
 Verifying CheckWellformed$$_module.__default.Lemma__ActiveTDsUnchanged__FindReachableTDsStatesFromTDsState__AlwaysReturnsTrue ...
-  [134.088 s, 59 proof obligations]  verified
+  [74.939 s, 59 proof obligations]  verified
 
 Verifying Impl$$_module.__default.Lemma__ActiveTDsUnchanged__FindReachableTDsStatesFromTDsState__AlwaysReturnsTrue ...
-  [2.195 s, 1 proof obligation]  verified
+  [1.153 s, 1 proof obligation]  verified
 
 Dafny program verifier finished with 68 verified, 0 errors
 

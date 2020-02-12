@@ -1,4 +1,4 @@
-[TRACE] Using prover: D:\utils\dafny\z3\bin\z3.exe
+[TRACE] Using prover: E:\utils\dafny-v2.1\z3\bin\z3.exe
 Dafny 2.1.1.10209
 Parsing ./BuildCAS/BuildCAS.dfy
 .\BuildCAS\../Utils.dfy(12,4): Warning: /!\ No trigger covering all quantified variables found.
@@ -41,68 +41,68 @@ Coalescing blocks...
 Inlining...
 
 Running abstract interpretation...
-  [0.2812418 s]
-[TRACE] Using prover: D:\utils\dafny\z3\bin\z3.exe
+  [0.1845067 s]
+[TRACE] Using prover: E:\utils\dafny-v2.1\z3\bin\z3.exe
 
 Verifying CheckWellformed$$_module.__default.ValidSecureState__ReachableStatesOfActiveTDs ...
-  [13.031 s, 34 proof obligations]  verified
+  [7.889 s, 34 proof obligations]  verified
 
 Verifying Impl$$_module.__default.ValidSecureState__ReachableStatesOfActiveTDs ...
-  [120.041 s, 73 proof obligations]  verified
+  [62.026 s, 73 proof obligations]  verified
 
 Verifying CheckWellformed$$_module.__default.P__BuildCAS__Properties ...
-  [8.412 s, 55 proof obligations]  verified
+  [10.202 s, 55 proof obligations]  verified
 
 Verifying CheckWellformed$$_module.__default.BuildCAS ...
-  [2.925 s, 35 proof obligations]  verified
+  [3.022 s, 35 proof obligations]  verified
 
 Verifying Impl$$_module.__default.BuildCAS ...
-  [936.276 s, 43 proof obligations]  verified
+  [768.540 s, 43 proof obligations]  verified
 
 Verifying CheckWellformed$$_module.__default.BuildCAS__FillReqAModes ...
-  [9.014 s, 64 proof obligations]  verified
+  [5.736 s, 64 proof obligations]  verified
 
 Verifying Impl$$_module.__default.BuildCAS__FillReqAModes ...
-  [16.080 s, 72 proof obligations]  verified
+  [9.735 s, 72 proof obligations]  verified
 
 Verifying CheckWellformed$$_module.__default.TDsStatesToCASForDev ...
-  [25.742 s, 80 proof obligations]  verified
+  [15.703 s, 80 proof obligations]  verified
 
 Verifying Impl$$_module.__default.TDsStatesToCASForDev ...
-  [22.058 s, 118 proof obligations]  verified
+  [14.176 s, 118 proof obligations]  verified
 
 Verifying CheckWellformed$$_module.__default.TDsStateToCASForDev__PreConditions ...
-  [7.577 s, 32 proof obligations]  verified
+  [3.937 s, 32 proof obligations]  verified
 
 Verifying CheckWellformed$$_module.__default.TDsStateToCASForDev ...
-  [67.833 s, 58 proof obligations]  verified
+  [39.032 s, 58 proof obligations]  verified
 
 Verifying Impl$$_module.__default.TDsStateToCASForDev ...
-  [216.031 s, 240 proof obligations]  verified
+  [129.367 s, 240 proof obligations]  verified
 
 Verifying CheckWellformed$$_module.__default.TDsStateToCASForDev__ProcessOneReadableTD ...
-  [19.114 s, 73 proof obligations]  verified
+  [10.957 s, 73 proof obligations]  verified
 
 Verifying Impl$$_module.__default.TDsStateToCASForDev__ProcessOneReadableTD ...
-  [13.127 s, 85 proof obligations]  verified
+  [7.523 s, 85 proof obligations]  verified
 
 Verifying CheckWellformed$$_module.__default.Lemma__TDsStateToCASForDev__AModesInTDsStateAreAppendedToCAS ...
-  [76.704 s, 80 proof obligations]  verified
+  [44.220 s, 80 proof obligations]  verified
 
 Verifying Impl$$_module.__default.Lemma__TDsStateToCASForDev__AModesInTDsStateAreAppendedToCAS ...
-  [7.683 s, 18 proof obligations]  verified
+  [3.861 s, 18 proof obligations]  verified
 
 Verifying CheckWellformed$$_module.__default.Lemma__TDsStateToCASForDev__ProveFulfillFindAllTDsReadByDevKParamsPreConditions ...
-  [1.140 s, 5 proof obligations]  verified
+  [0.675 s, 5 proof obligations]  verified
 
 Verifying Impl$$_module.__default.Lemma__TDsStateToCASForDev__ProveFulfillFindAllTDsReadByDevKParamsPreConditions ...
-  [2.157 s, 81 proof obligations]  verified
+  [1.460 s, 81 proof obligations]  verified
 
 Verifying CheckWellformed$$_module.__default.Lemma__TDsStateToCASForDev__Private ...
-  [1.134 s, 46 proof obligations]  verified
+  [0.663 s, 46 proof obligations]  verified
 
 Verifying Impl$$_module.__default.Lemma__TDsStateToCASForDev__Private ...
-  [3.042 s, 1 proof obligation]  verified
+  [1.902 s, 1 proof obligation]  verified
 
 Dafny program verifier finished with 20 verified, 0 errors
 

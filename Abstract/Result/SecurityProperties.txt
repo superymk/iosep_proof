@@ -1,4 +1,4 @@
-[TRACE] Using prover: D:\utils\dafny\z3\bin\z3.exe
+[TRACE] Using prover: E:\utils\dafny-v2.1\z3\bin\z3.exe
 Dafny 2.1.1.10209
 Parsing SecurityProperties.dfy
 SecurityProperties.dfy(68,12): Warning: Selected triggers: {states[i]} (may loop with "states[i + 1]")
@@ -76,95 +76,92 @@ Coalescing blocks...
 Inlining...
 
 Running abstract interpretation...
-  [0.9687289 s]
-[TRACE] Using prover: D:\utils\dafny\z3\bin\z3.exe
-Linearising   [2.9999324 s]
+  [0.3101698 s]
+[TRACE] Using prover: E:\utils\dafny-v2.1\z3\bin\z3.exe
+Linearising   [0.7948753 s]
 
 Verifying CheckWellformed$$_module.__default.Lemma__ProveSP1 ...
-  [29.449 s, 2416 proof obligations]  verified
+  [16.325 s, 2416 proof obligations]  verified
 
 Verifying Impl$$_module.__default.Lemma__ProveSP1 ...
-  [5.656 s, 83 proof obligations]  verified
+  [5.069 s, 83 proof obligations]  verified
 
 Verifying CheckWellformed$$_module.__default.Lemma__ProveSP2 ...
-  [15.375 s, 161 proof obligations]  verified
-Linearising   [0.5624866 s]
+  [22.857 s, 161 proof obligations]  verified
 
 Verifying Impl$$_module.__default.Lemma__ProveSP2 ...
-  [48.707 s, 598 proof obligations]  verified
+  [49.143 s, 598 proof obligations]  verified
 
 Verifying CheckWellformed$$_module.__default.P__IsNonHCodedTDBeingMovedToAnActivePartition ...
-  [3.422 s, 6 proof obligations]  verified
+  [7.296 s, 6 proof obligations]  verified
 
 Verifying CheckWellformed$$_module.__default.P__IsFDBeingMovedToAnActivePartition ...
-  [3.020 s, 5 proof obligations]  verified
+  [5.380 s, 5 proof obligations]  verified
 
 Verifying CheckWellformed$$_module.__default.P__IsDOBeingMovedToAnActivePartition ...
-  [3.132 s, 5 proof obligations]  verified
+  [10.280 s, 5 proof obligations]  verified
 
 Verifying CheckWellformed$$_module.__default.Lemma__ProveInitialStateIsSecure ...
-  [3.437 s, 30 proof obligations]  verified
+  [7.418 s, 30 proof obligations]  verified
 
 Verifying Impl$$_module.__default.Lemma__ProveInitialStateIsSecure ...
-  [5.734 s, 35 proof obligations]  verified
-Linearising   [1.0624772 s]
+  [11.573 s, 35 proof obligations]  verified
 
 Verifying CheckWellformed$$_module.__default.Lemma__ProveTheorem1 ...
-  [4.516 s, 165 proof obligations]  verified
+  [7.501 s, 165 proof obligations]  verified
 
 Verifying Impl$$_module.__default.Lemma__ProveTheorem1 ...
-  [3.344 s, 35 proof obligations]  verified
+  [10.572 s, 35 proof obligations]  verified
+Linearising   [0.6871623 s]
 
 Verifying CheckWellformed$$_module.__default.Lemma__ProveTheorem2 ...
-  [4.500 s, 372 proof obligations]  verified
+  [6.105 s, 372 proof obligations]  verified
 
 Verifying Impl$$_module.__default.Lemma__ProveTheorem2 ...
-  [3.797 s, 225 proof obligations]  verified
+  [9.096 s, 225 proof obligations]  verified
 
 Verifying CheckWellformed$$_module.__default.P__OpsProperties ...
-  [3.270 s, 24 proof obligations]  verified
+  [6.023 s, 24 proof obligations]  verified
 
 Verifying CheckWellformed$$_module.__default.P__OpsFulfillPreConditions ...
-  [5.828 s, 194 proof obligations]  verified
+  [14.072 s, 194 proof obligations]  verified
 
 Verifying CheckWellformed$$_module.__default.IsValidTrace ...
-  [4.312 s, 605 proof obligations]  verified
-Linearising   [0.5937355 s]
+  [6.645 s, 605 proof obligations]  verified
 
 Verifying CheckWellformed$$_module.__default.K__CalcNewState ...
-  [5.469 s, 613 proof obligations]  verified
-Linearising   [2.7811874 s]
+  [10.159 s, 613 proof obligations]  verified
+Linearising   [1.1409497 s]
 
 Verifying CheckWellformed$$_module.__default.K__CalcNewStates ...
-  [67.553 s, 2295 proof obligations]  verified
+  [60.116 s, 2295 proof obligations]  verified
 
 Verifying CheckWellformed$$_module.__default.Lemma__K__CalcNewStates__Private1 ...
-  [2.962 s, 76 proof obligations]  verified
+  [5.645 s, 76 proof obligations]  verified
 
 Verifying Impl$$_module.__default.Lemma__K__CalcNewStates__Private1 ...
-  [2.822 s, 1 proof obligation]  verified
+  [5.951 s, 1 proof obligation]  verified
 
 Verifying CheckWellformed$$_module.__default.Lemma__K__CalcNewStates__Private2 ...
-  [2.617 s, 4 proof obligations]  verified
+  [3.530 s, 4 proof obligations]  verified
 
 Verifying Impl$$_module.__default.Lemma__K__CalcNewStates__Private2 ...
-  [2.735 s, 1 proof obligation]  verified
-Linearising   [0.8167465 s]
+  [4.614 s, 1 proof obligation]  verified
+Linearising   [0.5375617 s]
 
 Verifying CheckWellformed$$_module.__default.Lemma__ProveSP1__Reads ...
-  [6.005 s, 1268 proof obligations]  verified
-Linearising   [0.9896925 s]
+  [8.949 s, 1268 proof obligations]  verified
 
 Verifying Impl$$_module.__default.Lemma__ProveSP1__Reads ...
-  [5.670 s, 1061 proof obligations]  verified
-Linearising   [1.1106577 s]
+  [4.577 s, 1061 proof obligations]  verified
+Linearising   [2.4584231 s]
 
 Verifying CheckWellformed$$_module.__default.Lemma__ProveSP1__Writes ...
-  [8.045 s, 1248 proof obligations]  verified
-Linearising   [1.0026912 s]
+  [13.632 s, 1248 proof obligations]  verified
+Linearising   [1.1818371 s]
 
 Verifying Impl$$_module.__default.Lemma__ProveSP1__Writes ...
-  [6.664 s, 968 proof obligations]  verified
+  [9.310 s, 968 proof obligations]  verified
 
 Dafny program verifier finished with 26 verified, 0 errors
 

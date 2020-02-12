@@ -1,4 +1,4 @@
-[TRACE] Using prover: D:\utils\dafny\z3\bin\z3.exe
+[TRACE] Using prover: E:\utils\dafny-v2.1\z3\bin\z3.exe
 Dafny 2.1.1.10209
 Parsing Model.dfy
 SecurityProperties.dfy(68,12): Warning: Selected triggers: {states[i]} (may loop with "states[i + 1]")
@@ -87,153 +87,155 @@ Coalescing blocks...
 Inlining...
 
 Running abstract interpretation...
-  [1.421914 s]
-[TRACE] Using prover: D:\utils\dafny\z3\bin\z3.exe
+  [1.2815706 s]
+[TRACE] Using prover: E:\utils\dafny-v2.1\z3\bin\z3.exe
 
 Verifying CheckWellformed$$_module.__default.WS__OSDrvRead ...
-  [10.485 s, 251 proof obligations]  verified
-Linearising   [1.2344856 s]
+  [28.307 s, 251 proof obligations]  verified
+Linearising   [0.9763883 s]
 
 Verifying Impl$$_module.__default.WS__OSDrvRead ...
-  [7.688 s, 1209 proof obligations]  verified
+  [16.793 s, 1209 proof obligations]  verified
 
 Verifying CheckWellformed$$_module.__default.WS__WimpDrvRead ...
-  [4.021 s, 252 proof obligations]  verified
-Linearising   [1.234348 s]
+  [19.058 s, 252 proof obligations]  verified
+Linearising   [6.0837229 s]
 
 Verifying Impl$$_module.__default.WS__WimpDrvRead ...
-  [7.266 s, 1211 proof obligations]  verified
+  [28.841 s, 1211 proof obligations]  verified
 
 Verifying CheckWellformed$$_module.__default.WS__DevRead ...
-  [3.953 s, 354 proof obligations]  verified
-Linearising   [1.2345085 s]
+  [11.017 s, 354 proof obligations]  verified
+Linearising   [4.7572736 s]
 
 Verifying Impl$$_module.__default.WS__DevRead ...
-  [6.282 s, 1215 proof obligations]  verified
+  [28.843 s, 1215 proof obligations]  verified
 
 Verifying CheckWellformed$$_module.__default.WS__OSDrvWrite ...
-  [5.016 s, 220 proof obligations]  verified
-Linearising   [1.2500476 s]
+  [12.673 s, 220 proof obligations]  verified
+Linearising   [1.0970656 s]
 
 Verifying Impl$$_module.__default.WS__OSDrvWrite ...
-  [8.323 s, 1181 proof obligations]  verified
+  [27.420 s, 1181 proof obligations]  verified
 
 Verifying CheckWellformed$$_module.__default.WS__WimpDrvWrite ...
-  [4.125 s, 221 proof obligations]  verified
-Linearising   [1.2032676 s]
+  [17.785 s, 221 proof obligations]  verified
+Linearising   [1.1828358 s]
 
 Verifying Impl$$_module.__default.WS__WimpDrvWrite ...
-  [7.282 s, 1183 proof obligations]  verified
+  [23.618 s, 1183 proof obligations]  verified
+Linearising   [1.9976546 s]
 
 Verifying CheckWellformed$$_module.__default.WS__OSDevWrite ...
-  [5.063 s, 393 proof obligations]  verified
-Linearising   [1.2031008 s]
+  [19.954 s, 393 proof obligations]  verified
+Linearising   [1.1379551 s]
 
 Verifying Impl$$_module.__default.WS__OSDevWrite ...
-  [6.469 s, 1220 proof obligations]  verified
+  [17.196 s, 1220 proof obligations]  verified
 
 Verifying CheckWellformed$$_module.__default.WS__WimpDevWrite ...
-  [5.962 s, 394 proof obligations]  verified
-Linearising   [1.2188229 s]
+  [8.316 s, 394 proof obligations]  verified
+Linearising   [3.7778929 s]
 
 Verifying Impl$$_module.__default.WS__WimpDevWrite ...
-  [6.235 s, 1222 proof obligations]  verified
+  [14.488 s, 1222 proof obligations]  verified
 
 Verifying CheckWellformed$$_module.__default.WK__WimpDrvsDevs__Registration__CreatePartition ...
-  [3.969 s, 258 proof obligations]  verified
+  [10.469 s, 258 proof obligations]  verified
+Linearising   [0.5365663 s]
 
 Verifying Impl$$_module.__default.WK__WimpDrvsDevs__Registration__CreatePartition ...
-  [4.578 s, 379 proof obligations]  verified
+  [13.019 s, 379 proof obligations]  verified
 
 Verifying CheckWellformed$$_module.__default.WK__WimpDrvsDevs__Registration__AssignWimpDrvsDevsObjs ...
-  [4.938 s, 300 proof obligations]  verified
-Linearising   [3.1281126 s]
+  [13.528 s, 300 proof obligations]  verified
+Linearising   [2.5661365 s]
 
 Verifying Impl$$_module.__default.WK__WimpDrvsDevs__Registration__AssignWimpDrvsDevsObjs ...
-  [19.754 s, 3689 proof obligations]  verified
+  [35.401 s, 3689 proof obligations]  verified
 
 Verifying CheckWellformed$$_module.__default.WK__WimpDrvsDevs__Unregistration ...
-  [51.254 s, 279 proof obligations]  verified
-Linearising   [0.7656082 s]
+  [65.363 s, 279 proof obligations]  verified
+Linearising   [0.7679434 s]
 
 Verifying Impl$$_module.__default.WK__WimpDrvsDevs__Unregistration ...
-  [59.027 s, 1138 proof obligations]  verified
+  [82.641 s, 1138 proof obligations]  verified
 
 Verifying CheckWellformed$$_module.__default.WK__WimpDrvsDevs__Unregistration__ReassignDrvsDevsObjs ...
-  [46.754 s, 279 proof obligations]  verified
-Linearising   [1.2031861 s]
+  [56.863 s, 279 proof obligations]  verified
+Linearising   [1.0043131 s]
 
 Verifying Impl$$_module.__default.WK__WimpDrvsDevs__Unregistration__ReassignDrvsDevsObjs ...
-  [24.709 s, 1852 proof obligations]  verified
+  [28.175 s, 1852 proof obligations]  verified
 
 Verifying CheckWellformed$$_module.__default.WK__WimpDrvsDevs__UnRegistration__DestroyPartition ...
-  [3.328 s, 258 proof obligations]  verified
+  [3.377 s, 258 proof obligations]  verified
 
 Verifying Impl$$_module.__default.WK__WimpDrvsDevs__UnRegistration__DestroyPartition ...
-  [6.704 s, 241 proof obligations]  verified
+  [7.739 s, 241 proof obligations]  verified
 
 Verifying CheckWellformed$$_module.__default.Lemma__OSDrvRead__ProvePWSOpsProperties ...
-  [2.906 s, 65 proof obligations]  verified
+  [2.945 s, 65 proof obligations]  verified
 
 Verifying Impl$$_module.__default.Lemma__OSDrvRead__ProvePWSOpsProperties ...
-  [3.912 s, 11 proof obligations]  verified
+  [2.957 s, 11 proof obligations]  verified
 
 Verifying CheckWellformed$$_module.__default.Lemma__WimpDrvRead__ProvePWSOpsProperties ...
-  [3.077 s, 66 proof obligations]  verified
+  [4.510 s, 66 proof obligations]  verified
 
 Verifying Impl$$_module.__default.Lemma__WimpDrvRead__ProvePWSOpsProperties ...
-  [2.953 s, 11 proof obligations]  verified
+  [2.944 s, 11 proof obligations]  verified
 
 Verifying CheckWellformed$$_module.__default.Lemma__DevRead__ProvePWSOpsProperties ...
-  [2.969 s, 68 proof obligations]  verified
+  [2.881 s, 68 proof obligations]  verified
 
 Verifying Impl$$_module.__default.Lemma__DevRead__ProvePWSOpsProperties ...
-  [2.953 s, 11 proof obligations]  verified
+  [2.876 s, 11 proof obligations]  verified
 
 Verifying CheckWellformed$$_module.__default.Lemma__OSDrvWrite__ProvePWSOpsProperties ...
-  [2.889 s, 55 proof obligations]  verified
+  [2.795 s, 55 proof obligations]  verified
 
 Verifying Impl$$_module.__default.Lemma__OSDrvWrite__ProvePWSOpsProperties ...
-  [3.110 s, 11 proof obligations]  verified
+  [2.912 s, 11 proof obligations]  verified
 
 Verifying CheckWellformed$$_module.__default.Lemma__WimpDrvWrite__ProvePWSOpsProperties ...
-  [3.313 s, 56 proof obligations]  verified
+  [2.785 s, 56 proof obligations]  verified
 
 Verifying Impl$$_module.__default.Lemma__WimpDrvWrite__ProvePWSOpsProperties ...
-  [3.313 s, 11 proof obligations]  verified
+  [2.860 s, 11 proof obligations]  verified
 
 Verifying CheckWellformed$$_module.__default.Lemma__OSDevWrite__ProvePWSOpsProperties ...
-  [3.094 s, 54 proof obligations]  verified
+  [3.899 s, 54 proof obligations]  verified
 
 Verifying Impl$$_module.__default.Lemma__OSDevWrite__ProvePWSOpsProperties ...
-  [3.110 s, 11 proof obligations]  verified
+  [2.860 s, 11 proof obligations]  verified
 
 Verifying CheckWellformed$$_module.__default.Lemma__WimpDevWrite__ProvePWSOpsProperties ...
-  [3.063 s, 55 proof obligations]  verified
+  [2.721 s, 55 proof obligations]  verified
 
 Verifying Impl$$_module.__default.Lemma__WimpDevWrite__ProvePWSOpsProperties ...
-  [3.016 s, 11 proof obligations]  verified
+  [2.825 s, 11 proof obligations]  verified
 
 Verifying CheckWellformed$$_module.__default.Lemma__WimpDrvsDevs__Registration__CreatePartition__ProvePWSOpsProperties ...
-  [2.953 s, 49 proof obligations]  verified
+  [2.759 s, 49 proof obligations]  verified
 
 Verifying Impl$$_module.__default.Lemma__WimpDrvsDevs__Registration__CreatePartition__ProvePWSOpsProperties ...
-  [2.977 s, 11 proof obligations]  verified
+  [2.945 s, 11 proof obligations]  verified
 
 Verifying CheckWellformed$$_module.__default.Lemma__WimpDrvsDevs__Registration__AssignWimpDrvsDevsObjs__ProvePWSOpsProperties ...
-  [2.906 s, 65 proof obligations]  verified
+  [2.755 s, 65 proof obligations]  verified
 
 Verifying Impl$$_module.__default.Lemma__WimpDrvsDevs__Registration__AssignWimpDrvsDevsObjs__ProvePWSOpsProperties ...
-  [3.891 s, 11 proof obligations]  verified
+  [2.702 s, 11 proof obligations]  verified
 
 Verifying CheckWellformed$$_module.__default.Lemma__WimpDrvsDevs__Unregistration__ProvePWSOpsProperties ...
-  [3.063 s, 70 proof obligations]  verified
+  [3.763 s, 70 proof obligations]  verified
 
 Verifying Impl$$_module.__default.Lemma__WimpDrvsDevs__Unregistration__ProvePWSOpsProperties ...
-  [2.985 s, 11 proof obligations]  verified
+  [2.778 s, 11 proof obligations]  verified
 
 Verifying Impl$$_module.__default.Lemma__WK__WimpDrvsDevs__Unregistration__ReassignDrvsDevsObjs__ProvePIDsAreUnchanged ...
-  [2.906 s, 1 proof obligation]  verified
+  [2.636 s, 1 proof obligation]  verified
 
 Dafny program verifier finished with 45 verified, 0 errors
 

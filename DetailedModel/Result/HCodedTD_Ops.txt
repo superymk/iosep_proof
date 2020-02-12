@@ -1,4 +1,4 @@
-[TRACE] Using prover: D:\utils\dafny\z3\bin\z3.exe
+[TRACE] Using prover: E:\utils\dafny-v2.1\z3\bin\z3.exe
 Dafny 2.1.1.10209
 Parsing HCodedTD_Ops.dfy
 ../Abstract/utils/Collections.dfy(298,12): Warning: Selected triggers: {s[_t#0], s[i]} (may loop with "s[i + 1]")
@@ -29,14 +29,14 @@ Coalescing blocks...
 Inlining...
 
 Running abstract interpretation...
-  [0.1562462 s]
-[TRACE] Using prover: D:\utils\dafny\z3\bin\z3.exe
+  [0.0488703 s]
+[TRACE] Using prover: E:\utils\dafny-v2.1\z3\bin\z3.exe
 
 Verifying CheckWellformed$$_module.__default.DM__AllHCodedTDIDs ...
-  [9.268 s, 4 proof obligations]  verified
+  [1.980 s, 4 proof obligations]  verified
 
 Verifying CheckWellformed$$_module.__default.DM__BuildMap__DevsToHCodedTDVals ...
-  [1.937 s, 17 proof obligations]  verified
+  [0.892 s, 17 proof obligations]  verified
 
 Dafny program verifier finished with 2 verified, 0 errors
 

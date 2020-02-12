@@ -1,4 +1,4 @@
-[TRACE] Using prover: D:\utils\dafny\z3\bin\z3.exe
+[TRACE] Using prover: E:\utils\dafny-v2.1\z3\bin\z3.exe
 Dafny 2.1.1.10209
 Parsing Model.dfy
 Model.dfy(2097,5): Warning: /!\ No trigger covering all quantified variables found.
@@ -73,260 +73,255 @@ Coalescing blocks...
 Inlining...
 
 Running abstract interpretation...
-  [2.5936914 s]
-[TRACE] Using prover: D:\utils\dafny\z3\bin\z3.exe
+  [0.9813752 s]
+[TRACE] Using prover: E:\utils\dafny-v2.1\z3\bin\z3.exe
 
 Verifying CheckWellformed$$_module.__default.DrvRead ...
-  [15.516 s, 142 proof obligations]  verified
-Linearising   [0.5624891 s]
+  [18.285 s, 142 proof obligations]  verified
 
 Verifying Impl$$_module.__default.DrvRead ...
-  [7.000 s, 399 proof obligations]  verified
+  [14.059 s, 399 proof obligations]  verified
+Linearising   [0.7310443 s]
 
 Verifying CheckWellformed$$_module.__default.DevRead ...
-  [8.277 s, 151 proof obligations]  verified
-Linearising   [0.5781117 s]
+  [16.870 s, 151 proof obligations]  verified
+Linearising   [1.2336977 s]
 
 Verifying Impl$$_module.__default.DevRead ...
-  [7.453 s, 289 proof obligations]  verified
+  [10.691 s, 289 proof obligations]  verified
 
 Verifying CheckWellformed$$_module.__default.DevWrite ...
-  [12.917 s, 276 proof obligations]  verified
-Linearising   [1.703085 s]
+  [12.548 s, 276 proof obligations]  verified
+Linearising   [0.7509911 s]
 
 Verifying Impl$$_module.__default.DevWrite ...
-  [487.663 s, 1000 proof obligations]  verified
+  [396.330 s, 1000 proof obligations]  verified
 
 Verifying CheckWellformed$$_module.__default.EmptyPartitionCreate ...
-  [3.344 s, 50 proof obligations]  verified
-Linearising   [0.6406102 s]
+  [2.533 s, 50 proof obligations]  verified
 
 Verifying Impl$$_module.__default.EmptyPartitionCreate ...
-  [154.340 s, 658 proof obligations]  verified
+  [130.778 s, 658 proof obligations]  verified
 
 Verifying CheckWellformed$$_module.__default.EmptyPartitionDestroy ...
-  [3.032 s, 50 proof obligations]  verified
-Linearising   [0.725222 s]
+  [2.086 s, 50 proof obligations]  verified
 
 Verifying Impl$$_module.__default.EmptyPartitionDestroy ...
-  [492.737 s, 711 proof obligations]  verified
+  [330.044 s, 711 proof obligations]  verified
 
 Verifying CheckWellformed$$_module.__default.DrvActivate ...
-  [10.321 s, 59 proof obligations]  verified
-Linearising   [1.0596705 s]
+  [6.302 s, 59 proof obligations]  verified
 
 Verifying Impl$$_module.__default.DrvActivate ...
-  [430.227 s, 1343 proof obligations]  verified
+  [273.300 s, 1343 proof obligations]  verified
 
 Verifying CheckWellformed$$_module.__default.DrvDeactivate ...
-  [8.468 s, 163 proof obligations]  verified
-Linearising   [0.911723 s]
+  [5.294 s, 163 proof obligations]  verified
+Linearising   [0.5206074 s]
 
 Verifying Impl$$_module.__default.DrvDeactivate ...
-  [1377.967 s, 1440 proof obligations]  verified
+  [999.508 s, 1440 proof obligations]  verified
 
 Verifying CheckWellformed$$_module.__default.DevActivate ...
-  [6.185 s, 60 proof obligations]  verified
-Linearising   [0.9677008 s]
+  [4.525 s, 60 proof obligations]  verified
+Linearising   [0.6043821 s]
 
 Verifying Impl$$_module.__default.DevActivate ...
-  [2049.182 s, 1388 proof obligations]  verified
+  [929.250 s, 1388 proof obligations]  verified
 
 Verifying CheckWellformed$$_module.__default.DevDeactivate ...
-  [102.691 s, 163 proof obligations]  verified
-Linearising   [1.0806666 s]
+  [48.768 s, 163 proof obligations]  verified
+Linearising   [0.5116342 s]
 
 Verifying Impl$$_module.__default.DevDeactivate ...
-  [760.232 s, 1590 proof obligations]  verified
+  [418.518 s, 1590 proof obligations]  verified
 
 Verifying CheckWellformed$$_module.__default.ExternalObjsActivate ...
-  [7.117 s, 98 proof obligations]  verified
-Linearising   [0.6428004 s]
+  [3.963 s, 98 proof obligations]  verified
 
 Verifying Impl$$_module.__default.ExternalObjsActivate ...
-  [321.861 s, 1160 proof obligations]  verified
+  [175.430 s, 1160 proof obligations]  verified
 
 Verifying CheckWellformed$$_module.__default.ExternalObjsDeactivate ...
-  [2.518 s, 162 proof obligations]  verified
-Linearising   [0.8307491 s]
+  [1.550 s, 162 proof obligations]  verified
+Linearising   [0.6741971 s]
 
 Verifying Impl$$_module.__default.ExternalObjsDeactivate ...
-  [496.096 s, 1434 proof obligations]  verified
+  [280.511 s, 1434 proof obligations]  verified
 
 Verifying CheckWellformed$$_module.__default.DrvWrite ...
-  [3.033 s, 118 proof obligations]  verified
-Linearising   [1.2716096 s]
+  [1.867 s, 118 proof obligations]  verified
 
 Verifying Impl$$_module.__default.DrvWrite ...
-  [249.489 s, 1228 proof obligations]  verified
+  [138.952 s, 1228 proof obligations]  verified
 
 Verifying CheckWellformed$$_module.__default.P__DrvDevWrite__ModificationToState ...
-  [2.422 s, 6 proof obligations]  verified
+  [1.406 s, 6 proof obligations]  verified
 
 Verifying CheckWellformed$$_module.__default.DevWrite__ClosureRelationship ...
-  [1.828 s, 74 proof obligations]  verified
+  [1.010 s, 74 proof obligations]  verified
 
 Verifying CheckWellformed$$_module.__default.EmptyPartitionCreate__Prop ...
-  [1.797 s, 54 proof obligations]  verified
+  [1.065 s, 54 proof obligations]  verified
 
 Verifying CheckWellformed$$_module.__default.EmptyPartitionDestroy__Prop ...
-  [2.109 s, 63 proof obligations]  verified
+  [1.153 s, 63 proof obligations]  verified
 
 Verifying CheckWellformed$$_module.__default.P__DrvActivate__ModificationToState ...
-  [1.610 s, 23 proof obligations]  verified
+  [0.970 s, 23 proof obligations]  verified
 
 Verifying CheckWellformed$$_module.__default.P__DevActivate__ModificationToState ...
-  [1.813 s, 23 proof obligations]  verified
+  [0.961 s, 23 proof obligations]  verified
 
 Verifying CheckWellformed$$_module.__default.P__ExternalObjsActivate__ModificationToState ...
-  [4.360 s, 253 proof obligations]  verified
+  [2.536 s, 253 proof obligations]  verified
 
 Verifying CheckWellformed$$_module.__default.P__DrvRead__ReturnTrue__Def ...
-  [1.688 s, 55 proof obligations]  verified
+  [1.007 s, 55 proof obligations]  verified
 
 Verifying CheckWellformed$$_module.__default.P__ObjsDeactivate__ReturnTrue__Def ...
-  [2.734 s, 29 proof obligations]  verified
+  [1.574 s, 29 proof obligations]  verified
 
 Verifying CheckWellformed$$_module.__default.P__DrvDeactivate__ReturnTrue__Def ...
-  [2.531 s, 67 proof obligations]  verified
+  [1.163 s, 67 proof obligations]  verified
 
 Verifying CheckWellformed$$_module.__default.P__DrvDeactivate__ModificationToState ...
-  [1.719 s, 17 proof obligations]  verified
+  [0.953 s, 17 proof obligations]  verified
 
 Verifying CheckWellformed$$_module.__default.P__DevDeactivate__ReturnTrue__Def ...
-  [2.906 s, 59 proof obligations]  verified
+  [1.670 s, 59 proof obligations]  verified
 
 Verifying CheckWellformed$$_module.__default.P__DevDeactivate__ModificationToState ...
-  [1.672 s, 17 proof obligations]  verified
+  [0.981 s, 17 proof obligations]  verified
 
 Verifying CheckWellformed$$_module.__default.P__ExternalObjsDeactivate__ReturnTrue__Def ...
-  [1.828 s, 80 proof obligations]  verified
+  [1.062 s, 80 proof obligations]  verified
 
 Verifying CheckWellformed$$_module.__default.P__ExternalObjsDeactivate__ModificationToState ...
-  [1.828 s, 9 proof obligations]  verified
+  [0.962 s, 9 proof obligations]  verified
 
 Verifying CheckWellformed$$_module.__default.P__DrvWrite__ReturnTrue__Def ...
-  [14.876 s, 147 proof obligations]  verified
+  [8.953 s, 147 proof obligations]  verified
 
 Verifying CheckWellformed$$_module.__default.Lemma__DrvDeactivate__ReturnTrue__ProveP__DrvDeactivate__ReturnTrue__Def ...
-  [3.745 s, 66 proof obligations]  verified
+  [2.223 s, 66 proof obligations]  verified
 
 Verifying Impl$$_module.__default.Lemma__DrvDeactivate__ReturnTrue__ProveP__DrvDeactivate__ReturnTrue__Def ...
-  [14.190 s, 110 proof obligations]  verified
+  [8.920 s, 110 proof obligations]  verified
 
 Verifying CheckWellformed$$_module.__default.Lemma__DrvDeactivate__ReturnFalse__ProveP__DrvDeactivate__ReturnTrue__Def ...
-  [3.752 s, 66 proof obligations]  verified
+  [2.187 s, 66 proof obligations]  verified
 
 Verifying Impl$$_module.__default.Lemma__DrvDeactivate__ReturnFalse__ProveP__DrvDeactivate__ReturnTrue__Def ...
-  [53.499 s, 175 proof obligations]  verified
+  [33.574 s, 175 proof obligations]  verified
 
 Verifying CheckWellformed$$_module.__default.Lemma__DevDeactivate__ReturnTrue__ProveP__DevDeactivate__ReturnTrue__Def ...
-  [6.565 s, 67 proof obligations]  verified
+  [4.086 s, 67 proof obligations]  verified
 
 Verifying Impl$$_module.__default.Lemma__DevDeactivate__ReturnTrue__ProveP__DevDeactivate__ReturnTrue__Def ...
-  [16.875 s, 52 proof obligations]  verified
+  [10.713 s, 52 proof obligations]  verified
 
 Verifying CheckWellformed$$_module.__default.Lemma__DevDeactivate__ReturnFalse__ProveP__DevDeactivate__ReturnTrue__Def ...
-  [6.428 s, 67 proof obligations]  verified
+  [4.095 s, 67 proof obligations]  verified
 
 Verifying Impl$$_module.__default.Lemma__DevDeactivate__ReturnFalse__ProveP__DevDeactivate__ReturnTrue__Def ...
-  [35.695 s, 117 proof obligations]  verified
+  [22.180 s, 117 proof obligations]  verified
 
 Verifying CheckWellformed$$_module.__default.Lemma__ExternalObjsDeactivate__ReturnTrue__ProveP__ExternalObjsDeactivate__ReturnTrue__Def ...
-  [2.206 s, 75 proof obligations]  verified
+  [1.416 s, 75 proof obligations]  verified
 
 Verifying Impl$$_module.__default.Lemma__ExternalObjsDeactivate__ReturnTrue__ProveP__ExternalObjsDeactivate__ReturnTrue__Def ...
-  [9.013 s, 87 proof obligations]  verified
+  [5.564 s, 87 proof obligations]  verified
 
 Verifying CheckWellformed$$_module.__default.Lemma__ExternalObjsDeactivate__ReturnFalse__ProveP__ExternalObjsDeactivate__ReturnTrue__Def ...
-  [2.358 s, 75 proof obligations]  verified
+  [1.486 s, 75 proof obligations]  verified
 
 Verifying Impl$$_module.__default.Lemma__ExternalObjsDeactivate__ReturnFalse__ProveP__ExternalObjsDeactivate__ReturnTrue__Def ...
-  [59.710 s, 167 proof obligations]  verified
+  [37.730 s, 167 proof obligations]  verified
 
 Verifying CheckWellformed$$_module.__default.Lemma__DrvWrite__ReturnTrue__ProveP__DrvWrite__ReturnTrue__Def ...
-  [5.051 s, 102 proof obligations]  verified
+  [3.031 s, 102 proof obligations]  verified
 
 Verifying Impl$$_module.__default.Lemma__DrvWrite__ReturnTrue__ProveP__DrvWrite__ReturnTrue__Def ...
-  [1.477 s, 4 proof obligations]  verified
+  [0.965 s, 4 proof obligations]  verified
 
 Verifying CheckWellformed$$_module.__default.Lemma__DrvWrite__ReturnFalse__ProveP__DrvWrite__ReturnTrue__Def ...
-  [3.840 s, 102 proof obligations]  verified
+  [2.019 s, 102 proof obligations]  verified
 
 Verifying Impl$$_module.__default.Lemma__DrvWrite__ReturnFalse__ProveP__DrvWrite__ReturnTrue__Def ...
-  [13.281 s, 26 proof obligations]  verified
+  [7.884 s, 26 proof obligations]  verified
 
 Verifying CheckWellformed$$_module.__default.Lemma__P__OpsProperties__DrvReadOp__Prove ...
-  [1.628 s, 53 proof obligations]  verified
+  [1.049 s, 53 proof obligations]  verified
 
 Verifying Impl$$_module.__default.Lemma__P__OpsProperties__DrvReadOp__Prove ...
-  [1.430 s, 1 proof obligation]  verified
+  [0.934 s, 1 proof obligation]  verified
 
 Verifying CheckWellformed$$_module.__default.Lemma__P__OpsProperties__DevReadOp__Prove ...
-  [1.459 s, 56 proof obligations]  verified
+  [0.962 s, 56 proof obligations]  verified
 
 Verifying Impl$$_module.__default.Lemma__P__OpsProperties__DevReadOp__Prove ...
-  [1.429 s, 1 proof obligation]  verified
+  [0.953 s, 1 proof obligation]  verified
 
 Verifying CheckWellformed$$_module.__default.Lemma__P__OpsProperties__DevWriteOp__Prove ...
-  [1.470 s, 42 proof obligations]  verified
+  [0.941 s, 42 proof obligations]  verified
 
 Verifying Impl$$_module.__default.Lemma__P__OpsProperties__DevWriteOp__Prove ...
-  [1.447 s, 1 proof obligation]  verified
+  [1.326 s, 1 proof obligation]  verified
 
 Verifying CheckWellformed$$_module.__default.Lemma__P__OpsProperties__EmptyPartitionCreateOp__Prove ...
-  [1.446 s, 60 proof obligations]  verified
+  [0.949 s, 60 proof obligations]  verified
 
 Verifying Impl$$_module.__default.Lemma__P__OpsProperties__EmptyPartitionCreateOp__Prove ...
-  [1.438 s, 1 proof obligation]  verified
+  [0.923 s, 1 proof obligation]  verified
 
 Verifying CheckWellformed$$_module.__default.Lemma__P__OpsProperties__EmptyPartitionDestroyOp__Prove ...
-  [2.033 s, 60 proof obligations]  verified
+  [0.952 s, 60 proof obligations]  verified
 
 Verifying Impl$$_module.__default.Lemma__P__OpsProperties__EmptyPartitionDestroyOp__Prove ...
-  [1.431 s, 1 proof obligation]  verified
+  [0.930 s, 1 proof obligation]  verified
 
 Verifying CheckWellformed$$_module.__default.Lemma__P__OpsProperties__DrvActivateOp__Prove ...
-  [1.463 s, 60 proof obligations]  verified
+  [0.961 s, 60 proof obligations]  verified
 
 Verifying Impl$$_module.__default.Lemma__P__OpsProperties__DrvActivateOp__Prove ...
-  [1.433 s, 1 proof obligation]  verified
+  [0.942 s, 1 proof obligation]  verified
 
 Verifying CheckWellformed$$_module.__default.Lemma__P__OpsProperties__DrvDectivateOp__Prove ...
-  [1.467 s, 60 proof obligations]  verified
+  [0.952 s, 60 proof obligations]  verified
 
 Verifying Impl$$_module.__default.Lemma__P__OpsProperties__DrvDectivateOp__Prove ...
-  [1.446 s, 1 proof obligation]  verified
+  [0.930 s, 1 proof obligation]  verified
 
 Verifying CheckWellformed$$_module.__default.Lemma__P__OpsProperties__DevActivateOp__Prove ...
-  [1.460 s, 60 proof obligations]  verified
+  [0.949 s, 60 proof obligations]  verified
 
 Verifying Impl$$_module.__default.Lemma__P__OpsProperties__DevActivateOp__Prove ...
-  [1.434 s, 1 proof obligation]  verified
+  [0.935 s, 1 proof obligation]  verified
 
 Verifying CheckWellformed$$_module.__default.Lemma__P__OpsProperties__DevDeactivateOp__Prove ...
-  [1.453 s, 60 proof obligations]  verified
+  [1.356 s, 60 proof obligations]  verified
 
 Verifying Impl$$_module.__default.Lemma__P__OpsProperties__DevDeactivateOp__Prove ...
-  [1.427 s, 1 proof obligation]  verified
+  [0.935 s, 1 proof obligation]  verified
 
 Verifying CheckWellformed$$_module.__default.Lemma__P__OpsProperties__ExternalObjsActivateOp__Prove ...
-  [1.459 s, 36 proof obligations]  verified
+  [0.947 s, 36 proof obligations]  verified
 
 Verifying Impl$$_module.__default.Lemma__P__OpsProperties__ExternalObjsActivateOp__Prove ...
-  [1.945 s, 1 proof obligation]  verified
+  [0.929 s, 1 proof obligation]  verified
 
 Verifying CheckWellformed$$_module.__default.Lemma__P__OpsProperties__ExternalObjsDeactivateOp__Prove ...
-  [1.486 s, 36 proof obligations]  verified
+  [0.950 s, 36 proof obligations]  verified
 
 Verifying Impl$$_module.__default.Lemma__P__OpsProperties__ExternalObjsDeactivateOp__Prove ...
-  [1.432 s, 1 proof obligation]  verified
+  [0.934 s, 1 proof obligation]  verified
 
 Verifying CheckWellformed$$_module.__default.Lemma__P__OpsProperties__DrvWriteOp__Prove ...
-  [1.444 s, 43 proof obligations]  verified
+  [0.945 s, 43 proof obligations]  verified
 
 Verifying Impl$$_module.__default.Lemma__P__OpsProperties__DrvWriteOp__Prove ...
-  [1.415 s, 1 proof obligation]  verified
+  [0.937 s, 1 proof obligation]  verified
 
 Dafny program verifier finished with 80 verified, 0 errors
 

@@ -1,4 +1,4 @@
-[TRACE] Using prover: D:\utils\dafny\z3\bin\z3.exe
+[TRACE] Using prover: E:\utils\dafny-v2.1\z3\bin\z3.exe
 Dafny 2.1.1.10209
 Parsing Lemmas_Model_InnerFuncs.dfy
 SecurityProperties.dfy(69,12): Warning: Selected triggers: {states[i]} (may loop with "states[i + 1]")
@@ -82,65 +82,65 @@ Coalescing blocks...
 Inlining...
 
 Running abstract interpretation...
-  [0.9062285 s]
-[TRACE] Using prover: D:\utils\dafny\z3\bin\z3.exe
+  [0.1775252 s]
+[TRACE] Using prover: E:\utils\dafny-v2.1\z3\bin\z3.exe
 
 Verifying CheckWellformed$$_module.__default.Lemma__DM__RedDrvRead__ProvePreConditionsOfDM__CalcNewState ...
-  [28.316 s, 213 proof obligations]  verified
+  [11.809 s, 213 proof obligations]  verified
 
 Verifying Impl$$_module.__default.Lemma__DM__RedDrvRead__ProvePreConditionsOfDM__CalcNewState ...
-  [12.009 s, 262 proof obligations]  verified
-Linearising   [1.3905928 s]
+  [5.207 s, 262 proof obligations]  verified
 
 Verifying CheckWellformed$$_module.__default.Lemma__DM__RedDrvRead__ProveDM__CalcNewState ...
-  [14.547 s, 1005 proof obligations]  verified
+  [14.270 s, 1005 proof obligations]  verified
 
 Verifying Impl$$_module.__default.Lemma__DM__RedDrvRead__ProveDM__CalcNewState ...
-  [29.312 s, 1 proof obligation]  verified
+  [21.272 s, 1 proof obligation]  verified
 
 Verifying CheckWellformed$$_module.__default.Lemma__DM__GreenDrvRead__ProvePreConditionsOfDM__CalcNewState ...
-  [9.749 s, 215 proof obligations]  verified
+  [7.852 s, 215 proof obligations]  verified
 
 Verifying Impl$$_module.__default.Lemma__DM__GreenDrvRead__ProvePreConditionsOfDM__CalcNewState ...
-  [7.906 s, 265 proof obligations]  verified
-Linearising   [1.3437175 s]
+  [16.978 s, 265 proof obligations]  verified
+Linearising   [0.7300486 s]
 
 Verifying CheckWellformed$$_module.__default.Lemma__DM__GreenDrvRead__ProveDM__CalcNewState ...
-  [10.974 s, 1007 proof obligations]  verified
+  [13.966 s, 1007 proof obligations]  verified
 
 Verifying Impl$$_module.__default.Lemma__DM__GreenDrvRead__ProveDM__CalcNewState ...
-  [22.309 s, 1 proof obligation]  verified
+  [20.239 s, 1 proof obligation]  verified
 
 Verifying CheckWellformed$$_module.__default.Lemma__DM__DevRead__ProvePreConditionsOfDM__CalcNewState ...
-  [5.450 s, 320 proof obligations]  verified
+  [5.966 s, 320 proof obligations]  verified
+Linearising   [0.7400204 s]
 
 Verifying Impl$$_module.__default.Lemma__DM__DevRead__ProvePreConditionsOfDM__CalcNewState ...
-  [5.393 s, 272 proof obligations]  verified
-Linearising   [0.6718602 s]
+  [10.986 s, 272 proof obligations]  verified
 
 Verifying CheckWellformed$$_module.__default.Lemma__DM__RedDrvWrite__ProvePreConditionsOfDM__CalcNewState ...
-  [7.609 s, 226 proof obligations]  verified
+  [9.489 s, 226 proof obligations]  verified
 
 Verifying Impl$$_module.__default.Lemma__DM__RedDrvWrite__ProvePreConditionsOfDM__CalcNewState ...
-  [5.515 s, 283 proof obligations]  verified
+  [16.361 s, 283 proof obligations]  verified
 
 Verifying CheckWellformed$$_module.__default.Lemma__DM__GreenDrvWrite__ProvePreConditionsOfDM__CalcNewState ...
-  [6.141 s, 175 proof obligations]  verified
+  [10.114 s, 175 proof obligations]  verified
 
 Verifying Impl$$_module.__default.Lemma__DM__GreenDrvWrite__ProvePreConditionsOfDM__CalcNewState ...
-  [5.563 s, 232 proof obligations]  verified
+  [15.076 s, 232 proof obligations]  verified
+Linearising   [0.6253278 s]
 
 Verifying CheckWellformed$$_module.__default.Lemma__DM__RedDevWrite__ProvePreConditionsOfDM__CalcNewState ...
-  [8.410 s, 348 proof obligations]  verified
+  [20.747 s, 348 proof obligations]  verified
 
 Verifying Impl$$_module.__default.Lemma__DM__RedDevWrite__ProvePreConditionsOfDM__CalcNewState ...
-  [7.305 s, 267 proof obligations]  verified
+  [9.841 s, 267 proof obligations]  verified
 
 Verifying CheckWellformed$$_module.__default.Lemma__DM__GreenDevWrite__ProvePreConditionsOfDM__CalcNewState ...
-  [8.797 s, 350 proof obligations]  verified
+  [15.861 s, 350 proof obligations]  verified
 
 Verifying Impl$$_module.__default.Lemma__DM__GreenDevWrite__ProvePreConditionsOfDM__CalcNewState ...
-  [5.597 s, 270 proof obligations]  verified
+  [13.584 s, 270 proof obligations]  verified
 
 Dafny program verifier finished with 18 verified, 0 errors
 

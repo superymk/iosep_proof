@@ -1,4 +1,4 @@
-[TRACE] Using prover: D:\utils\dafny\z3\bin\z3.exe
+[TRACE] Using prover: E:\utils\dafny-v2.1\z3\bin\z3.exe
 Dafny 2.1.1.10209
 Parsing Lemmas_Ops_SI1_Common.dfy
 Lemmas_DevHWProt.dfy(232,13): Warning: /!\ No terms found to trigger on.
@@ -77,21 +77,20 @@ Coalescing blocks...
 Inlining...
 
 Running abstract interpretation...
-  [0.531239 s]
-[TRACE] Using prover: D:\utils\dafny\z3\bin\z3.exe
+  [0.0877641 s]
+[TRACE] Using prover: E:\utils\dafny-v2.1\z3\bin\z3.exe
 
 Verifying CheckWellformed$$_module.__default.Lemma__NewDMFromNewK__FulfillSI1 ...
-  [26.224 s, 81 proof obligations]  verified
-Linearising   [0.5468634 s]
+  [13.637 s, 81 proof obligations]  verified
 
 Verifying Impl$$_module.__default.Lemma__NewDMFromNewK__FulfillSI1 ...
-  [15.207 s, 219 proof obligations]  verified
+  [7.140 s, 219 proof obligations]  verified
 
 Verifying CheckWellformed$$_module.__default.Lemma__NewDMFromNewK__FulfillSI3 ...
-  [8.531 s, 16 proof obligations]  verified
+  [3.972 s, 16 proof obligations]  verified
 
 Verifying Impl$$_module.__default.Lemma__NewDMFromNewK__FulfillSI3 ...
-  [10.594 s, 5 proof obligations]  verified
+  [5.832 s, 5 proof obligations]  verified
 
 Dafny program verifier finished with 4 verified, 0 errors
 

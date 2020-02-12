@@ -1,4 +1,4 @@
-[TRACE] Using prover: D:\utils\dafny\z3\bin\z3.exe
+[TRACE] Using prover: E:\utils\dafny-v2.1\z3\bin\z3.exe
 Dafny 2.1.1.10209
 Parsing ./utils/Collections.dfy
 ./utils/Collections.dfy(298,12): Warning: Selected triggers: {s[_t#0], s[i]} (may loop with "s[i + 1]")
@@ -12,143 +12,143 @@ Coalescing blocks...
 Inlining...
 
 Running abstract interpretation...
-  [0.2369262 s]
-[TRACE] Using prover: D:\utils\dafny\z3\bin\z3.exe
+  [0.2273918 s]
+[TRACE] Using prover: E:\utils\dafny-v2.1\z3\bin\z3.exe
 
 Verifying CheckWellformed$$_module.__default.MapSubmap ...
-  [1.781 s, 5 proof obligations]  verified
+  [1.588 s, 5 proof obligations]  verified
 
 Verifying CheckWellformed$$_module.__default.MapConcat ...
-  [0.711 s, 18 proof obligations]  verified
+  [0.258 s, 18 proof obligations]  verified
 
 Verifying CheckWellformed$$_module.__default.MapRemoveKey ...
-  [0.753 s, 23 proof obligations]  verified
+  [0.275 s, 23 proof obligations]  verified
 
 Verifying CheckWellformed$$_module.__default.MapRemoveKeys ...
-  [0.719 s, 8 proof obligations]  verified
+  [0.463 s, 8 proof obligations]  verified
 
 Verifying CheckWellformed$$_module.__default.MapGetKeys ...
-  [0.750 s, 2 proof obligations]  verified
+  [1.092 s, 2 proof obligations]  verified
 
 Verifying CheckWellformed$$_module.__default.MapSubstract ...
-  [0.516 s, 8 proof obligations]  verified
+  [0.427 s, 8 proof obligations]  verified
 
 Verifying CheckWellformed$$_module.__default.MapCreateFromSet ...
-  [0.719 s, 2 proof obligations]  verified
+  [0.506 s, 2 proof obligations]  verified
 
 Verifying Impl$$_module.__default.MapCreateFromSet ...
-  [0.922 s, 6 proof obligations]  verified
+  [0.612 s, 6 proof obligations]  verified
 
 Verifying CheckWellformed$$_module.__default.SetToSeq ...
-  [0.578 s, 2 proof obligations]  verified
+  [0.689 s, 2 proof obligations]  verified
 
 Verifying Impl$$_module.__default.SetToSeq ...
-  [0.531 s, 6 proof obligations]  verified
+  [0.329 s, 6 proof obligations]  verified
 
 Verifying CheckWellformed$$_module.__default.SeqToSet ...
-  [2.531 s, 10 proof obligations]  verified
+  [7.070 s, 10 proof obligations]  verified
 
 Verifying CheckWellformed$$_module.__default.SetConcat ...
-  [0.500 s, 4 proof obligations]  verified
+  [0.413 s, 4 proof obligations]  verified
 
 Verifying CheckWellformed$$_module.__default.SeqConcat ...
-  [0.359 s, 8 proof obligations]  verified
+  [0.394 s, 8 proof obligations]  verified
 
 Verifying CheckWellformed$$_module.__default.SeqAppend ...
-  [0.406 s, 9 proof obligations]  verified
+  [1.323 s, 9 proof obligations]  verified
 
 Verifying Impl$$_module.__default.SubsetIntersectionLemma ...
-  [0.359 s, 2 proof obligations]  verified
+  [0.750 s, 2 proof obligations]  verified
 
 Verifying Impl$$_module.__default.SubsetCardinalityLemma ...
-  [0.344 s, 3 proof obligations]  verified
+  [0.476 s, 3 proof obligations]  verified
 
 Verifying Impl$$_module.__default.ProperSubsetCardinalityLemma ...
-  [0.312 s, 2 proof obligations]  verified
+  [1.299 s, 2 proof obligations]  verified
 
 Verifying Impl$$_module.__default.Lemma__EmptySetIsSubsetOfAnySet ...
-  [0.312 s, 1 proof obligation]  verified
+  [0.983 s, 1 proof obligation]  verified
 
 Verifying Impl$$_module.__default.Lemma__SetsWithoutSameElemHaveEmptyIntersection ...
-  [0.406 s, 1 proof obligation]  verified
+  [0.757 s, 1 proof obligation]  verified
 
 Verifying Impl$$_module.__default.Lemma__SetsHaveEmptyIntersectionHasNoCommonElems ...
-  [0.391 s, 4 proof obligations]  verified
+  [0.405 s, 4 proof obligations]  verified
 
 Verifying Impl$$_module.__default.Lemma__SetSubstractionLemma ...
-  [0.500 s, 1 proof obligation]  verified
+  [1.770 s, 1 proof obligation]  verified
 
 Verifying Impl$$_module.__default.Lemma__SetDistributiveProperty ...
-  [0.562 s, 1 proof obligation]  verified
+  [1.362 s, 1 proof obligation]  verified
 
 Verifying Impl$$_module.__default.Lemma__UnionOfSubsetIsSubset ...
-  [0.609 s, 2 proof obligations]  verified
+  [0.684 s, 2 proof obligations]  verified
 
 Verifying Impl$$_module.__default.SetRemoveElemsLemma ...
-  [0.547 s, 4 proof obligations]  verified
+  [0.429 s, 4 proof obligations]  verified
 
 Verifying Impl$$_module.__default.MapRemoveKeysLemma ...
-  [0.484 s, 6 proof obligations]  verified
+  [0.976 s, 6 proof obligations]  verified
 
 Verifying Impl$$_module.__default.Lemma__MapSameKeys ...
-  [0.469 s, 3 proof obligations]  verified
+  [0.904 s, 3 proof obligations]  verified
 
 Verifying CheckWellformed$$_module.__default.Lemma__TransitiveSubSequence ...
-  [0.641 s, 3 proof obligations]  verified
+  [0.703 s, 3 proof obligations]  verified
 
 Verifying Impl$$_module.__default.Lemma__TransitiveSubSequence ...
-  [0.469 s, 1 proof obligation]  verified
+  [0.467 s, 1 proof obligation]  verified
 
 Verifying CheckWellformed$$_module.__default.Lemma__SequenceHighlightFirstElem ...
-  [0.719 s, 2 proof obligations]  verified
+  [1.530 s, 2 proof obligations]  verified
 
 Verifying Impl$$_module.__default.Lemma__SequenceHighlightFirstElem ...
-  [0.641 s, 1 proof obligation]  verified
+  [1.744 s, 1 proof obligation]  verified
 
 Verifying CheckWellformed$$_module.__default.Lemma__SequenceHighlightLastElem ...
-  [0.594 s, 4 proof obligations]  verified
+  [0.407 s, 4 proof obligations]  verified
 
 Verifying Impl$$_module.__default.Lemma__SequenceHighlightLastElem ...
-  [0.594 s, 2 proof obligations]  verified
+  [1.045 s, 2 proof obligations]  verified
 
 Verifying CheckWellformed$$_module.__default.Lemma__SequenceHighlightLastElemOfSubSeq ...
-  [0.641 s, 3 proof obligations]  verified
+  [1.896 s, 3 proof obligations]  verified
 
 Verifying Impl$$_module.__default.Lemma__SequenceHighlightLastElemOfSubSeq ...
-  [0.797 s, 1 proof obligation]  verified
+  [0.448 s, 1 proof obligation]  verified
 
 Verifying CheckWellformed$$_module.__default.Lemma__SeqElemInSeqIfNotLastOneThenInOthers ...
-  [0.672 s, 3 proof obligations]  verified
+  [0.430 s, 3 proof obligations]  verified
 
 Verifying Impl$$_module.__default.Lemma__SeqElemInSeqIfNotLastOneThenInOthers ...
-  [0.656 s, 1 proof obligation]  verified
+  [0.683 s, 1 proof obligation]  verified
 
 Verifying CheckWellformed$$_module.__default.Lemma__Sequence__LastElemOfSubSequenceIsFromOriginalSequence ...
-  [0.437 s, 3 proof obligations]  verified
+  [1.829 s, 3 proof obligations]  verified
 
 Verifying Impl$$_module.__default.Lemma__Sequence__LastElemOfSubSequenceIsFromOriginalSequence ...
-  [0.734 s, 1 proof obligation]  verified
+  [0.406 s, 1 proof obligation]  verified
 
 Verifying CheckWellformed$$_module.__default.Lemma__AChainOfElemsAcrossFromSmallSetToSuperSet__MustHaveOneElemInSmallSetAsLastElem ...
-  [0.656 s, 8 proof obligations]  verified
+  [0.419 s, 8 proof obligations]  verified
 
 Verifying Impl$$_module.__default.Lemma__AChainOfElemsAcrossFromSmallSetToSuperSet__MustHaveOneElemInSmallSetAsLastElem ...
-  [0.672 s, 34 proof obligations]  verified
+  [0.413 s, 34 proof obligations]  verified
 
 Verifying CheckWellformed$$_module.__default.Lemma__AllElemsIndexedInSeqAreInSeq ...
-  [0.625 s, 2 proof obligations]  verified
+  [1.947 s, 2 proof obligations]  verified
 
 Verifying Impl$$_module.__default.Lemma__AllElemsIndexedInSeqAreInSeq ...
-  [0.531 s, 2 proof obligations]  verified
+  [0.456 s, 2 proof obligations]  verified
 
 Verifying Impl$$_module.__default.Lemma__SetIncludeMoreElemsFormStrictSuperset ...
-  [0.687 s, 1 proof obligation]  verified
+  [0.663 s, 1 proof obligation]  verified
 
 Verifying Impl$$_module.__default.Lemma__SetsMinusProperty ...
-  [0.531 s, 4 proof obligations]  verified
+  [0.406 s, 4 proof obligations]  verified
 
 Verifying Impl$$_module.__default.Lemma__SetsAddProperty ...
-  [0.609 s, 1 proof obligation]  verified
+  [1.832 s, 1 proof obligation]  verified
 
 Dafny program verifier finished with 45 verified, 0 errors
 

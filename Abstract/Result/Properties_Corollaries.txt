@@ -1,4 +1,4 @@
-[TRACE] Using prover: D:\utils\dafny\z3\bin\z3.exe
+[TRACE] Using prover: E:\utils\dafny-v2.1\z3\bin\z3.exe
 Dafny 2.1.1.10209
 Parsing Properties_Corollaries.dfy
 ./BuildCAS/ReachableTDsStates.dfy(102,19): Warning: /!\ No trigger covering all quantified variables found.
@@ -41,32 +41,32 @@ Coalescing blocks...
 Inlining...
 
 Running abstract interpretation...
-  [0.1718697 s]
-[TRACE] Using prover: D:\utils\dafny\z3\bin\z3.exe
+  [0.0837757 s]
+[TRACE] Using prover: E:\utils\dafny-v2.1\z3\bin\z3.exe
 
 Verifying CheckWellformed$$_module.__default.StatePropertiesCorollary1 ...
-  [7.906 s, 32 proof obligations]  verified
+  [11.830 s, 32 proof obligations]  verified
 
 Verifying CheckWellformed$$_module.__default.StatePropertiesCorollary2 ...
-  [2.761 s, 22 proof obligations]  verified
+  [10.256 s, 22 proof obligations]  verified
 
 Verifying CheckWellformed$$_module.__default.Lemma__SecureState__FulfillsStatePropertyCorollary1 ...
-  [3.172 s, 46 proof obligations]  verified
+  [1.958 s, 46 proof obligations]  verified
 
 Verifying Impl$$_module.__default.Lemma__SecureState__FulfillsStatePropertyCorollary1 ...
-  [61.827 s, 56 proof obligations]  verified
+  [48.170 s, 56 proof obligations]  verified
 
 Verifying CheckWellformed$$_module.__default.Lemma__StatePropertyCorollary1__ImpliesCorollary2 ...
-  [3.203 s, 45 proof obligations]  verified
+  [4.457 s, 45 proof obligations]  verified
 
 Verifying Impl$$_module.__default.Lemma__StatePropertyCorollary1__ImpliesCorollary2 ...
-  [2.844 s, 2 proof obligations]  verified
+  [1.883 s, 2 proof obligations]  verified
 
 Verifying CheckWellformed$$_module.__default.Lemma__IfFulfillCondition55AndIsValidState__SubjsOwnObjsThenInSamePartition__ThenFulfillCorollary1 ...
-  [372.603 s, 51 proof obligations]  verified
+  [273.052 s, 51 proof obligations]  verified
 
 Verifying Impl$$_module.__default.Lemma__IfFulfillCondition55AndIsValidState__SubjsOwnObjsThenInSamePartition__ThenFulfillCorollary1 ...
-  [15.662 s, 93 proof obligations]  verified
+  [16.270 s, 93 proof obligations]  verified
 
 Dafny program verifier finished with 8 verified, 0 errors
 

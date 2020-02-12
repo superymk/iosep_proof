@@ -1,4 +1,4 @@
-[TRACE] Using prover: D:\utils\dafny\z3\bin\z3.exe
+[TRACE] Using prover: E:\utils\dafny-v2.1\z3\bin\z3.exe
 Dafny 2.1.1.10209
 Parsing Lemmas.dfy
 Lemmas.dfy(6,12): Warning: /!\ No terms found to trigger on.
@@ -29,92 +29,92 @@ Coalescing blocks...
 Inlining...
 
 Running abstract interpretation...
-  [0.1406212 s]
-[TRACE] Using prover: D:\utils\dafny\z3\bin\z3.exe
+  [0.1007306 s]
+[TRACE] Using prover: E:\utils\dafny-v2.1\z3\bin\z3.exe
 
 Verifying Impl$$_module.__default.AModeIsEitherROrW ...
-  [3.562 s, 3 proof obligations]  verified
+  [3.466 s, 3 proof obligations]  verified
 
 Verifying Impl$$_module.__default.AllReqAModesPermsSubsetOfRW ...
-  [1.359 s, 3 proof obligations]  verified
+  [3.992 s, 3 proof obligations]  verified
 
 Verifying Impl$$_module.__default.AllReqNonEmptyAModesMustContainROrW ...
-  [6.125 s, 2 proof obligations]  verified
+  [2.696 s, 2 proof obligations]  verified
 
 Verifying Impl$$_module.__default.IfAModesContainROrWThenNotEmpty ...
-  [1.328 s, 2 proof obligations]  verified
+  [3.692 s, 2 proof obligations]  verified
 
 Verifying Impl$$_module.__default.Lemma__EmptyAModesIsNoRAndNoW ...
-  [1.266 s, 2 proof obligations]  verified
+  [3.543 s, 2 proof obligations]  verified
 
 Verifying Impl$$_module.__default.Lemma__SameAllSubjsIDsBetweenStates ...
-  [1.516 s, 2 proof obligations]  verified
+  [3.206 s, 2 proof obligations]  verified
 
 Verifying Impl$$_module.__default.Lemma__SameAllObjsIDsBetweenStates ...
-  [2.531 s, 2 proof obligations]  verified
+  [5.212 s, 2 proof obligations]  verified
 
 Verifying Impl$$_module.__default.Lemma__TDFDDOIDsInStateAlsoHasObjIDsInState ...
-  [1.344 s, 4 proof obligations]  verified
+  [3.683 s, 4 proof obligations]  verified
 
 Verifying Impl$$_module.__default.Lemma__SameSubjObjIDsInSuccessiveStates ...
-  [50.281 s, 12 proof obligations]  verified
+  [40.926 s, 12 proof obligations]  verified
 
 Verifying CheckWellformed$$_module.__default.Lemma__ObjsInSubjsAreAlsoInState ...
-  [1.812 s, 7 proof obligations]  verified
+  [4.215 s, 7 proof obligations]  verified
 
 Verifying Impl$$_module.__default.Lemma__ObjsInSubjsAreAlsoInState ...
-  [1.547 s, 1 proof obligation]  verified
+  [3.480 s, 1 proof obligation]  verified
 
 Verifying CheckWellformed$$_module.__default.Lemma__NewK__FulfillCondition24 ...
-  [2.781 s, 39 proof obligations]  verified
+  [6.492 s, 39 proof obligations]  verified
 
 Verifying Impl$$_module.__default.Lemma__NewK__FulfillCondition24 ...
-  [1.609 s, 1 proof obligation]  verified
+  [3.004 s, 1 proof obligation]  verified
 
 Verifying CheckWellformed$$_module.__default.Lemma__SameSubjObjPIDsIfSubjPIDsAreUnchanged ...
-  [14.807 s, 38 proof obligations]  verified
+  [7.827 s, 38 proof obligations]  verified
 
 Verifying Impl$$_module.__default.Lemma__SameSubjObjPIDsIfSubjPIDsAreUnchanged ...
-  [35.781 s, 32 proof obligations]  verified
+  [20.170 s, 32 proof obligations]  verified
 
 Verifying CheckWellformed$$_module.__default.Lemma__SameObjsOwnershipInSuccessiveStates ...
-  [2.234 s, 18 proof obligations]  verified
+  [5.199 s, 18 proof obligations]  verified
 
 Verifying Impl$$_module.__default.Lemma__SameObjsOwnershipInSuccessiveStates ...
-  [1.590 s, 2 proof obligations]  verified
+  [2.796 s, 2 proof obligations]  verified
 
 Verifying CheckWellformed$$_module.__default.Lemma__SameObjsOwnershipInSuccessiveStates__SlimState ...
-  [1.734 s, 18 proof obligations]  verified
+  [2.996 s, 18 proof obligations]  verified
 
 Verifying Impl$$_module.__default.Lemma__SameObjsOwnershipInSuccessiveStates__SlimState ...
-  [1.578 s, 2 proof obligations]  verified
+  [2.494 s, 2 proof obligations]  verified
 
 Verifying CheckWellformed$$_module.__default.Lemma__DevReturnsSamePIDBySubjPIDDevIDAndSubjPID ...
-  [1.328 s, 2 proof obligations]  verified
+  [2.137 s, 2 proof obligations]  verified
 
 Verifying Impl$$_module.__default.Lemma__DevReturnsSamePIDBySubjPIDDevIDAndSubjPID ...
-  [1.344 s, 8 proof obligations]  verified
+  [2.961 s, 8 proof obligations]  verified
 
 Verifying CheckWellformed$$_module.__default.Lemma__AllDevsInStateReturnsSamePIDBySubjPIDDevIDAndSubjPID ...
-  [1.437 s, 2 proof obligations]  verified
+  [3.423 s, 2 proof obligations]  verified
 
 Verifying Impl$$_module.__default.Lemma__AllDevsInStateReturnsSamePIDBySubjPIDDevIDAndSubjPID ...
-  [1.453 s, 5 proof obligations]  verified
+  [2.723 s, 5 proof obligations]  verified
 
 Verifying CheckWellformed$$_module.__default.Lemma__ActiveDevsHaveHcodedPtrsToOwnedObjs ...
-  [2.062 s, 11 proof obligations]  verified
+  [3.673 s, 11 proof obligations]  verified
 
 Verifying Impl$$_module.__default.Lemma__ActiveDevsHaveHcodedPtrsToOwnedObjs ...
-  [1.359 s, 1 proof obligation]  verified
+  [2.354 s, 1 proof obligation]  verified
 
 Verifying CheckWellformed$$_module.__default.Lemma__OwnObjIDs__Property ...
-  [1.281 s, 5 proof obligations]  verified
+  [3.359 s, 5 proof obligations]  verified
 
 Verifying Impl$$_module.__default.Lemma__OwnObjIDs__Property ...
-  [1.219 s, 1 proof obligation]  verified
+  [2.678 s, 1 proof obligation]  verified
 
 Verifying CheckWellformed$$_module.__default.K__UniqueIDsAndOwnedObjs ...
-  [1.641 s, 8 proof obligations]  verified
+  [2.132 s, 8 proof obligations]  verified
 
 Dafny program verifier finished with 28 verified, 0 errors
 

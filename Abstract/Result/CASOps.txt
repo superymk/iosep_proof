@@ -1,4 +1,4 @@
-[TRACE] Using prover: D:\utils\dafny\z3\bin\z3.exe
+[TRACE] Using prover: E:\utils\dafny-v2.1\z3\bin\z3.exe
 Dafny 2.1.1.10209
 Parsing CASOps.dfy
 ./utils/Collections.dfy(298,12): Warning: Selected triggers: {s[_t#0], s[i]} (may loop with "s[i + 1]")
@@ -12,95 +12,95 @@ Coalescing blocks...
 Inlining...
 
 Running abstract interpretation...
-  [0.29391 s]
-[TRACE] Using prover: D:\utils\dafny\z3\bin\z3.exe
+  [0.0797863 s]
+[TRACE] Using prover: E:\utils\dafny-v2.1\z3\bin\z3.exe
 
 Verifying CheckWellformed$$_module.__default.IsInCAS ...
-  [2.620 s, 1 proof obligation]  verified
+  [2.192 s, 1 proof obligation]  verified
 
 Verifying CheckWellformed$$_module.__default.CASGetSubjs ...
-  [0.721 s, 1 proof obligation]  verified
+  [1.046 s, 1 proof obligation]  verified
 
 Verifying CheckWellformed$$_module.__default.CASGetAModes ...
-  [0.875 s, 3 proof obligations]  verified
+  [0.992 s, 3 proof obligations]  verified
 
 Verifying CheckWellformed$$_module.__default.CASAddSubj ...
-  [0.766 s, 8 proof obligations]  verified
+  [0.856 s, 8 proof obligations]  verified
 
 Verifying Impl$$_module.__default.CASAddSubj ...
-  [0.906 s, 8 proof obligations]  verified
+  [0.813 s, 8 proof obligations]  verified
 
 Verifying CheckWellformed$$_module.__default.CASAddObj ...
-  [1.156 s, 8 proof obligations]  verified
+  [1.224 s, 8 proof obligations]  verified
 
 Verifying Impl$$_module.__default.CASAddObj ...
-  [1.547 s, 44 proof obligations]  verified
+  [2.099 s, 44 proof obligations]  verified
 
 Verifying CheckWellformed$$_module.__default.CASAddSubjs ...
-  [1.062 s, 8 proof obligations]  verified
+  [1.740 s, 8 proof obligations]  verified
 
 Verifying Impl$$_module.__default.CASAddSubjs ...
-  [1.297 s, 15 proof obligations]  verified
+  [3.559 s, 15 proof obligations]  verified
 
 Verifying CheckWellformed$$_module.__default.CASAddObjs ...
-  [0.906 s, 8 proof obligations]  verified
+  [2.417 s, 8 proof obligations]  verified
 
 Verifying Impl$$_module.__default.CASAddObjs ...
-  [0.750 s, 15 proof obligations]  verified
+  [1.882 s, 15 proof obligations]  verified
 
 Verifying CheckWellformed$$_module.__default.CASDelSubj ...
-  [0.547 s, 6 proof obligations]  verified
+  [1.355 s, 6 proof obligations]  verified
 
 Verifying Impl$$_module.__default.CASDelSubj ...
-  [0.625 s, 6 proof obligations]  verified
+  [1.363 s, 6 proof obligations]  verified
 
 Verifying CheckWellformed$$_module.__default.CASDelObj ...
-  [0.500 s, 6 proof obligations]  verified
+  [1.891 s, 6 proof obligations]  verified
 
 Verifying Impl$$_module.__default.CASDelObj ...
-  [1.250 s, 40 proof obligations]  verified
+  [2.474 s, 40 proof obligations]  verified
 
 Verifying CheckWellformed$$_module.__default.CASDelObjs ...
-  [0.672 s, 6 proof obligations]  verified
+  [1.711 s, 6 proof obligations]  verified
 
 Verifying Impl$$_module.__default.CASDelObjs ...
-  [0.953 s, 15 proof obligations]  verified
+  [1.047 s, 15 proof obligations]  verified
 
 Verifying CheckWellformed$$_module.__default.CASSetAModes ...
-  [0.781 s, 8 proof obligations]  verified
+  [1.261 s, 8 proof obligations]  verified
 
 Verifying Impl$$_module.__default.CASSetAModes ...
-  [0.969 s, 6 proof obligations]  verified
+  [1.594 s, 6 proof obligations]  verified
 
 Verifying CheckWellformed$$_module.__default.CASSetAModesObjs ...
-  [0.703 s, 8 proof obligations]  verified
+  [0.814 s, 8 proof obligations]  verified
 
 Verifying Impl$$_module.__default.CASSetAModesObjs ...
-  [1.141 s, 39 proof obligations]  verified
+  [1.438 s, 39 proof obligations]  verified
 
 Verifying CheckWellformed$$_module.__default.CASSetAModesSubjsObjs ...
-  [0.922 s, 8 proof obligations]  verified
+  [2.164 s, 8 proof obligations]  verified
 
 Verifying Impl$$_module.__default.CASSetAModesSubjsObjs ...
-  [1.000 s, 38 proof obligations]  verified
+  [1.622 s, 38 proof obligations]  verified
 
 Verifying CheckWellformed$$_module.__default.Lemma__CASEntryInCASIffDevObjInCAS ...
-  [0.859 s, 1 proof obligation]  verified
+  [1.100 s, 1 proof obligation]  verified
 
 Verifying Impl$$_module.__default.Lemma__CASEntryInCASIffDevObjInCAS ...
-  [0.745 s, 5 proof obligations]  verified
+  [1.043 s, 5 proof obligations]  verified
 
 Verifying CheckWellformed$$_module.__default.Lemma__CASEntriesInCASIffSubjsObjsInCAS ...
-  [0.906 s, 1 proof obligation]  verified
+  [2.528 s, 1 proof obligation]  verified
 
 Verifying Impl$$_module.__default.Lemma__CASEntriesInCASIffSubjsObjsInCAS ...
-  [0.937 s, 17 proof obligations]  verified
+  [1.079 s, 17 proof obligations]  verified
 
 Verifying CheckWellformed$$_module.__default.Lemma__SameCASIfCASIsUnchanged ...
-  [1.031 s, 4 proof obligations]  verified
+  [1.064 s, 4 proof obligations]  verified
 
 Verifying Impl$$_module.__default.Lemma__SameCASIfCASIsUnchanged ...
-  [1.031 s, 5 proof obligations]  verified
+  [0.798 s, 5 proof obligations]  verified
 
 Dafny program verifier finished with 29 verified, 0 errors
 

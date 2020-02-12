@@ -1,4 +1,4 @@
-[TRACE] Using prover: D:\utils\dafny\z3\bin\z3.exe
+[TRACE] Using prover: E:\utils\dafny-v2.1\z3\bin\z3.exe
 Dafny 2.1.1.10209
 Parsing ./BuildCAS/ReachableTDsStates_Utils.dfy
 ./BuildCAS/ReachableTDsStates_Utils.dfy(239,4): Warning: /!\ No trigger covering all quantified variables found.
@@ -32,128 +32,128 @@ Coalescing blocks...
 Inlining...
 
 Running abstract interpretation...
-  [0.453114 s]
-[TRACE] Using prover: D:\utils\dafny\z3\bin\z3.exe
+  [0.2283881 s]
+[TRACE] Using prover: E:\utils\dafny-v2.1\z3\bin\z3.exe
 
 Verifying CheckWellformed$$_module.__default.FindAllActiveTDsStatesByDev__KParams__PreConditions ...
-  [9.901 s, 11 proof obligations]  verified
+  [7.690 s, 11 proof obligations]  verified
 
 Verifying CheckWellformed$$_module.__default.FindAllActiveTDsStatesByDev ...
-  [3.703 s, 93 proof obligations]  verified
+  [4.621 s, 93 proof obligations]  verified
 
 Verifying Impl$$_module.__default.FindAllActiveTDsStatesByDev ...
-  [18.516 s, 248 proof obligations]  verified
+  [13.633 s, 248 proof obligations]  verified
 
 Verifying CheckWellformed$$_module.__default.FindAllActiveTDsStatesByDev2__Property4 ...
-  [5.016 s, 27 proof obligations]  verified
+  [9.421 s, 27 proof obligations]  verified
 
 Verifying CheckWellformed$$_module.__default.FindAllActiveTDsStatesByDev2__Property5 ...
-  [3.452 s, 30 proof obligations]  verified
+  [3.591 s, 30 proof obligations]  verified
 
 Verifying CheckWellformed$$_module.__default.FindAllActiveTDsStatesByDev2__Property6 ...
-  [3.578 s, 35 proof obligations]  verified
+  [6.393 s, 35 proof obligations]  verified
 
 Verifying CheckWellformed$$_module.__default.IsTDsDiffReqInActiveTDsStateAndIssuedByDev ...
-  [3.709 s, 32 proof obligations]  verified
+  [6.155 s, 32 proof obligations]  verified
 
 Verifying CheckWellformed$$_module.__default.IsTDsDiffReqInActiveTDsStateAndIssuedByDevAndCauseNewActiveTDsState ...
-  [3.422 s, 28 proof obligations]  verified
+  [1.780 s, 28 proof obligations]  verified
 
 Verifying CheckWellformed$$_module.__default.TDsState__ActiveHCodedTDsAlwaysHaveTheirInitialValues ...
-  [3.453 s, 7 proof obligations]  verified
+  [6.433 s, 7 proof obligations]  verified
 
 Verifying CheckWellformed$$_module.__default.FindAllActiveTDsStatesByDev__FromOneTDsState ...
-  [3.328 s, 54 proof obligations]  verified
+  [5.498 s, 54 proof obligations]  verified
 
 Verifying Impl$$_module.__default.FindAllActiveTDsStatesByDev__FromOneTDsState ...
-  [20.010 s, 167 proof obligations]  verified
+  [13.867 s, 167 proof obligations]  verified
 
 Verifying CheckWellformed$$_module.__default.FindAllTDWritesByDev ...
-  [3.328 s, 61 proof obligations]  verified
+  [3.386 s, 61 proof obligations]  verified
 
 Verifying Impl$$_module.__default.FindAllTDWritesByDev ...
-  [16.594 s, 108 proof obligations]  verified
+  [34.687 s, 108 proof obligations]  verified
 
 Verifying CheckWellformed$$_module.__default.FindAllTDsReadByDev__KParams__PreConditions ...
-  [4.797 s, 26 proof obligations]  verified
+  [7.657 s, 26 proof obligations]  verified
 
 Verifying CheckWellformed$$_module.__default.FindAllTDsReadByDev ...
-  [2.391 s, 38 proof obligations]  verified
+  [4.702 s, 38 proof obligations]  verified
 
 Verifying Impl$$_module.__default.FindAllTDsReadByDev ...
-  [2.156 s, 43 proof obligations]  verified
+  [3.451 s, 43 proof obligations]  verified
 
 Verifying CheckWellformed$$_module.__default.Lemma__FindAllTDWritesByDev__LoopInvariant5 ...
-  [2.359 s, 21 proof obligations]  verified
+  [4.765 s, 21 proof obligations]  verified
 
 Verifying Impl$$_module.__default.Lemma__FindAllTDWritesByDev__LoopInvariant5 ...
-  [2.406 s, 10 proof obligations]  verified
+  [2.694 s, 10 proof obligations]  verified
 
 Verifying CheckWellformed$$_module.__default.Lemma__FindAllActiveTDsStatesByDev__FromOneTDsStateReturnsCorrectResult ...
-  [2.312 s, 56 proof obligations]  verified
+  [4.109 s, 56 proof obligations]  verified
 
 Verifying Impl$$_module.__default.Lemma__FindAllActiveTDsStatesByDev__FromOneTDsStateReturnsCorrectResult ...
-  [2.386 s, 50 proof obligations]  verified
+  [4.278 s, 50 proof obligations]  verified
 
 Verifying CheckWellformed$$_module.__default.Lemma__FindAllActiveTDsStatesByDev__Property3 ...
-  [2.031 s, 2 proof obligations]  verified
+  [3.827 s, 2 proof obligations]  verified
 
 Verifying Impl$$_module.__default.Lemma__FindAllActiveTDsStatesByDev__Property3 ...
-  [2.250 s, 2 proof obligations]  verified
+  [4.259 s, 2 proof obligations]  verified
 
 Verifying CheckWellformed$$_module.__default.Lemma__FindAllActiveTDsStatesByDev__Property4 ...
-  [2.391 s, 93 proof obligations]  verified
+  [4.512 s, 93 proof obligations]  verified
 
 Verifying Impl$$_module.__default.Lemma__FindAllActiveTDsStatesByDev__Property4 ...
-  [2.359 s, 1 proof obligation]  verified
+  [4.222 s, 1 proof obligation]  verified
 
 Verifying CheckWellformed$$_module.__default.Lemma__FindAllActiveTDsStatesByDev__Property5 ...
-  [2.234 s, 77 proof obligations]  verified
+  [2.796 s, 77 proof obligations]  verified
 
 Verifying Impl$$_module.__default.Lemma__FindAllActiveTDsStatesByDev__Property5 ...
-  [2.125 s, 1 proof obligation]  verified
+  [3.849 s, 1 proof obligation]  verified
 
 Verifying CheckWellformed$$_module.__default.Lemma__FindAllActiveTDsStatesByDev__Property6 ...
-  [2.266 s, 85 proof obligations]  verified
+  [4.556 s, 85 proof obligations]  verified
 
 Verifying Impl$$_module.__default.Lemma__FindAllActiveTDsStatesByDev__Property6 ...
-  [2.031 s, 1 proof obligation]  verified
+  [3.666 s, 1 proof obligation]  verified
 
 Verifying CheckWellformed$$_module.__default.Lemma__IsTDsDiffReqInActiveTDsStateAndIssuedByDev__DefApply ...
-  [2.391 s, 32 proof obligations]  verified
+  [3.717 s, 32 proof obligations]  verified
 
 Verifying Impl$$_module.__default.Lemma__IsTDsDiffReqInActiveTDsStateAndIssuedByDev__DefApply ...
-  [2.156 s, 1 proof obligation]  verified
+  [3.772 s, 1 proof obligation]  verified
 
 Verifying CheckWellformed$$_module.__default.Lemma__IsTDsDiffReqInActiveTDsStateAndIssuedByDev__Apply ...
-  [2.279 s, 31 proof obligations]  verified
+  [4.317 s, 31 proof obligations]  verified
 
 Verifying Impl$$_module.__default.Lemma__IsTDsDiffReqInActiveTDsStateAndIssuedByDev__Apply ...
-  [2.024 s, 1 proof obligation]  verified
+  [4.365 s, 1 proof obligation]  verified
 
 Verifying CheckWellformed$$_module.__default.Lemma__FindAllActiveTDsStatesByDev__FromOneTDsState__Property4 ...
-  [2.391 s, 43 proof obligations]  verified
+  [4.381 s, 43 proof obligations]  verified
 
 Verifying Impl$$_module.__default.Lemma__FindAllActiveTDsStatesByDev__FromOneTDsState__Property4 ...
-  [4.904 s, 1 proof obligation]  verified
+  [4.757 s, 1 proof obligation]  verified
 
 Verifying CheckWellformed$$_module.__default.Lemma__FindAllActiveTDsStatesByDev__FromOneTDsState__Property5 ...
-  [2.641 s, 43 proof obligations]  verified
+  [4.223 s, 43 proof obligations]  verified
 
 Verifying Impl$$_module.__default.Lemma__FindAllActiveTDsStatesByDev__FromOneTDsState__Property5 ...
-  [12.828 s, 14 proof obligations]  verified
+  [17.424 s, 14 proof obligations]  verified
 
 Verifying CheckWellformed$$_module.__default.Lemma__SecureActiveTDsState__TDsReadByActiveDevAreInSamePartitionWithDev__ForSubsetOfActiveDevs ...
-  [19.532 s, 39 proof obligations]  verified
+  [19.950 s, 39 proof obligations]  verified
 
 Verifying Impl$$_module.__default.Lemma__SecureActiveTDsState__TDsReadByActiveDevAreInSamePartitionWithDev__ForSubsetOfActiveDevs ...
-  [20.933 s, 106 proof obligations]  verified
+  [11.779 s, 106 proof obligations]  verified
 
 Verifying CheckWellformed$$_module.__default.Lemma__SecureActiveTDsState__TransfersInTDsRefsObjsInSamePartitionOnly ...
-  [6.422 s, 39 proof obligations]  verified
+  [6.154 s, 39 proof obligations]  verified
 
 Verifying Impl$$_module.__default.Lemma__SecureActiveTDsState__TransfersInTDsRefsObjsInSamePartitionOnly ...
-  [8.047 s, 2 proof obligations]  verified
+  [13.886 s, 2 proof obligations]  verified
 
 Dafny program verifier finished with 40 verified, 0 errors
 

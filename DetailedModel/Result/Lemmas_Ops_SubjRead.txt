@@ -1,4 +1,4 @@
-[TRACE] Using prover: D:\utils\dafny\z3\bin\z3.exe
+[TRACE] Using prover: E:\utils\dafny-v2.1\z3\bin\z3.exe
 Dafny 2.1.1.10209
 Parsing Lemmas_Ops_SubjRead.dfy
 ../Abstract/Model.dfy(2097,5): Warning: /!\ No trigger covering all quantified variables found.
@@ -77,20 +77,20 @@ Coalescing blocks...
 Inlining...
 
 Running abstract interpretation...
-  [0.1718688 s]
-[TRACE] Using prover: D:\utils\dafny\z3\bin\z3.exe
+  [0.0558507 s]
+[TRACE] Using prover: E:\utils\dafny-v2.1\z3\bin\z3.exe
 
 Verifying CheckWellformed$$_module.__default.Lemma__DrvDevRead__InterpretedPropertyOf__AllReadObjsMustBeinSamePartitionWithDev ...
-  [17.048 s, 68 proof obligations]  verified
+  [11.641 s, 68 proof obligations]  verified
 
 Verifying Impl$$_module.__default.Lemma__DrvDevRead__InterpretedPropertyOf__AllReadObjsMustBeinSamePartitionWithDev ...
-  [7.865 s, 13 proof obligations]  verified
+  [4.307 s, 13 proof obligations]  verified
 
 Verifying CheckWellformed$$_module.__default.Lemma__K__P__DrvRead__ReturnTrue__Def__Prove ...
-  [11.297 s, 91 proof obligations]  verified
+  [3.867 s, 91 proof obligations]  verified
 
 Verifying Impl$$_module.__default.Lemma__K__P__DrvRead__ReturnTrue__Def__Prove ...
-  [9.234 s, 2 proof obligations]  verified
+  [5.283 s, 2 proof obligations]  verified
 
 Dafny program verifier finished with 4 verified, 0 errors
 

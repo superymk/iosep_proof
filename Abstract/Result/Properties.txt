@@ -1,4 +1,4 @@
-[TRACE] Using prover: D:\utils\dafny\z3\bin\z3.exe
+[TRACE] Using prover: E:\utils\dafny-v2.1\z3\bin\z3.exe
 Dafny 2.1.1.10209
 Parsing Properties.dfy
 ./BuildCAS/ReachableTDsStates.dfy(102,19): Warning: /!\ No trigger covering all quantified variables found.
@@ -41,35 +41,36 @@ Coalescing blocks...
 Inlining...
 
 Running abstract interpretation...
-  [0.1718709 s]
-[TRACE] Using prover: D:\utils\dafny\z3\bin\z3.exe
+  [0.1037222 s]
+[TRACE] Using prover: E:\utils\dafny-v2.1\z3\bin\z3.exe
 
 Verifying CheckWellformed$$_module.__default.IsValidState__Subjects ...
-  [9.219 s, 2 proof obligations]  verified
+  [8.603 s, 2 proof obligations]  verified
+Linearising   [0.6612308 s]
 
 Verifying CheckWellformed$$_module.__default.IsValidState__Objects ...
-  [7.714 s, 44 proof obligations]  verified
+  [9.436 s, 44 proof obligations]  verified
 
 Verifying CheckWellformed$$_module.__default.IsValidState__ReachableTDsStates ...
-  [27.874 s, 49 proof obligations]  verified
+  [9.855 s, 49 proof obligations]  verified
 
 Verifying CheckWellformed$$_module.__default.IsValidState__SubjsOwnObjsThenInSamePartition ...
-  [4.850 s, 22 proof obligations]  verified
+  [7.591 s, 22 proof obligations]  verified
 
 Verifying CheckWellformed$$_module.__default.IsValidState ...
-  [3.875 s, 37 proof obligations]  verified
+  [8.106 s, 37 proof obligations]  verified
 
 Verifying CheckWellformed$$_module.__default.IsSecureState__SI1 ...
-  [22.010 s, 73 proof obligations]  verified
+  [8.102 s, 73 proof obligations]  verified
 
 Verifying CheckWellformed$$_module.__default.IsSecureState__SI2 ...
-  [5.484 s, 16 proof obligations]  verified
+  [7.756 s, 16 proof obligations]  verified
 
 Verifying CheckWellformed$$_module.__default.IsSecureState ...
-  [3.750 s, 54 proof obligations]  verified
+  [5.201 s, 54 proof obligations]  verified
 
 Verifying CheckWellformed$$_module.__default.IsSecureOps ...
-  [4.406 s, 37 proof obligations]  verified
+  [7.129 s, 37 proof obligations]  verified
 
 Dafny program verifier finished with 9 verified, 0 errors
 

@@ -1,4 +1,4 @@
-[TRACE] Using prover: D:\utils\dafny\z3\bin\z3.exe
+[TRACE] Using prover: E:\utils\dafny-v2.1\z3\bin\z3.exe
 Dafny 2.1.1.10209
 Parsing Utils.dfy
 ../DetailedModel/SecurityProperties.dfy(69,12): Warning: Selected triggers: {states[i]} (may loop with "states[i + 1]")
@@ -82,253 +82,253 @@ Coalescing blocks...
 Inlining...
 
 Running abstract interpretation...
-  [1.1562954 s]
-[TRACE] Using prover: D:\utils\dafny\z3\bin\z3.exe
+  [1.1997896 s]
+[TRACE] Using prover: E:\utils\dafny-v2.1\z3\bin\z3.exe
 
 Verifying CheckWellformed$$_module.__default.Lemma__SeqSameIndexYieldSameElem ...
-  [8.985 s, 2 proof obligations]  verified
+  [16.491 s, 2 proof obligations]  verified
 
 Verifying Impl$$_module.__default.Lemma__SeqSameIndexYieldSameElem ...
-  [4.225 s, 1 proof obligation]  verified
+  [14.994 s, 1 proof obligation]  verified
 
 Verifying CheckWellformed$$_module.__default.WS__WimpDrvActivate__Multi ...
-  [8.391 s, 272 proof obligations]  verified
-Linearising   [1.9844929 s]
+  [22.739 s, 272 proof obligations]  verified
+Linearising   [1.840078 s]
 
 Verifying Impl$$_module.__default.WS__WimpDrvActivate__Multi ...
-  [14.563 s, 2486 proof obligations]  verified
+  [22.552 s, 2486 proof obligations]  verified
 
 Verifying CheckWellformed$$_module.__default.P__WS__DrvDevDeactivate__Multi__ObjModifications ...
-  [4.172 s, 77 proof obligations]  verified
+  [8.293 s, 77 proof obligations]  verified
 
 Verifying CheckWellformed$$_module.__default.WS__WimpDrvDeactivate__Multi ...
-  [9.792 s, 275 proof obligations]  verified
-Linearising   [1.9532342 s]
+  [25.463 s, 275 proof obligations]  verified
+Linearising   [2.9281676 s]
 
 Verifying Impl$$_module.__default.WS__WimpDrvDeactivate__Multi ...
-  [14.470 s, 2471 proof obligations]  verified
+  [58.450 s, 2471 proof obligations]  verified
 
 Verifying CheckWellformed$$_module.__default.WS__DevActivate__Multi ...
-  [8.181 s, 272 proof obligations]  verified
-Linearising   [1.8438075 s]
+  [16.345 s, 272 proof obligations]  verified
+Linearising   [7.3603095 s]
 
 Verifying Impl$$_module.__default.WS__DevActivate__Multi ...
-  [99.032 s, 2539 proof obligations]  verified
+  [149.382 s, 2539 proof obligations]  verified
 
 Verifying CheckWellformed$$_module.__default.WS__DevDeactivate__FromGreen__Multi ...
-  [9.256 s, 273 proof obligations]  verified
-Linearising   [3.6564768 s]
+  [14.650 s, 273 proof obligations]  verified
+Linearising   [2.4863485 s]
 
 Verifying Impl$$_module.__default.WS__DevDeactivate__FromGreen__Multi ...
-  [15.532 s, 3446 proof obligations]  verified
+  [21.096 s, 3446 proof obligations]  verified
 
 Verifying CheckWellformed$$_module.__default.WimpDrvActivateMulti__ToTraceOps ...
-  [3.313 s, 8 proof obligations]  verified
+  [5.003 s, 8 proof obligations]  verified
 
 Verifying CheckWellformed$$_module.__default.WimpDrvDeactivateMulti__ToTraceOps ...
-  [3.016 s, 8 proof obligations]  verified
+  [3.342 s, 8 proof obligations]  verified
 
 Verifying CheckWellformed$$_module.__default.DevActivateMulti__ToTraceOps ...
-  [3.188 s, 8 proof obligations]  verified
+  [3.869 s, 8 proof obligations]  verified
 
 Verifying CheckWellformed$$_module.__default.GreenDevDeactivateMulti__ToTraceOps ...
-  [2.981 s, 8 proof obligations]  verified
+  [4.222 s, 8 proof obligations]  verified
 
 Verifying CheckWellformed$$_module.__default.WS__TDsOwnedBySubjs ...
-  [3.078 s, 7 proof obligations]  verified
+  [4.057 s, 7 proof obligations]  verified
 
 Verifying CheckWellformed$$_module.__default.WS__FDsOwnedBySubjs ...
-  [3.063 s, 7 proof obligations]  verified
+  [5.490 s, 7 proof obligations]  verified
 
 Verifying CheckWellformed$$_module.__default.WS__DOsOwnedBySubjs ...
-  [3.063 s, 7 proof obligations]  verified
+  [3.615 s, 7 proof obligations]  verified
 
 Verifying CheckWellformed$$_module.__default.P__WS__DevActivate__Multi__ObjModifications ...
-  [10.016 s, 86 proof obligations]  verified
+  [14.433 s, 86 proof obligations]  verified
 
 Verifying CheckWellformed$$_module.__default.P__WS__DrvActivate__Multi__ObjModifications ...
-  [2.781 s, 12 proof obligations]  verified
+  [3.285 s, 12 proof obligations]  verified
 
 Verifying CheckWellformed$$_module.__default.Lemma__ConcatTwoTraceEndUpAtSameStateAsCalcTwoTraceIndividually ...
-  [3.438 s, 427 proof obligations]  verified
+  [3.571 s, 427 proof obligations]  verified
 
 Verifying Impl$$_module.__default.Lemma__ConcatTwoTraceEndUpAtSameStateAsCalcTwoTraceIndividually ...
-  [35.800 s, 459 proof obligations]  verified
+  [44.560 s, 459 proof obligations]  verified
 
 Verifying CheckWellformed$$_module.__default.Lemma__DM__CalcNewStates__OneDMOp__Property ...
-  [5.266 s, 966 proof obligations]  verified
+  [4.415 s, 966 proof obligations]  verified
 
 Verifying Impl$$_module.__default.Lemma__DM__CalcNewStates__OneDMOp__Property ...
-  [3.594 s, 56 proof obligations]  verified
+  [3.569 s, 56 proof obligations]  verified
 
 Verifying CheckWellformed$$_module.__default.Lemma__DM__CalcNewStates__NoDMOp__Property ...
-  [2.860 s, 87 proof obligations]  verified
+  [2.770 s, 87 proof obligations]  verified
 
 Verifying Impl$$_module.__default.Lemma__DM__CalcNewStates__NoDMOp__Property ...
-  [2.906 s, 56 proof obligations]  verified
+  [4.179 s, 56 proof obligations]  verified
 
 Verifying CheckWellformed$$_module.__default.Lemma__WS__DrvActivate__Multi__Private ...
-  [2.766 s, 6 proof obligations]  verified
+  [2.755 s, 6 proof obligations]  verified
 
 Verifying Impl$$_module.__default.Lemma__WS__DrvActivate__Multi__Private ...
-  [2.735 s, 1 proof obligation]  verified
+  [2.757 s, 1 proof obligation]  verified
 
 Verifying CheckWellformed$$_module.__default.Lemma__WS__DrvDeactivate__Multi__Private ...
-  [2.766 s, 6 proof obligations]  verified
+  [2.778 s, 6 proof obligations]  verified
 
 Verifying Impl$$_module.__default.Lemma__WS__DrvDeactivate__Multi__Private ...
-  [2.708 s, 1 proof obligation]  verified
+  [2.785 s, 1 proof obligation]  verified
 
 Verifying CheckWellformed$$_module.__default.Lemma__WS__DevActivate__Multi__Private ...
-  [2.672 s, 6 proof obligations]  verified
+  [2.776 s, 6 proof obligations]  verified
 
 Verifying Impl$$_module.__default.Lemma__WS__DevActivate__Multi__Private ...
-  [3.625 s, 1 proof obligation]  verified
+  [2.784 s, 1 proof obligation]  verified
 
 Verifying CheckWellformed$$_module.__default.Lemma__WS__DevDeactivate__Multi__Private ...
-  [2.719 s, 6 proof obligations]  verified
+  [2.780 s, 6 proof obligations]  verified
 
 Verifying Impl$$_module.__default.Lemma__WS__DevDeactivate__Multi__Private ...
-  [2.703 s, 1 proof obligation]  verified
+  [4.285 s, 1 proof obligation]  verified
 
 Verifying CheckWellformed$$_module.__default.Lemma__WS__DevDeactivate__FromGreen__Multi__Private ...
-  [3.791 s, 1017 proof obligations]  verified
+  [3.674 s, 1017 proof obligations]  verified
 
 Verifying Impl$$_module.__default.Lemma__WS__DevDeactivate__FromGreen__Multi__Private ...
-  [3.011 s, 1 proof obligation]  verified
+  [2.882 s, 1 proof obligation]  verified
 
 Verifying CheckWellformed$$_module.__default.Lemma__ConcatTwoTraceEndUpAtSameStateAsCalcTwoTraceIndividually__Private ...
-  [3.250 s, 525 proof obligations]  verified
-Linearising   [1.4375752 s]
+  [3.322 s, 525 proof obligations]  verified
+Linearising   [1.4481246 s]
 
 Verifying Impl$$_module.__default.Lemma__ConcatTwoTraceEndUpAtSameStateAsCalcTwoTraceIndividually__Private ...
-  [18.250 s, 3785 proof obligations]  verified
+  [20.252 s, 3785 proof obligations]  verified
 
 Verifying CheckWellformed$$_module.__default.Lemma__ConcatTwoTraceEndUpAtSameStateAsCalcTwoTraceIndividually__Private__ForT2Detailed ...
-  [3.125 s, 2 proof obligations]  verified
+  [3.155 s, 2 proof obligations]  verified
 
 Verifying Impl$$_module.__default.Lemma__ConcatTwoTraceEndUpAtSameStateAsCalcTwoTraceIndividually__Private__ForT2Detailed ...
-  [3.703 s, 1 proof obligation]  verified
+  [2.594 s, 1 proof obligation]  verified
 
 Verifying CheckWellformed$$_module.__default.Lemma__WS__DrvActivate__Multi__ProveProperty11 ...
-  [2.828 s, 65 proof obligations]  verified
+  [2.757 s, 65 proof obligations]  verified
 
 Verifying Impl$$_module.__default.Lemma__WS__DrvActivate__Multi__ProveProperty11 ...
-  [3.188 s, 218 proof obligations]  verified
+  [4.577 s, 218 proof obligations]  verified
 
 Verifying CheckWellformed$$_module.__default.Lemma__WS__DevActivate__Multi__ProveProperty11 ...
-  [2.906 s, 65 proof obligations]  verified
+  [2.843 s, 65 proof obligations]  verified
 
 Verifying Impl$$_module.__default.Lemma__WS__DevActivate__Multi__ProveProperty11 ...
-  [44.184 s, 371 proof obligations]  verified
+  [68.352 s, 371 proof obligations]  verified
 
 Verifying CheckWellformed$$_module.__default.Lemma__WS__DrvDeactivate__Multi__ProveProperty12 ...
-  [2.703 s, 62 proof obligations]  verified
+  [3.211 s, 62 proof obligations]  verified
 
 Verifying Impl$$_module.__default.Lemma__WS__DrvDeactivate__Multi__ProveProperty12 ...
-  [113.969 s, 56 proof obligations]  verified
+  [162.858 s, 56 proof obligations]  verified
 
 Verifying CheckWellformed$$_module.__default.Lemma__WS__DevDeactivate__FromGreen__ProveProperty11 ...
-  [2.598 s, 62 proof obligations]  verified
+  [2.389 s, 62 proof obligations]  verified
 
 Verifying Impl$$_module.__default.Lemma__WS__DevDeactivate__FromGreen__ProveProperty11 ...
-  [36.020 s, 231 proof obligations]  verified
+  [43.631 s, 231 proof obligations]  verified
 
 Verifying CheckWellformed$$_module.__default.P__WS__DrvActivate__Multi__ObjModifications__Others ...
-  [4.657 s, 71 proof obligations]  verified
+  [5.128 s, 71 proof obligations]  verified
 
 Verifying CheckWellformed$$_module.__default.P__WS__DrvActivate__Multi__ObjModifications__HCodedTDs ...
-  [3.156 s, 10 proof obligations]  verified
+  [2.535 s, 10 proof obligations]  verified
 
 Verifying CheckWellformed$$_module.__default.Lemma__WS__TDsOwnedBySubjs__HighlightADrv ...
-  [2.297 s, 10 proof obligations]  verified
+  [3.296 s, 10 proof obligations]  verified
 
 Verifying Impl$$_module.__default.Lemma__WS__TDsOwnedBySubjs__HighlightADrv ...
-  [7.860 s, 4 proof obligations]  verified
+  [8.840 s, 4 proof obligations]  verified
 
 Verifying CheckWellformed$$_module.__default.Lemma__WS__TDsOwnedBySubjs__HighlightADev ...
-  [2.375 s, 10 proof obligations]  verified
+  [2.114 s, 10 proof obligations]  verified
 
 Verifying Impl$$_module.__default.Lemma__WS__TDsOwnedBySubjs__HighlightADev ...
-  [24.607 s, 4 proof obligations]  verified
+  [28.907 s, 4 proof obligations]  verified
 
 Verifying CheckWellformed$$_module.__default.Lemma__WS__TDsOwnedBySubjs__PropertyOfOneDev ...
-  [2.453 s, 7 proof obligations]  verified
+  [2.344 s, 7 proof obligations]  verified
 
 Verifying Impl$$_module.__default.Lemma__WS__TDsOwnedBySubjs__PropertyOfOneDev ...
-  [2.656 s, 12 proof obligations]  verified
+  [2.825 s, 12 proof obligations]  verified
 
 Verifying CheckWellformed$$_module.__default.Lemma__WS__DrvActivate__Multi__ProveProperty11__ProveOthersProperties ...
-  [2.328 s, 65 proof obligations]  verified
+  [1.957 s, 65 proof obligations]  verified
 
 Verifying Impl$$_module.__default.Lemma__WS__DrvActivate__Multi__ProveProperty11__ProveOthersProperties ...
-  [70.349 s, 95 proof obligations]  verified
+  [75.909 s, 95 proof obligations]  verified
 
 Verifying CheckWellformed$$_module.__default.Lemma__WS__DrvActivate__Multi__ProveProperty11__ProveHCodedTDsProperties ...
-  [3.531 s, 63 proof obligations]  verified
+  [2.068 s, 63 proof obligations]  verified
 
 Verifying Impl$$_module.__default.Lemma__WS__DrvActivate__Multi__ProveProperty11__ProveHCodedTDsProperties ...
-  [14.439 s, 68 proof obligations]  verified
+  [13.897 s, 68 proof obligations]  verified
 
 Verifying CheckWellformed$$_module.__default.Lemma__WS__DevActivate__Multi__ProveProperty11__PropertiesOfSubDevIDs ...
-  [2.516 s, 15 proof obligations]  verified
+  [1.997 s, 15 proof obligations]  verified
 
 Verifying Impl$$_module.__default.Lemma__WS__DevActivate__Multi__ProveProperty11__PropertiesOfSubDevIDs ...
-  [2.234 s, 3 proof obligations]  verified
+  [1.738 s, 3 proof obligations]  verified
 
 Verifying CheckWellformed$$_module.__default.Lemma__WS__DevActivate__Multi__ProveProperty11__ObjsOwnedByDevsInWSEqualToOnesOwnedByDevsInNewWS ...
-  [2.485 s, 18 proof obligations]  verified
+  [1.908 s, 18 proof obligations]  verified
 
 Verifying Impl$$_module.__default.Lemma__WS__DevActivate__Multi__ProveProperty11__ObjsOwnedByDevsInWSEqualToOnesOwnedByDevsInNewWS ...
-  [7.098 s, 3 proof obligations]  verified
+  [6.413 s, 3 proof obligations]  verified
 
 Verifying CheckWellformed$$_module.__default.Lemma__WS__DevActivate__Multi__ProveProperty11__Sub ...
-  [26.869 s, 78 proof obligations]  verified
+  [24.932 s, 78 proof obligations]  verified
 
 Verifying Impl$$_module.__default.Lemma__WS__DevActivate__Multi__ProveProperty11__Sub ...
-  [24.060 s, 210 proof obligations]  verified
+  [23.044 s, 210 proof obligations]  verified
 
 Verifying CheckWellformed$$_module.__default.Lemma__ConcatTwoTraceEndUpAtSameStateAsCalcTwoTraceIndividually__EquivilantEndOfSeq ...
-  [2.517 s, 4 proof obligations]  verified
+  [2.009 s, 4 proof obligations]  verified
 
 Verifying Impl$$_module.__default.Lemma__ConcatTwoTraceEndUpAtSameStateAsCalcTwoTraceIndividually__EquivilantEndOfSeq ...
-  [2.250 s, 1 proof obligation]  verified
+  [1.737 s, 1 proof obligation]  verified
 
 Verifying CheckWellformed$$_module.__default.Lemma__WS__DevDeactivate__Multi__ProveProperty11__ObjsOwnedByDevsInWSEqualToOnesOwnedByDevsInNewWS ...
-  [3.295 s, 17 proof obligations]  verified
+  [1.925 s, 17 proof obligations]  verified
 
 Verifying Impl$$_module.__default.Lemma__WS__DevDeactivate__Multi__ProveProperty11__ObjsOwnedByDevsInWSEqualToOnesOwnedByDevsInNewWS ...
-  [6.294 s, 3 proof obligations]  verified
+  [6.150 s, 3 proof obligations]  verified
 
 Verifying CheckWellformed$$_module.__default.Lemma__WS__DevDeactivate__FromGreen__ProveProperty11__Sub ...
-  [3.488 s, 76 proof obligations]  verified
+  [2.933 s, 76 proof obligations]  verified
 
 Verifying Impl$$_module.__default.Lemma__WS__DevDeactivate__FromGreen__ProveProperty11__Sub ...
-  [11.907 s, 209 proof obligations]  verified
+  [10.675 s, 209 proof obligations]  verified
 
 Verifying CheckWellformed$$_module.__default.Lemma__WK__WimpDrvsDevs__Registration__ProveValidTrace__AfterActivateExternalObjsToGreenPartition ...
-  [2.453 s, 117 proof obligations]  verified
+  [1.953 s, 117 proof obligations]  verified
 
 Verifying Impl$$_module.__default.Lemma__WK__WimpDrvsDevs__Registration__ProveValidTrace__AfterActivateExternalObjsToGreenPartition ...
-  [2.783 s, 51 proof obligations]  verified
+  [2.252 s, 51 proof obligations]  verified
 
 Verifying CheckWellformed$$_module.__default.Lemma__WK__WimpDrvsDevs__Unregistration__ProveValidTrace__AfterDestroyPartition ...
-  [2.313 s, 116 proof obligations]  verified
+  [1.866 s, 116 proof obligations]  verified
 
 Verifying Impl$$_module.__default.Lemma__WK__WimpDrvsDevs__Unregistration__ProveValidTrace__AfterDestroyPartition ...
-  [2.438 s, 51 proof obligations]  verified
+  [1.880 s, 51 proof obligations]  verified
 
 Verifying CheckWellformed$$_module.__default.Lemma__WK__WimpDrvsDevs__Registration__AssignWimpDrvsDevsObjs__ProveSameTransitionContraintOverInputAndOutputState ...
-  [30.046 s, 174 proof obligations]  verified
+  [28.925 s, 174 proof obligations]  verified
 
 Verifying Impl$$_module.__default.Lemma__WK__WimpDrvsDevs__Registration__AssignWimpDrvsDevsObjs__ProveSameTransitionContraintOverInputAndOutputState ...
-  [41.176 s, 239 proof obligations]  verified
+  [37.608 s, 239 proof obligations]  verified
 
 Verifying CheckWellformed$$_module.__default.Lemma__WK__WimpDrvsDevs__Unregistration__ReassignDrvsDevsObjs__ProveSameTransitionContraintOverInputAndOutputState ...
-  [38.711 s, 99 proof obligations]  verified
+  [33.078 s, 99 proof obligations]  verified
 
 Verifying Impl$$_module.__default.Lemma__WK__WimpDrvsDevs__Unregistration__ReassignDrvsDevsObjs__ProveSameTransitionContraintOverInputAndOutputState ...
-  [17.829 s, 239 proof obligations]  verified
+  [14.924 s, 239 proof obligations]  verified
 
 Dafny program verifier finished with 80 verified, 0 errors
 
